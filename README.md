@@ -10,7 +10,7 @@ _lemmatisation de textes latins_
 ~~~~
 import (
 	//...
-	"github.com/ycollatin/gocoll"
+	"github.com/ycollatin/gocol"
 	//...
 )
 ~~~~
@@ -18,7 +18,7 @@ import (
 Il faut d'abord lire les données en leur fournissant
 un chemin.
 
-`data("le/chemin/des/données")`
+`gocol.Data("le/chemin/des/données")`
 
 ## Principales fonction : 
 
