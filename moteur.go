@@ -24,14 +24,16 @@ func Restostring(r Res) string {
 		if rl.Lem == nil {
 			continue
 		}
-		l := fmt.Sprintf("   %s, %s : %s\n",
+		l := fmt.Sprintf("   %s, %s : %s",
 			strings.Join(rl.Lem.Grq, " "),
 			rl.Lem.Indmorph,
 			rl.Lem.Traduction)
-		for _, m := range rl.Morphos {
-			l = l + ("\n      " + m)
-		}
 		lr = append(lr, l)
+		for _, m := range rl.Morphos {
+			//l = l + ("\n      " + m)
+			lr = append(lr, "      " + m)
+		}
+		//lr = append(lr, l)
 	}
 	return strings.Join(lr, "\n")
 }
