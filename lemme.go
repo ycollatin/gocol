@@ -144,6 +144,8 @@ func creeLemme(l string) *Lemme {
 				lem.Pos = "neg"
 			} else if contient(lem.Indmorph, "adv.") {
 				lem.Pos = "Adv"
+			} else if contient(lem.Indmorph, "conj.") {
+				lem.Pos = "conj"
 			}
 
 		case 5: // fréquence
