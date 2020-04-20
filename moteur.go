@@ -73,7 +73,7 @@ func lemmatiseF(f string) (result Res) {
 		for _, nm := range irr.lmorph {
 			result = addRes(result, irr.lem, irr.grq+" "+Morphos[nm], nm)
 			if irr.exclusif {
-				return
+				continue
 			}
 		}
 	}
@@ -124,7 +124,7 @@ func lemmatiseF(f string) (result Res) {
 // renvoie une liste vide et echec à true si aucune lemmatisation
 // n'a été trouvée
 func Lemmatise(f string) (lsr Res, echec bool) {
-	f = deramise(f)
+	f = Deramise(f)
 	liste := varsF(f)
 	for _, el := range liste {
 		if el == "" {
