@@ -94,10 +94,10 @@ func contient(tout string, part string) bool {
 }
 
 func deramAtone(ch string) string {
-	return deramise(atone(ch))
+	return Deramise(atone(ch))
 }
 
-func deramise(ch string) string {
+func Deramise(ch string) string {
 	nch := ch
 	nch = strings.Replace(nch, "v", "u", -1)
 	nch = strings.Replace(nch, "j", "i", -1)
