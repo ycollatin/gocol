@@ -83,12 +83,10 @@ func creeLemme(l string) *Lemme {
 
 		case 1:
 			lem.modele = modeles[e]
+			lem.Pos = lem.modele.pos
 			if strings.ToLower(lem.Cle) != lem.Cle && lem.Pos == "n" {
 				lem.Pos = "NP"
-			} else {
-				lem.Pos = lem.modele.pos
 			}
-
 		case 2, 3:
 			if e > "" {
 				eclR := strings.Split(e, ",")
