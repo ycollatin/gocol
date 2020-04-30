@@ -40,7 +40,7 @@ func Restostring(r Res) string {
 
 // addRes(r Res, l *Lemme, m string)
 //  ajout d'une analyse lemme + morpho  à un Sr
-func addRes(r Res, l *Lemme, m string, nm int) Res {
+func AddRes(r Res, l *Lemme, m string, nm int) Res {
 	var contient bool
 	for i := 0; i < len(r); i++ {
 		if r[i].Lem == l {
@@ -71,7 +71,7 @@ func lemmatiseF(f string) (result Res) {
 	irr := irregs[f]
 	if irr != nil {
 		for _, nm := range irr.lmorph {
-			result = addRes(result, irr.lem, irr.grq+" "+Morphos[nm], nm)
+			result = AddRes(result, irr.lem, irr.grq+" "+Morphos[nm], nm)
 			if irr.exclusif {
 				continue
 			}
@@ -83,7 +83,7 @@ func lemmatiseF(f string) (result Res) {
 		lin := fmt.Sprintf("%s|inv|||num.|1", f)
 		romain := creeLemme(lin)
 		romain.Traduction = aRomano(f)
-		result = addRes(result, romain, "inv\n", 0)
+		result = AddRes(result, romain, "inv\n", 0)
 	}
 
 	// radical-désinence
@@ -103,7 +103,7 @@ func lemmatiseF(f string) (result Res) {
 					if des.gr == d {
 						m := fmt.Sprintf("%s%s %s %s",
 							rad.grq, des.grq, Morphos[des.morpho], rad.lemme.Genre)
-						result = addRes(result, rad.lemme, m, des.morpho)
+						result = AddRes(result, rad.lemme, m, des.morpho)
 					}
 				}
 			}
