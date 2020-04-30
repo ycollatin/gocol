@@ -83,7 +83,7 @@ func creeLemme(l string) *Lemme {
 
 		case 1:
 			lem.modele = modeles[e]
-			if strings.ToLower(lem.Cle) != lem.Cle {
+			if strings.ToLower(lem.Cle) != lem.Cle && lem.Pos == "n" {
 				lem.Pos = "NP"
 			} else {
 				lem.Pos = lem.modele.pos
