@@ -62,6 +62,7 @@ func atone(ch string) string {
 		'ō': "o",
 		'ŭ': "u",
 		'ū': "u",
+		'ụ': "u",
 		'ў': "y",
 		'ȳ': "y",
 		'Ă': "A",
