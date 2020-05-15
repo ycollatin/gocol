@@ -79,14 +79,17 @@ func varsL(ante []string, exp re) (post []string) {
 
 func varsF(f string) (post []string) {
 	post = append(post, f)
-	var lf []string
 	for _, r := range lexp {
-		lf = varsL(post, r)
+		lf := varsL(post, r)
 		for _, v := range lf {
 			if !estDans(post, v) {
 				post = append(post, v)
 			}
 		}
+	}
+	ftl := strings.ToLower(f)
+	if ftl != f {
+		post = append(post, varsF(ftl)...)
 	}
 	return
 }
