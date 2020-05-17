@@ -213,18 +213,17 @@ func lismodeles(path string) {
 			}
 			maxd := len(ddd)
 			var nd *Des
+			var sld string
 			for ides, ili := range li {
 				if ides < maxd {
-					sld := ddd[ides]
-					ecld := strings.Split(sld, ",")
-					for _, cld := range ecld {
-						nd = creeDes(cld, m, ili, nr)
-						m.desm[nd.nr] = append(m.desm[nd.nr], nd)
-					}
-				} else if nd != nil {
-					nnd := nd.clone()
-					nnd.morpho += 1
-					m.desm[nd.nr] = append(m.desm[nd.nr], nnd)
+					sld = ddd[ides]
+				} else {
+					sld = ddd[maxd - 1]
+				}
+				ecld := strings.Split(sld, ",")
+				for _, cld := range ecld {
+					nd = creeDes(cld, m, ili, nr)
+					m.desm[nd.nr] = append(m.desm[nd.nr], nd)
 				}
 			}
 			// si les désinences sont des+, le modèle doit
