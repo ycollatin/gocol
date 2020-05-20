@@ -63,7 +63,7 @@ func AddRes(r Res, l *Lemme, m string, nm int) Res {
    Lemmatisation d'une seule forme f
 */
 
-func lemmatiseF(f string) (result Res) {
+func LemmatiseF(f string) (result Res) {
 	r := f
 	d := ""
 
@@ -130,7 +130,7 @@ func Lemmatise(f string) (lsr Res, echec bool) {
 		if el == "" {
 			continue
 		}
-		lel := lemmatiseF(el)
+		lel := LemmatiseF(el)
 		if len(lel) > 0 {
 			for _, l := range lel {
 				lsr = append(lsr, l)

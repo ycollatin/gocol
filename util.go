@@ -160,6 +160,7 @@ func listei(s string) (li []int) {
 	return
 }
 
+// inverse la casse de s.
 func Majminmaj(s string) string {
 	smin := strings.ToLower(s)
 	if smin != s {

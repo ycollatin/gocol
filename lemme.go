@@ -141,12 +141,12 @@ func creeLemme(l string) *Lemme {
 				lem.Pos = "prepAcc"
 			case contient(lem.Indmorph, "neg."):
 				lem.Pos = "neg"
+			case contient(lem.Indmorph, "interj."):
+				lem.Pos = "intj"
 			case contient(lem.Indmorph, "adv."):
 				lem.Pos = "Adv"
 			case contient(lem.Indmorph, "conj."):
 				lem.Pos = "conj"
-			case contient(lem.Indmorph, "interj."):
-				lem.Pos = "intj"
 			}
 		case 5: // fréquence
 			lem.Freq = Strtoint(e)
