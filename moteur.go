@@ -92,15 +92,17 @@ func LemmatiseF(f string) (result Res) {
 		if len(lrad) > 0 {
 			// si le radical est en -i et la dés en i-, ii peut
 			//   se contracter en i
-			if d > "" && d[0] == 'i' {
-				nlrad := radicaux[r+"i"]
-				for _, rad := range nlrad {
-					lrad = append(lrad, rad)
-				}
-			}
+			//if d > "" && d[0] == 'i' {
+			//	nlrad := radicaux[r+"i"]
+			//	for _, rad := range nlrad {
+			//		lrad = append(lrad, rad)
+			//	}
+			//}
 			for _, rad := range lrad {
+				// contraction ii > i
+				ii := strings.HasSuffix(r, "i") && strings.HasSuffix(f, "i")
 				for _, des := range rad.lemme.modele.desm[rad.num] {
-					if des.gr == d {
+					if des.gr == d || des.gr=="i" && ii {
 						m := fmt.Sprintf("%s%s %s %s",
 							rad.grq, des.grq, Morphos[des.morpho], rad.lemme.Genre)
 						result = AddRes(result, rad.lemme, m, des.morpho)
