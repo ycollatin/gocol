@@ -32,7 +32,7 @@ func (m Modele) doc() string {
 func (m Modele) habet(d *Des) bool {
 	for _, ldes := range m.desm {
 		for _, des := range ldes {
-			if des.morpho == d.morpho {
+			if des.morpho == d.morpho  && des.gr == d.gr {
 				return true
 			}
 		}
