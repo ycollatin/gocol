@@ -27,14 +27,11 @@ func (m Modele) doc() string {
 		m.id, mid, m.pos, m.sufd, len(m.lgenR))
 }
 
-// habet(d *Des)
-// vrai si le modèle m a déjà la désinence d
-func (m Modele) habet(d *Des) bool {
-	for _, ldes := range m.desm {
-		for _, des := range ldes {
-			if des.morpho == d.morpho {
-				return true
-			}
+// vrai si le modeèle m a des désinences de numéro n
+func (m Modele) habetD(n int) bool {
+	for key, _ := range m.desm {
+		if key == n {
+			return true
 		}
 	}
 	return false
@@ -51,7 +48,6 @@ func (m Modele) habetR(gnr *Genrad) bool {
 	return false
 }
 
-// renonce(des *Des) bool
 // vrai si le modèle m refuse d'hériter de la déninence
 // de morpho n° m, parce ce n° figure dans ses abs
 func (m Modele) estabs(des *Des) bool {
@@ -78,16 +74,18 @@ func (m *Modele) herite() {
 		}
 	}
 	// héritage des désinences
-	for _, ldesp := range m.pere.desm {
-		for _, desp := range ldesp {
-			if !m.estabs(desp) && !m.habet(desp) {
-				nd := desp.clone()
+	for key, value := range m.pere.desm {
+		if m.habetD(key) {
+			continue
+		}
+		for _, d := range value {
+			if !m.estabs(d) {
+				nd := d.clone()
 				nd.modele = m
-				m.desm[nd.nr] = append(m.desm[nd.nr], nd)
+				m.desm[key] = append (m.desm[key], nd)
 			}
 		}
 	}
-	/*  héritage des absenst */
 }
 
 func (m *Modele) ajsuffd() {
@@ -213,17 +211,21 @@ func lismodeles(path string) {
 			}
 			maxd := len(ddd)
 			var nd *Des
-			var sld string
 			for ides, ili := range li {
 				if ides < maxd {
-					sld = ddd[ides]
+					sld := ddd[ides]
+					ecld := strings.Split(sld, ",")
+					for _, cld := range ecld {
+						nd = creeDes(cld, m, ili, nr)
+						m.desm[nd.nr] = append(m.desm[nd.nr], nd)
+					}
 				} else {
-					sld = ddd[maxd-1]
-				}
-				ecld := strings.Split(sld, ",")
-				for _, cld := range ecld {
-					nd = creeDes(cld, m, ili, nr)
-					m.desm[nd.nr] = append(m.desm[nd.nr], nd)
+					sld := ddd[maxd-1]
+					ecld := strings.Split(sld, ",")
+					for _, cld := range ecld {
+						nd = creeDes(cld, m, ili, nr)
+						m.desm[nd.nr] = append(m.desm[nd.nr], nd)
+					}
 				}
 			}
 			// si les désinences sont des+, le modèle doit
