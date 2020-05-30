@@ -24,14 +24,13 @@ package gocol
 	- modeles.la : nombreuses désinences héritées redéfinies à l'identique
 */
 
-
 import (
 	"C"
 )
 
 var (
-	dat bool
-	module string
+	dat     bool
+	module  string
 	modules []string
 )
 
@@ -43,7 +42,7 @@ func Data(path string) {
 		return
 	}
 	if path[len(path)-1] != '/' {
-		path = path+"/"
+		path = path + "/"
 	}
 	lismorphos(path)
 	//fmt.Println(len(morphos), "morphos")
@@ -57,16 +56,16 @@ func Data(path string) {
 		//fmt.Println("module", module, len(lemmes), "lemmes")
 		lisExp(nc + "vargraph.la")
 	}
-	lisExp(path+"vargraph.la")
-	lisLemmes(path+"lemmes.la")
-	lisTraductions(path+"lemmes.fr")
+	lisExp(path + "vargraph.la")
+	lisLemmes(path + "lemmes.la")
+	lisTraductions(path + "lemmes.fr")
 	//fmt.Println(len(lemmes), "lemmes")
 	ajRadicaux()
 	//fmt.Println(len(radicaux), "radicaux")
 	if len(module) > 0 {
 		lisIrregs(path + module + "/irregs.la")
 	}
-	lisIrregs(path+"irregs.la")
+	lisIrregs(path + "irregs.la")
 	//fmt.Println(len(irregs), "irréguliers")
 	//fmt.Println(len(lexp), "variantes graphiques\n")
 	dat = true
@@ -82,7 +81,7 @@ func LemmatiseT(t string) string {
 			an, echec = Lemmatise(Majminmaj(m))
 		}
 		if echec {
-				sortie = ("\n" + m + " échec")
+			sortie = ("\n" + m + " échec")
 		} else {
 			sortie += Restostring(an) + "\n"
 		}

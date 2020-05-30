@@ -120,7 +120,7 @@ func estRomain(f string) bool {
 	return true
 }
 
-// donne sous forme de slice toutes 
+// donne sous forme de slice toutes
 // les lignes du fichier nf. Les
 // lignes commençant par '!' sont
 // considérées comme commentaire

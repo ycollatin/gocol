@@ -10,7 +10,7 @@ var lenm int
 var Morphos = make(map[int]string)
 
 func lismorphos(path string) {
-	ll := Lignes(path+"morphos.fr")
+	ll := Lignes(path + "morphos.fr")
 	for i := 0; i < len(ll); i++ {
 		ecl := strings.Split(ll[i], ":")
 		if len(ecl) > 1 {

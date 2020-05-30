@@ -32,7 +32,7 @@ func (m Modele) doc() string {
 func (m Modele) habet(d *Des) bool {
 	for _, ldes := range m.desm {
 		for _, des := range ldes {
-			if des.morpho == d.morpho  && des.gr == d.gr {
+			if des.morpho == d.morpho {
 				return true
 			}
 		}
@@ -139,7 +139,7 @@ var modeles = make(map[string]*Modele)
 var vardes = make(map[string][]string)
 
 func lismodeles(path string) {
-	ll := Lignes(path+"modeles.la")
+	ll := Lignes(path + "modeles.la")
 	var m *Modele
 	for _, l := range ll {
 		if l == "" {
@@ -218,7 +218,7 @@ func lismodeles(path string) {
 				if ides < maxd {
 					sld = ddd[ides]
 				} else {
-					sld = ddd[maxd - 1]
+					sld = ddd[maxd-1]
 				}
 				ecld := strings.Split(sld, ",")
 				for _, cld := range ecld {
