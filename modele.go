@@ -28,9 +28,9 @@ func (m Modele) doc() string {
 }
 
 // vrai si le modeèle m a des désinences de numéro n
-func (m Modele) habetD(n int) bool {
-	for key, _ := range m.desm {
-		if key == n {
+func (m Modele) habetD(nr, nd int) bool {
+	for key, d := range m.desm {
+		if key == nr && d[0].morpho == nd {
 			return true
 		}
 	}
@@ -76,14 +76,8 @@ func (m *Modele) herite() {
 	}
 	// héritage des désinences
 	for key, value := range m.pere.desm {
-		// si le n° rad de la désinence est présent chez l'héritier,
-		// pas d'héritage : moneo et non mono
-		if m.habetD(key) {
-			continue
-		}
-		// mais il faut hériter les désinences monui
 		for _, d := range value {
-			if !m.estabs(d) {
+			if !m.estabs(d) && !m.habetD(d.nr, d.morpho) {
 				nd := d.clone()
 				nd.modele = m
 				m.desm[key] = append (m.desm[key], nd)
