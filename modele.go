@@ -48,6 +48,7 @@ func (m Modele) habetR(gnr *Genrad) bool {
 	return false
 }
 
+// estabs(des *Des) bool
 // vrai si le modèle m refuse d'hériter de la déninence
 // de morpho n° m, parce ce n° figure dans ses abs
 func (m Modele) estabs(des *Des) bool {
@@ -75,9 +76,12 @@ func (m *Modele) herite() {
 	}
 	// héritage des désinences
 	for key, value := range m.pere.desm {
+		// si le n° rad de la désinence est présent chez l'héritier,
+		// pas d'héritage : moneo et non mono
 		if m.habetD(key) {
 			continue
 		}
+		// mais il faut hériter les désinences monui
 		for _, d := range value {
 			if !m.estabs(d) {
 				nd := d.clone()
