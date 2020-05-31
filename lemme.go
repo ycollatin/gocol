@@ -120,7 +120,7 @@ func creeLemme(l string) *Lemme {
 					}
 				}
 			}
-		case 4:
+		case 4: // indMorph
 			lem.Indmorph = e
 			if strings.HasSuffix(lem.Indmorph, " f.") {
 				lem.Genre = "féminin"
