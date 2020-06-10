@@ -28,7 +28,7 @@ func Restostring(r Res) string {
 		lr = append(lr, l)
 		for _, m := range rl.Morphos {
 			//l = l + ("\n      " + m)
-			lr = append(lr, "      " + m)
+			lr = append(lr, "      "+m)
 		}
 		//lr = append(lr, l)
 	}

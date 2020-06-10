@@ -44,9 +44,9 @@ func Data(path string) {
 	if path[len(path)-1] != '/' {
 		path = path + "/"
 	}
-	lismorphos(path)
+	lismorphos(path + "morphos.fr")
 	//fmt.Println(len(morphos), "morphos")
-	lismodeles(path)
+	lismodeles(path + "modeles.la")
 	//fmt.Println(len(modeles), "modèles")
 	var nc string
 	if len(module) > 0 {

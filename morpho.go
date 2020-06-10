@@ -6,11 +6,15 @@ import (
 	"strings"
 )
 
-var lenm int
-var Morphos = make(map[int]string)
+var (
+	lenm    int
+	Morphos map[int]string
+)
 
-func lismorphos(path string) {
-	ll := Lignes(path + "morphos.fr")
+func lismorphos(nf string) {
+	Morphos = make(map[int]string)
+	//ll := Lignes(path + "morphos.fr")
+	ll := Lignes(nf)
 	for i := 0; i < len(ll); i++ {
 		ecl := strings.Split(ll[i], ":")
 		if len(ecl) > 1 {
