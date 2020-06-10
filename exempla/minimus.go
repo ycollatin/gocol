@@ -1,5 +1,9 @@
 package main
 
+//  data/ doit être copié ou lié au 
+//  dans le même répertoire que l'exécutable
+// https://github.com/ycollatin/collatinus-go/tree/master/bin/data
+
 import (
 	"bufio"
 	"fmt"
