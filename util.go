@@ -166,7 +166,8 @@ func Majminmaj(s string) string {
 	if smin != s {
 		return smin
 	}
-	return strings.Title(s)
+	//return strings.Title(s)
+	return s
 }
 
 func Mots(s string) []string {
