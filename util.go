@@ -120,6 +120,13 @@ func estRomain(f string) bool {
 	return true
 }
 
+// insère le genre du nom entre le cas et le nombre
+func genreNom(m, g string) string {
+	lm := strings.Split(m, " ")
+	ls := []string{lm[0],g,lm[1]}
+	return strings.Join(ls," ")
+}
+
 // donne sous forme de slice toutes
 // les lignes du fichier nf. Les
 // lignes commençant par '!' sont
