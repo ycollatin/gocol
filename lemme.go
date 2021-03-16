@@ -144,7 +144,7 @@ func creeLemme(l string) *Lemme {
 			case contient(lem.Indmorph, "interj."):
 				lem.Pos = "intj"
 			case contient(lem.Indmorph, "adv."):
-				lem.Pos = "Adv"
+				lem.Pos = "adv"
 			case contient(lem.Indmorph, "conj."):
 				lem.Pos = "conj"
 			}
