@@ -123,6 +123,9 @@ func estRomain(f string) bool {
 // insère le genre du nom entre le cas et le nombre
 func genreNom(m, g string) string {
 	lm := strings.Split(m, " ")
+	if len(lm) < 2 {
+		return g
+	}
 	ls := []string{lm[0],g,lm[1]}
 	return strings.Join(ls," ")
 }
