@@ -1,0 +1,1535 @@
+!    lemmes.fr
+abaeto:s'en aller
+abhibeo:éloigner
+abitio:départ
+abstineo:tenir éloigné de ; s'abstenir, se tenir à l'écart de
+Acan:= ACANTHIO
+acanthio:Acanthion (esclave dans Mercator)
+acceptrix:celle qui reçoit
+accubuo:en couchant à côté (adv. forgé plaisamment par Plaute, comme réplique à adsiduo; en couchant à côté)
+accudo:frapper en outre [des pièces de monnaie]
+accurro:courir vers, accourir
+accusito:incriminer
+Acharistio:Acharistio (pièce perdue de Plaute)
+Acherunticus:de l'Achéron
+acieris:hache d'airain utilisée dans les sacrifices
+Acr:= ACROPOLISTIS
+Acropolistis:Acropolistis (joueuse de lyre dans Epidicus)
+acula:petite aiguille
+ADELPH:= ADELPHASIVM
+Adelphasium:Adelphasium (jeune fille dans Poenulus)
+adesurio:int., prendre faim
+adfaber:habile
+adfleo:pleurer [à, en présence de]
+adfluo:arriver en foule, affluer
+adigo:pousser en avant, enfoncer ; contraindre, forcer à, faire prêter serment
+adimo:retirer, enlever, ôter, ravir
+aditio:action d'aller à
+adlaudo:adresser des éloges à
+adludio:jouer avec
+admigro:intr., aller rejoindre, se joindre à [avec ad]
+adminiculum:aide
+admoenio:faire des terrassements
+admordeo:mordre après
+adoptaticius:adoptif, adopté
+adscriptivus:surnuméraire, suppléant
+adsentatiuncula:petite flatterie [mesquine]
+adstitutuo:mettre en place
+ADV:= ADVOCATI
+adversatrix:femme qui fait opposition
+adversitor:esclave qui va à la rencontre de son maître
+adverso:diriger continuellement vers
+Aegyptini:Éthiopiens
+aequiperabilis:comparable
+aequiter:également
+aerumnula:petite fourche à porter les bagages
+Aeschinus:Eschine (banquier dans Pseudolus)
+Aeschrodora:Eschrodore (servante dans Pseudolus)
+aeternus:éternel
+Aetolicus:Étolien
+AG:= AGORASTOCLES
+aggredio:aborder, attaquer ; entreprendre.
+Agorastocles:Agorastoclès (adulescens dans Poenulus)
+Agroecus:Agroecus (pièce perdue de Plaute)
+AL:= ALCVMENA
+alapor:souffleter
+Alazon2:le Fanfaron (titre d'une pièce grecque)
+albicapillus:vieillard aux cheveux blancs
+albitudo:blancheur
+ALC:= ALCVMENA
+alcedo:alcyon
+Alcesimarchus:Alcesimarchus (jeune homme dans Cistellaria)
+Alcesimus:Alcesimus (vieillard dans Casina)
+alearius:qui concerne les jeux de hasard
+Aleos:Aleos, Alios (marchand d'esclave dans Captivi)
+aliatum:mets à l'ail
+alicaria:prostituée
+alimodi:d'une autre manière
+aliquantillus:si peu que ce soit que
+aliquantulum:un peu, une petite quantité.
+altilis:engraissé
+altrinsecus:de l'autre côté, des deux côtés, doublement
+AM:= AMPHITRVO
+amabilitas:amabilité
+amatorculus:petit amant
+ambulacrum:promenade plantée d'arbres devant une maison
+ambustulatus:qq peu rôti
+amiciter:amicalement
+amicus:ami
+AMP:= AMPELISCA
+Ampelisca:Ampelisca (puella dans Rudens)
+AMPH:= AMPHITRVO
+Ampsigura:Ampsigura (mère d'Agorastoclès dans Poenulus)
+ampullarius:fabricant de fioles
+Anactorium2:Anactorium (ville d'Acarnanie)
+anancaeum:anancaeum (grande coupe que l'on était obligé de vider d'un trait)
+anas:canard
+ANC:= ANCILLA
+anceps:à deux têtes ; double ; douteux, ambigu, incertain
+aneo:être vieille, devenir vieille
+anetinus:d'aneth
+angiportus:ruelle
+ansatus:qui a une anse
+ANT:= ANTERASTILIS
+ANTAM:= ANTAMONIDES
+Antamonides:Antamonides (miles dans Poenulus)
+antelogium:avant-propos, prologue
+anteparta:biens acquis antérieurement
+antepartum:= ante partum
+antepotens:qui l'emporte
+ANTER:= ANTERASTILIS
+Anterastilis:Anterastilis (jeune fille dans Poenulus)
+ANTHR:= ANTHRAX (cuisinier dans l'Aululaire)
+Antidamas:Antidamas (hôte de Hannon dans Poenulus)
+Antipho:Antiphon (vieillard dans Stichus)
+anulatus:portant un anneau
+Aphrodisia:Aphrodisies [fêtes en l'honneur de Vénus]
+apluda:menue paille, balle
+Apoecides:Apoecides (vieillard dans Epidicus)
+apologus:apologue, fable
+approbe:très bien
+aprugnus:de sanglier
+aquaist:= aquae est
+aquilinus:d'aigle, aquilin
+aratiuncula:petit champ labourable
+arbitro:juger, penser
+Archestrata:Archestrata (nourrice dans Curculio)
+Archibulus:Archiblus (banquier)
+Archidemides:Archidème (vieillard dans Bacchis)
+Archilines:Archilines (sage-femme dans Truculentus)
+Archilis:Archilis (servante dans Truculentus)
+architecton:architecte
+ARG:= ARGYRIPPVS (adulescens)
+argentatus:argenté, garni d'argent
+argenteolus:d'argent ; petite pièce d'argent
+argentumexterebronides:[mot forgé, argentum et exterebro] escroqueur d'argent
+ARGYR:= ARGYRIPPVS (adulescens dans l'Asinaria)
+aristophorum:vase dans lequel on porte à manger
+aritudo:aridité, sécheresse
+armariolum:petite armoire ; petite bibliothèque
+arrabo:gage, arrhes
+ART:= ARTEMONA (matrone dans l'Asinaire)
+Artamus:Artamus (lorarius dans Bacchis)
+Artemona:Artemona (matrone dans l'Asinaria)
+artopta:tourtière (pour cuire le pain)
+arvus:labourable
+ascensio:action de monter, ascension
+aspello:repousser, chasser, éloigner
+asperiter:rudement, rugueusement
+aspicio:regarder, examiner, considérer, voir
+assecue:en suivant de près, pas à pas
+assentatrix:flagorneuse
+Astaphium:Astaphium (servante dans Truculentus)
+Astraba:Astraba (pièce perdue de Plaute) ; tabouret pour reposer les pieds
+atritas:couleur noire
+atticisso:parler à la façon des Athéniens
+attrepido:approcher d'un pas tremblant
+au:oh ! holà ! (interj. marquant le trouble, la surprise, l'impatience ; sert à interpeller)
+auctarium:surplus, ce qui fait la bonne mesure
+audio:entendre (dire) ; écouter ; apprendre ; (bene, male audire : avoir bonne, mauvaise réputation)
+Aulularia:l'Aululaire (comédie de Plaute)
+aversor:abhorrer (avoir de l'aversion)
+axicia:ciseaux
+axitiosus:factieux
+BA:= BALLIO (leno dans Pseudolus)
+Babyloniensis:de Babylone, babylonien
+bacarium:vase à eau
+BACCH:= BACCHIS
+Bacchanal:lieu où sont célébrés les mystères de Bacchus
+Bacche:Bacchante; Bacchantes [femmes qui célébraient les mystères de Bacchus, nommés Bacchanales]
+bajulo:porter sur le dos
+bajulus:porteur, portefaix
+BAL:= BALLIO
+Ballio:Ballio (proxénète dans Pseudolus); vaurien
+Ballionius:de Ballion
+ballistarium:baliste
+balneae:bains, thermes
+balneator:baigneur, maître de bain
+bardus3:lourd, stupide
+batiola:gobelet
+Beia:Ah ! (incrédulité, indignatino)
+Bellerophontes:Bellérophon
+belliatus:joliet, gentillet
+bellitudo:beauté, grâce
+beluatus:avec des formes de bêtes [brodées]
+benefacio:faire du bien, rendre service / in aliquem aliquid bene facere, rendre un service à qqn / alicui bene facere, faire du bien à qqn, l'obliger
+benemereor:rendre un bon service
+beta:bette, poirée [plante]
+bitienses:ceux qui sont toujours en voyage
+blandicella:mots flatteurs
+blandidicus:ayant des paroles caressantes
+blandiloquentulus:qui a des paroles enjôleuses
+BLEPH:= BLEPHARO
+blitum:blette [plante]
+Boius:Boïen (peuple celtique)
+bombax:interj. exprimant l'étonnement, peste ! diantre !
+BR:= BROMIA
+brocchus:proéminent
+BROM:= BROMIA
+bubulcitor:conduire les boeufs
+bucaeda:tueur de boeufs [à force d'user des lanières en recevant des coups]
+bucculentus:qui a de grosses joues, ou une grande bouche
+Bumbomachides:guerrier qui se contente de bourdonner [mot forgé par Plaute]
+bustirapus:détrousseur de bûchers [mot forgé]
+butubatta:interj., bagatelles
+CA:= CALIDORVS
+cacula:valet d'armée
+caeculto:voir trouble, avoir la berlue
+caelebs:célibataire
+caelipotens:maître du ciel
+CAL:= CALIDORVS
+calceolus:petit soulier
+Calidorus:Calidore (adulescens dans Pseudolus)
+CALL:= CALLIDAMATES
+Callias:Callias (architecte)
+Callicles:Calliclès (vieillard dans Trinummus)
+Callidamates:Callidamatès (adulescens dans Mostellaria)
+Callidemides:Callidemides (nom d'homme)
+Callimarchus:Callimarque (nom d'homme)
+Callipho:Calliphon (vieillard dans Pseudolus)
+campae:sornettes
+Campans:de Campanie, Campanien
+candefacio:blanchir
+candidatus2:vêtu de blanc
+canitudo:blancheur, canitie
+canterius2:cheval hongre
+cantherinus:de cheval hongre, de cheval
+cantrix:chanteuse
+capparis:câpres
+carbonaria:fourneau à charbon ; Carbonaria : la charbonnière (une comédie perdue de Plaute)
+carnificium:torture
+Casina:Casina (personnage féminin dans la pièce éponyme)
+castigabilis:répréhensible, punissable
+Catagelasimus:tout à fait risible.
+Catameitus:Catamitus (nom latin de Ganymède)
+cataractria:cataractrie (épice imaginaire)
+caudeus:de jonc
+caudicalis:qui concerne les bûches de bois
+caullator:plaisantin, farceur
+cauponius:d'auberge
+causea:chapeau macédonien
+cautela:précaution, défiance
+cavillis:plaisanterie
+cenaticus:relatif au dîner
+centuplex:centuple
+cepolendrum:cépolendre (épice imaginaire)
+Cercobulus:Cercobulus (nom d'homme)
+Cerconicus:Cercobricus (nom d'homme)
+cercurus:poisson de mer
+CESISTIO:Cesistio (comédie perdue de Plaute ?)
+cessatio:retard, lenteur, repos
+Ch:= CHAERIBVLVS
+CHA:= CHALINVS
+Chaer:= CHAERIBVLVS
+Chaeribulus:Chéribule (jeune homme dans Epidicus)
+Chalinus:Chalinus (esclave dans Casina)
+Char:= CHARINVS
+CHARM:= CHARMIDES
+charmidatus:métamorphosé en Charmide.
+Charmides:Charmide (vieillard dans Rudens et Trinummus)
+choragus:chorège, directeur de théâtre, régisseur
+Chremes:Chremes (vieillard de comédie)
+CHRYS:= CHRYSALVS
+Chrysopolis:Chrysopolis (ville d'Arabie)
+ciccum:membrane qui sépare les grains de la grenade ; [fig.] peu de chose
+cicimalindrim:cicimalindre (épice imaginaire)
+cinaedicus:qui excite à la débauche, de mignon
+circum:à l'entour ; - circa, de tous côtés ; autour de (prép. acc.)
+circummoenio:enclore, encercler
+circumtendo:envelopper, entourer
+circumverto:faire tourner
+circumvincio:garrotter
+cistella:petite corbeille, coffret
+Cistellaria:Cistellaria (La Cassette, titre d'une comédie de Plaute)
+cistellatrix:gardienne des coffrets
+clamitatio:criailleries
+clavator:qui porte une massue
+CLE:= CLEOSTRATA
+CLEAR:= CLEARETA (maquerelle dans l'Asinaria)
+Cleareta:Cleareta (maquerelle dans l'Asinaria)
+Cleobulla:Cleobula (personnage dans Curculio)
+CLEOM:= CEOMACHVS
+Cleomachus:Cléomaque (soldat dans Bacchis)
+Cleostrata:nom grec de femme
+clepta:voleur
+Clerumenoe:Clerumenoe (comédie de Diphile)
+clurinus:de singe
+Clutomistaridysarchides:Clutomistaridysarchides (chef militaire imaginaire)
+coactio:encaissement
+coactiost:= coactio est
+Coc:= COCVS
+cocilendrum:cocilendre (épice imaginaire)
+cocles2:borgne
+coctus:consommé dans le droit
+coeno:dîner
+coepulonus:compagnon de table
+cognomen:surnom, cognomen (partie du nom qui suit le gentilice)
+Colax:Collax, le Flatteur (comédie perdue de Plaute)
+COLL:= COLLYBISCVS
+collabasco:menacer ruine
+Collabus:Collabus (nom d'homme)
+collutulento:couvrir de boue
+Collybiscus:Colybiliscus (fermier dans Poenulus)
+collyra:pain (pour la soupe)
+collyricus:fait avec le pain nommé collyra
+color:couleur, teint du visage, éclat (du style)
+colostra:terme de caresse
+colubrinus:de couleuvre, de serpent
+columbar:pigeonnier ; [fig.] sorte de carcan
+columis:sain et sauf
+columnatus:(columna), soutenu par des colonnes
+coluthequa:baguenaude
+colyphia:boulettes de viande [nourriture des athlètes]
+combardus:complètement stupide
+comedo:manger
+commers:commerce (hapax chez Plaute)
+commetior:mesurer ; mesurer ensemble, confronter
+commiseresco:avoir pitié (aliquem, de qqn)
+commonstro:montrer, indiquer
+comoedice:comme dans la comédie
+comperco:tr., mettre de côté, épargner
+compernis:dont les genoux se touchent
+complusculi:assez nombreux (dim. de complures)
+compotio:mettre en possession, rendre possesseur
+compressor:celui qui viole
+concenturio:grouper, assembler
+conchita:pêcheur de coquillages
+concipilo:mettre en pièces ; mettre au pillage
+concla:petit coquillage
+concriminor:accuser, blâmer
+concubinatus:concubinage
+condalium:bague d'esclave
+conditio:condition, engagement, promesse
+condoceo:dresser, former
+condoctus:dressé, instruit, façonné
+conduplicatio:doublement ; embrassade
+condus:qui serre les provisions, dépensier
+confidentiloquus:dont le langage est impudent
+confirmitas:entêtement, obstination
+confusicius:où tout est confondu
+confuto:se produire, avoir lieu souvent
+CONG:= CONGRIO (cuisinier dans l'Aululaire)
+congeminatio:redoublement ; embrassade
+congerro:compagnon d'amusement
+conglisco:s'étendre, s'accroître
+congratulor:féliciter ; se féliciter
+conia:cigogne (dans le dialecte de Préneste)
+conquinisco:baisser la tête
+conquisitor:celui qui fouille, scrute, enrôleur, recruteur, inspecteur
+conscindo:mettre en pièces, déchirer
+conscreor:tousser pour cracher
+consilesco:se taire complètement
+consolo:consoler
+consomnio:rêver, voir en rêve
+conspicillum:poste d'observation
+conspico:apercevoir
+consulo:délibérer, prendre des mesures, avoir soin de, veiller à ; consulter
+contabefacio:faire fondre, consumer
+Conterebromius:qui foule beaucoup de raisin
+contineo:contenir, maintenir
+contortiplicatus:embrouillé
+controversia:controverse, discussion, litige
+contutus:regard
+convador:citer à comparaître
+convorro:enlever, balayer
+coqua:cuisinière
+coquinus:de cuisinier, de cuisine
+corcotarius:teinturier (qui utilise le crocus)
+Cordalus:Cordalus (nom d'un affranchi dans Captivi)
+Coriendrus:Coriendrus (d'après coriandre, déformation de Cylindrus)
+corius:cuir
+corruspor:examiner avec soin
+cottabius:préparé dans un vase de terre
+crapularius:relatif à l'ivresse
+cratis:claie, treillis
+crepidula:petite sandale
+crepundia:jouets
+crimino:tr., accuser
+Crinnus:Crinnus (nom d'homme)
+CROC:= CROCOTIVM
+croccio:croasser
+crocota:robe jaune safran [à l'usage des femmes et des prêtres de Cybèle]
+Crocotium:Crocotium (servante dans Stichus)
+cruciabilitas:tourment
+crumilla:petite bourse
+Cruricrepida:homme aux jambes sonnant sous les coups (couvertes de bleus)
+crurifragium:action de briser les jambes
+crusculum:petite jambe
+cujus:appartenant à qui ?
+cujusmodi:= cujus modi (de quelle sore ?)
+culcitula:petit matelas
+Culindrus:Culindre (cuisinier dans Ménechmes)
+culpito:blâmer vivement
+cumprimis:parmi les premiers, au premier rang
+cunila:sarriette, variété de l'origan [plante]
+cupienter:avidement
+cuppedia:gourmandise ; friandise
+cuppes:gourmand
+cur:pourquoi ?
+curculionius:plein de charançons
+curculiunculus:petit charançon
+curio:curion [prêtre d'une curie] / crieur public
+custoditio:soin qu'on met à garder
+CYAM:= CYAMVS
+Cyamus:Cyanus (esclave dans Truculentus)
+cyathisso:verser à boire
+CYL:= CVLINDRVS
+DAEM:= DAEMONES
+Daemones:Daemones (vieillard dans Rudens)
+damnicupidus:gaspilleur
+damnificus:malfaisant, nuisible
+damnigerulus:malfaisant, porteur de préjudice
+DAN2:= DANISTA
+danisticus:d'usurier
+datarius:susceptible d'être donné
+Deceo:Décion (esclave dans Ménechmes)
+decolo:glisser entre les doigts, faire défaut
+deconcilio:enlever
+decumbo:se coucher, se laisser tomber
+defico:nettoyer, purifier
+defraudo:frustrer, tromper
+defrustror:tromper
+deglubo:peler, écorcer
+dehibeo:devoir
+Deiphilus:Diphile (poète comique grec)
+dejuvo:refuser son secours
+DEL:= DELPHIVM
+Delphium:Delphium (courtisane dans Mostellaria)
+delucto:lutter de toutes ses forces
+deluctor:lutter de toutes ses forces, combattre
+deludifico:jouer qqn, s'en moquer
+demensum:allocation pour la nourriture mensuelle d'un esclave
+Demipho:Démiphon (vieillard dans Cistellaria)
+demissicius:qui tombe bas [vêtement], traînant
+denamis:grande quantité, abondance
+depono:déposer, abandonner
+deruncino:raboter ; [fig.] duper, escroquer
+desicco:sécher, dessécher
+desilio:sauter de
+devello:arracher ; mettre en pièces ; épiler
+deverto:descendre (dans un hôtel)
+devorsorius:où l'on peut s'arrêter, loger
+dexterus:droit (du côté -)
+DIAB:= DIABOLVS (adulescens)
+Diapontius:Diapontius (tr. grecque de transmarinus)
+Dicea:Dicée (nom de femme)
+dictatrix:souveraine absolue
+difflagito:importuner
+difflo:éparpiller (disperser) en soufflant
+diffundito:jeter aux vents, gaspiller
+dilido:briser
+dimminuo:mettre en morceaux, briser
+DIN:= DINIARCHVS
+Diniarchus:Diniarchus (adulescens dans Truculentus)
+diobolaris:qu'on a pour deux oboles
+disciplina:enseignement, discipline
+disconduco:n'être pas avantageux à [dat.]
+disertim:clairement, nettement
+disrumpo:rompre
+dissimulabiliter:en cachette secrètement
+distimulo:dilapider
+distrunco:couper en deux
+dividia:inquiétude
+divinus,dinus:divin
+doliaris:relatif au dolium, de tonneau
+donabilis:dont on peut faire cadeau (présent)
+donni:donni (en carthaginois : je veux vous donner qqch)
+Dordalus:Dordalus (Leno dans Persa)
+Dorippa:Dorippa (matrone dans Mercator)
+dorsus:dos
+drachma:drachme [poids et monnaie Athéniens]
+drachumisso:servir pour une drachme
+dulciculus:dim. de dulcis, quelque peu doux [au goût]
+dulcifer:portant de la douceur
+dulice:en esclave
+Dyscolus2:Dyscolus (le Difficile, pièce perdue de Plaute)
+ecca:= ecce ea
+eccam:la voici (ecce eam)
+eccas:les voici (ecce eas)
+eccillam:= ecce illam
+eccillud:= ecce illud : voici ce ...
+Eccillum:= ecce illum
+eccistam:= ecce istam
+eccos:= ecce eos
+ecquidnam:est-ce quelqu'un (qqch) donc ?
+ecquis:est-ce que quelqu'un... ?
+ecquisnam:= ecquis nam : est-ce que quelqu'un donc ?
+edacitas:appétit dévorant, voracité
+edento:faire tomber les dents
+edo:manger
+educo2:faire sortir
+effercio:tr., remplir, combler, farcir
+effero2:rendre farouche, donner un air sauvage
+effero:porter dehors, emporter, enterrer, divulguer, élever. (se -) se produire au-dehors, se montrer, s'enorgueillir ; (pass) être jeté hors de soi
+effertus:part. adj. de effercio, tout plein de [avec abl.]
+efficio:achever, produire, réaliser ; (- ut) faire en sorte que
+effio:faire complètement, achever
+efflictim:violemment, ardemment
+efflicto:frapper souvent
+effodio:creuser, extraire, déterrer
+effringo:briser, saccager, enlever en brisant, faire sauter, forcer
+effugio:(intr.) s'éloigner en fuyant, s'enfuir, sortir, s'échapper ; (tr.) échapper à, se soustraire à, éviter
+egero:celui qui emporte
+egero2:celui qui emporte
+egoquidem:= ego quidem
+elavo:laver, baigner
+elecebra:charme, séduction
+electilis:choisi, de choix
+elegeon:inscription elégiaque
+Eleusium:Éleusie (joueuse de flûte dans l'Aululaire)
+eleutheria:la liberté
+elleborosus:qui est au régime de l'hellébore, fou.
+ellum:= ecce illum
+eludificor:se moquer de
+emigro:sortir de, déménager, émigrer
+eminatio:menace
+emortualis:le jour de la mort
+emoveo:déplacer, remuer, ébranler
+emporos:marchand
+emussitatus:tiré au cordeau
+ensiculus:coutelas, poignard
+enunquam:est-ce que jamais ?
+EP:= EPIDICVS
+epichysis:sorte de vase, de pot
+epicrocum:vêtement féminin de laine fine
+Epidamniensis:d'Épidamne
+Epidamnius:d'Épidamne
+Epidicus:Epidicus (esclave dans l'Epidicus)
+EPIG:= EPIGNOMVS
+Epignomus:Epignomus (personnage masculin dans Stichus)
+epitheca:surcroît, surplus
+Epius:Epius (qui construisit le cheval de Troie)
+equola:pouliche
+er2:hérisson
+Eretria:Erétrie [ville de l'Eubée]
+eripio:tirer brusquement hors de, mettre dehors, faire sortir, arracher, retirer, emporter ; ôter, enlever de force, arracher de force, ravir ; intercepter, empêcher ; délivrer de, affranchir ; obtenir de force, arracher ; enlever par une mort prématurée
+Erotium:Érotium (courtisane dans Menechmes)
+erratio:errance, égarement
+esito:manger souvent de
+estolidum:= et stolidum
+esurialis:de faim
+Eunomia:Eunomia (matrone dans l'Aululaire)
+euscheme:avec grâce, élégamment
+Euthynicus:Euthynicus (jeune homme dans Casina)
+Eutychus:Eutychus (adulescens dans Mercator)
+EVCL:= EVCLIO (vieillard dans l'Aululaire)
+evello:arracher
+everto:renverser, bouleverser, retourner, abattre, détruire, expulser, exproprier, dépouiller, chasser
+EVN:= EVNOMIA (matrone dans l'Aululaire)
+Evt:= EVTYCHVS
+Exaerambus:Exaerambus (marchand de vin)
+exagoga:exportation, transport
+exballisto:renverser d'un coup de baliste
+exclusus:laissé tout à fait dehors, à la porte
+exconcinno:bien arranger
+excruciabilis:qui mérite d'être tourmenté
+excutedum:= excute dum
+exico:couper, ôter en coupant
+exilico:= ex ilico : immédiatement
+exo:dehors (gr. ἔξω)
+exobsecro:prier instamment
+exoculo:arracher les yeux
+exoptabilis:très désirable
+exorabula:raisons capables de toucher.
+exoticus:étranger, exotique
+expalpo:caresser [pour obtenir qqch] ; soutirer par des caresses
+expeculiatus:dépouillé, volé
+explico:déployer, dérouler ; étendre, allonger ; débrouiller, tirer au clair
+expono:mettre dehors, exposer, montrer
+exporgo:étendre, déployer, allonger
+expotus:bu en entier
+expurgo:nettoyer, émonder, retrancher, enlever, corriger, purger, disculper, justifier
+exputo:tailler, émonder ; peser, examiner
+exquiro:chercher à découvrir, rechercher, demander, s'informer
+exradicitus:avec toutes les racines, radicalement
+exscissatus:arraché, déchiré
+exsigno:prendre note de, noter
+exstillo:couler par gouttes, dégoutter
+exsurgo:se lever (quand on est assis)
+exterebro:retirer en creusant; [fig., avec ut] obtenir avec effort que
+extumeo:être enflé, s'enfler
+exunguo:oindre.
+exuro:brûler entièrement
+facturuss:= facturus es
+factus:fait, achevé
+facunditas:faconde, éloquence
+faeceus:couvert de boue, ignoble
+Faeneratrix2:L'Usurière (pièce perdue de Plaute)
+faenusculum:petit intérêt [de l'argent]
+falsificus:dont les actions sont trompeuses
+falsijurius:parjure
+famigeratio:bruit public
+famigerator:celui qui fait courir des bruits
+farfarum:tussilage
+farferum:tussilage
+fartum:ce qui sert à garnir, à farcir, farce
+fartus:fourré, farci
+feles:chat, chatte ; martre, putois ; [fig.] = ravisseur
+ferriterium:lieu où l'on use le fer, prison
+ferritribax:usant le fer = esclave souvent enchaîné
+fiber2:castor, bièvre [animal amphibie]
+Fid:= FIDICINA (joueuse de lyre)
+fidicinius:de joueur de lyre
+flabellifera:celle qui porte l'éventail
+fluctuosus:aux flots agités
+formicinus:pas de fourmi [de tortue, lent]
+fraterculo:croître ensemble comme deux frères
+fraudulentia:fourberie, astuce
+frausus:qui a commis une action délictueuse
+frigefacto:refroidir
+frit:pointe de l'épi ; rien
+Frivolaria:Frivolaria (pièce perdue de Plaute)
+frusto:mettre en morceaux
+frustratus2:(seulemt au dat. sing.) action de tromper
+fugitor:fugitif
+fumifico:faire de la fumée [avec l'encens]
+fumificus:qui fait de la fumée, qui émet de la vapeur
+funginus:de champignon
+furcillo:étayer [qqch qui tombe]
+furinus:de voleur
+futatim:avec profusion, fréquemment.
+gallinaceus:de poule (- gallus = le coq)
+gaulus:vase arrondi / nacelle arrondie
+GEL:= GELASIMVS
+Gelasimus:Gélasime (parasite dans Stichus)
+gerulus2:porteur
+gestor:porteur, colporteur [de nouvelles]
+geumatis:petite quantité de (mot grec)
+GIDD:= GIDDENIS
+Giddenis:Giddenis (nourrice dans Poenulus)
+glandionida:petit languier
+glaucoma:glaucome [maladie des yeux]
+glos:belle-soeur
+gnaruris:qui sait
+gnata:fille
+Gr:= GRVMIO
+graecisso:imiter les Grecs
+grallator:celui qui marche avec des échasses
+grandiculus:assez gros
+GRIP:= GRIPVS
+Grumio:Grumion (esclave dans Mostellaria)
+gugga:gugga (mot inconnu, sans doute péjoratif)
+guttatim:goutte à goutte
+guttur:gorge, gosier
+GYM:= GYMNASIVM
+GYMN:= GYMNASIVM
+Gymnasium2:Gymnasie (courtisane dans Cistellaria)
+H:= HANNO
+ha:ah ! oh !
+habrus:joli, délicat (ἁβρός)
+haecin:= haec-ne : esct-ce qu'elle
+hahae:ah ah !
+hahahae:ah ! ah ! (rire)
+HAL:= HALISCA
+halagora:marché au sel
+Halisca:Halisca (servante dans Cistellaria)
+hallex:hallex (préparation culinaire à base de poisson)
+hamatilis:d'hameçon ; en forme d'hameçon
+hamiota:pêcheur à la ligne
+hamulus:petit hameçon
+HAN:= HANNO
+hancine:= hancne (-ne interrogatif)
+Hanno:Hannon (esclave dans Poenulus)
+hapalocopide:hapalocopide (épice imaginaire)
+hariola:devineresse
+HARP:= HARPAX
+Harpax:Harpax (esclave dans Pseudolus)
+harpax2:qui tire à soi
+hascine:= has + ne : est-ce que ... ces, celles-ci
+Hedytium:Hédytie (servante dans Pseudolus)
+Hegea:Hégéas (danseur)
+herilis:du maître, ou de la maîtresse
+Hermio:Hermio (nom d'homme)
+heuretes:celui qui trouve
+hic2:ici
+Hicin:= hicne, est-ce ... ici ? (hic + -ne interrogatif)
+hicquidem:= hic quidem
+hieto:bâiller
+hilaritudo:gaieté
+Hilurius:Illyrien
+Hilurius,Hiluricus:Illyrien
+hirquinus:de bouc ; en peau de bouc
+hirundininus:d'hirondelle
+hocin:= hoc + ne
+Homeronida:Homéronide (imitateur d'Homère)
+homos:= homo es
+horia:barque de pêcheur
+horiola:petite barque de pêcheur
+horsum:de ce côté-ci [avec mouvt vers celui qui parle]
+hostiatus:pourvu de victimes
+hostimentumst:= hostimentum est
+hui:oh (étonnement)
+huncine:= hunc-ne (est-ce que ... ce... ?
+Iaho:Iahon ou Jachon (père d'Agorastoclès dans Poenulus)
+ibitur:on ira
+ieientaculum:déjeuner
+ignavus:inactif, indolent, paresseux, mou
+ignoro:ignorer
+ignotus:inconnu
+ilicet:vous pouvez vous retirer, c'est fini, c'en est fait
+illic:là
+imbricus:pluvieux, amenant la pluie
+immunditia:saleté, ordures
+impars:c. expers
+impetrio:prendre les augures
+implicisco:embrouiller, troubler.
+impono:placer sur, assigner, imposer
+impossibilis:impossible ; incapable
+impuritia:impureté, impudicité
+inanilogista:celui qui parle en vain
+inanimentum:vide
+inaudio:entendre dire, apprendre
+inaures:boucles d'oreilles
+incogitabilis:inimaginable, incroyable ; irréfléchi
+incommodesticus:désagréable
+incubito:intr., couver dans ; tr. [au pass.] être couvé
+indicatio:indication de prix, taxe, mise à prix
+indoctor:maître ignorant (néologisme ch. Plaute)
+inductor:celui qui introduit
+industrius:actif, laborieux
+induviae:vêtement
+ineptia:ineptie
+ineuscheme:très élégamment
+inficetus:grossier, sans esprit
+inicio:jeter sur
+iniquus,inaequus:inégal; défavorable; excessif; injuste
+injurus:parjure
+inlutibilis:qu'on ne peut laver
+inopiosus:sans ressouces, pauvre
+inscensio:action de monter sur
+inscitus:ignorant, gauche, maladroit
+Insegestus:inactif, indolent, instatisfait
+insilio:sauter (sur, dans), grimper
+instipulor:c. stipulor
+instrenuus:nonchalant, mou / qui est sans courage
+interbito:mourir
+interduo:= inter duo (entre les deux)
+interprimo:tr., presser (serrer) par le milieu ; supprimer
+intervias:en chemin (inter vias)
+intrico:embrouiller, empêtrer, embarrasser
+invendibilis:qu'on ne peut vendre, invendable
+involvulus:sorte de petit ver (ou de chenille) qui s'enroule sur lui-même
+iohia:hé, hola (impatience)
+ipsissimus:tout à fait lui-même
+ira:colère
+irquus:bouc
+irructo:éructer, roter
+issula:petite maîtresse
+istacine:= ista-ne, istac-ne : est-ce que pour cette ?
+istactenus:jusqu'à ce point
+isticine:adv. interr., est-ce là ? // Interr. est-ce pour cette raison que … ?
+istiusmodi:= istius modi. de ce genre
+istocine:= istoc+ne : est-ce que avec ce ... ?
+istucinest:= isticine est : est-ce ainsi que ?
+IVPP:= IVPPITER
+Jahon:Jahon ou Jachon (père d'Agorastoclès dans Poenulus)
+joculus:petite plaisanterie
+junctura:jointure, joint, assemblage, (pl.) harnais, attelage, parenté
+jureus:de jus (qui a l'aspect du -)
+jurgo:être en différend, se disputer, se quereller, être en procès, plaider
+juvenix:génisse ; [par ext.] jeune fille
+kopron:fumier, excrément
+LA:= LAMPADIO
+labia:lèvre
+LABR:= LABRAX
+Labrax:Labrax (Leno dans Rudens)
+lacrima,lacryma:larme
+lacto:avoir du lait, allaiter ; séduire, leurrer
+LAMP:= LAMPADIVS
+Lampadio:Lampadion (esclave dans Cistellaria)
+Lampadiscus:Lampadiscus (esclave dans Cistellaria)
+largiloquus:bavard
+larvo:ensorceler
+lascivibundus:folâtre
+latebricola:celui qui fréquente les lieux de débauche
+laureo:tr., orner de laurier
+lavatio:action de laver, lavage, nettoyage
+LE:= LEONIDA (esclave dans l'Asinaire)
+legirupa:celui qui viole les lois
+legirupio:celui qui viole les lois
+LEMN:= LEMNISELENIS
+Lemniensis:de Lemnos
+lemniscus:lemnisque (ruban attaché aux couronnes, ou ornant la tête des convives)
+Lemniselenis:Lemniselenis (maquerelle dans Persa)
+lenosus:d'entremetteur, de corrupteur
+lenullus:petit proxénète
+leoninus:de lion
+LESB:= LESBONICVS
+Lesbonicus:Lesbonicus (adulescens dans Trinummus)
+levifidus:perfide, trompeur
+LIB:= LIBANVS
+Libanus:Libanus (esclave libanais)
+libens:de bon gré, de non coeur, avec plaisir
+libet:il plaît
+libitum:volontés, caprices, fantaisies
+licitor:enchérir, surenchérir
+limo:frotter ; [caput - cum aliquo] embrasser
+linna:vêtement gaulois
+Lipargus:Lipargus (pièce perdue de Plaute)
+Liparo:Liparo (roi de Syracuse)
+litatio:sacrifice heureux
+locusta2:langouste, sauterelle
+loliguncula:supion (petite seiche)
+longule:un peu loin, plutôt loin, assez loin
+lopas:lopas, patelle (fruit de mer)
+loquor:parler
+LOR:= LORARII
+lorarius:lorarius (détenteur des courroies pour fouetter les esclaves)
+luca2:[luca bos] éléphant
+lucrifer:lucratif (mot forgé)
+lucrifuga:qui fuit le gain
+Lucris:Lucris (une courtisane).
+ludificator:trompeur, celui qui dupe
+ludificatus2:[seulement au dat.], moquerie, risée
+lurco2:glouton
+lutito:salir de boue
+LY:= LYSIDAMVS
+LYC:= LYCONIDES (adulescens dan l'Aululaire)
+LYD:= LYDVS
+Lys:= LYSIMACHVS
+Lysidamus:Lysidamus (vieillard dans Casina)
+Lysiteles:Lysitelès (adulescens dans Trinummus)
+MA:= MATRONA
+maccis:maccis (épice imaginaire)
+Maccius:Maccius (nom de famille de Plaute)
+Macedoniensis:de Macédoine
+Macedonius:de Macédoine
+madefacto:arroser souvent
+madulsa:humectation [= état d'ivresse]
+maestiter:tristement
+Magaria:Magalia (ou Magaria, quartier de Carthage)
+magnidicus:emphatique, fanfaron
+magnifice:noblement, grandement, généreusement, splendidement, somptueusement, pompeusement, hautainement
+magnificus:somptueux, grandiose
+magudaris:sorte de laserpitium [férule]
+malefacio:faire du tort, nuire
+maleficus:malfaisant, méchant; nuisible, funeste
+malo:préférer
+mammeatus:mafflue
+mammia:petit sein, petit coeur
+mammicula:petite mamelle
+manicula:petite main ; manche (mancheron) de la charrue
+manifestarius:pris sur le fait
+manipularis:du manipule (manipularis, is : le simple soldat)
+manipulatim:par poignée, en gerbe, en botte, par manipules, en troupe
+mantiscinor:présager
+manto:attendre
+manubinarius:amasseur de butin
+marsupium:bourse
+mastruca:mastruca (vêtement de peau des Sardes et des Germains)
+MAT:= MATRONA
+medioxumus:intermédiaire ; médiocre, exigu
+medullitus:jusque dans la moelle des os ; au fond du coeur, cordialement
+MEG:= MEGADORVS (vieillard dans l'Aululaire)
+Megares:Mégare (ville de grèce)
+Megaronides:Megaronides (vieillard dans Trinummus)
+mehercle:par Hercule
+Melaenis:Melaenis (courtisande dans Cistellaria)
+mella:eau miellée
+memoradum:= memora dum, rappelle-moi donc
+MEN:= MENAECHMVS
+Menaechmus:Ménechme (subreptus dans Ménechmes)
+Menarchus:Ménarque (médecin dans Captivi)
+mendaciloquium:mensonge
+mendaciloquus:menteur
+MERC:= MERCVRIVS
+meruleus:noir comme un merle
+merx:marchandise
+Mes:= MESSENIO
+MESS:= MESSENIO
+Messenio:Messénion (esclave dans Ménechmes)
+Messenius:Messenius (esclave dans Menechmes)
+messis:moisson, récolte
+meticulosus:craintif, timide
+Miccotrogus:Ronge-miettes (surnom du parasite dans Stichus)
+Mil:= MILES (soldat, personnage de comédie)
+militarius:militaire
+Milphidiscus:petit Milphion (diminutif)
+Milphio:Milphion (esclave dans Poenulus)
+milvina:petite flûte à son aigu // appétit vorace
+minaciae:menaces
+minarium:mine (poids de cent drachmes chez les Grecs)
+minime:très peu
+minimus:très petit, minime, ou le plus petit, le moindre, v. parvus
+miracula:femme qui est un prodige de laideur
+mirimodis:étonnamment
+miro:s'étonner
+Misargyrides:Misargyridès (usurier dans Mostellaria)
+MN:= MNESILOCHVS
+MNES:= MNESILOCHVS
+mollusca:sorte de noix dont l'écale est tendre
+monedula:choucas (oiseau, terme de caresse)
+monetrix:conseillère
+mordeo:mordre
+morologus:qui dit des extravagances
+morsiuncula:petite morsure
+morus:fou, extravagant
+Mostellaria:Mostellaria (Le Revenant, comédie de Plaute)
+mulierosus:qui aime les femmes
+mulsipotens:très puissant sur l'eau douce
+multigenerus:de plusieurs sortes
+multiloquium:bavardage
+multiloquus:bavard
+multismodis:= multis modis, de multiples manières
+munditer:proprement ; décemment, avec à propos
+mundulus:propret, élégant
+muneralis:qui concerne les présents
+munerigerulus:qui porte des présents
+muriatica:mets confits dans la saumure
+muriaticus:en conserve, dans la saumure
+murmurillo:murmurer
+murmurillum:murmure, mots prononcés à voix basse
+mustulentus:abondant en vin doux
+muttio:produire le son mu, grommeler, marmonner
+MY:= MYRRHINA
+Mytthumbal:Mytthumbal (nom carthaginois)
+N:= NICOBVLVS
+narita:narica (sorte de coquillage)
+nascor:naître (prendre son origine, provenir)
+ne:assurément
+necullum:= nec ullum
+nefacio:faire différemment, agir différemment
+negotiolum:petite affaire
+nequid:= ne quid
+nequoquam:= ne quoquam (pour que nulle part)
+Nerienes:Nerienes (nom de femme dans Truculentus)
+Nervolaria:Nervolaria (pièce perdue de Plaute)
+nescioquem:= nescio quem
+nescioquid:= nescio quid
+NIC:= NICOBVLVS (vieillard dans Bacchis)
+Nicobulus:Nicobulus (vieillard dans Bacchides)
+nidamentum:matériaux pour un nid
+nihil:rien
+nihilum:rien, sans valeur, pour rien, sans raison, sans fondement
+nimbatus:qui ressemble à un nuage c.-à-d. inexistant
+nitidiusculus:qq peu luisant [de parfums]
+nosco:apprendre ; (pf.) savoir
+nudiusquartus:c'est maintenant le quatrième jour
+nudiustertius:c'est maintenant le troisème jour
+nugides:diseur de bêtises
+Nugiepiloquides:raconteur de sornettes
+Nugipiloquides:grand diseur de balivernes, hâbleur
+nugivendus:marchand de colifichets
+numnam:est-ce que vraiment
+Numquameripides:à qui on ne reprend jamais
+nundinalis:de marché
+obducto:amener fréquemment
+obicio:jeter devant, placer devant
+obludio:batifoler devant (dat.)
+obnoxiose:d'une manière soumise
+obnoxiosus:soumis, dépendant ; préjudiciable
+obrepto:se glisser furtivement, arriver clandestinement
+obsipo:jeter devant
+obtaedesco:dégoûter
+obvigilo:veiller
+occasiuncula:petite occasion
+occepto:commencer
+occipio:commencer, entreprendre
+occisus:part. de occido 2
+occlusus:clos, fermé
+occurro:aller à la rencontre de
+ocissime:très rapidement
+oculicrepida:homme à l'oeil poché (à l'oeil sonnant sous les coups) [mot forgé]
+oculissimus:qu'on aime comme ses yeux
+oculitus:comme ses propres yeux
+odi:haïr
+Oedipus:Oedipe
+offatim:par petits morceaux
+offerumenta2:présent, offrande
+officium:service, fonction, devoir ; la serviabilité, obligeance, politesse ; l'obligation morale
+offlecto:tourner, détourner
+oi:aïe (douleur)
+OL:= OLYMPIO
+olfacto:flairer, sentir
+Onagost:= onagos est (l'Ânier)
+ophthalmia:ophtalmie, maladie des yeux
+oppecto:ôter la chair de l'arête
+oppono:placer devant, opposer
+oppressiuncula:légère pression
+opprobramentum:reproche injurieux
+opprobro:reprocher
+oramentum:prière, demande.
+ostrea:huître
+ostreatus:rendu écailleux, transformé en écailles [plaist]
+PAEG:= PAEGNIVM
+paene:presque
+PAL:= PALAESTRA
+Palaestrio:Palestrion (esclave dans Miles)
+palliolatim:en pallium
+pallula:petit manteau, mantelet
+palpatio:attouchement
+palpator:qui palpe, qui caresse ; flatteur, patelin
+Palponides:flatteur [mot forgé]
+PAMPH:= PAMPHILIPPVS
+Pamphilippus:Pamphilippus (personnage masculin dans Stichus)
+pandiculor:s'étendre [en bâillant], s'allonger
+Panegyris:Panegyris (femme d'Epignomus dans Stichus)
+Paniceus:[soldat] paniste, panien (mot forgé)
+paniculus:chaume
+pansa2:qui marche en écartant les jambes
+pantex:intestins, panse
+pantopolium:épicerie, bazar
+papaver:pavot
+Paphlagonius:des Paphlagoniens, de Paphlagonie
+parasitor:faire le métier de parasite
+paratragoedo:déclamer, s'exprimer à la façon d'un acteur tragique
+parcipromus:avare
+parco:épargner ; (+ dat.) faire grâce à
+parito:se préparer à, se disposer à
+Parmeno:Parménon (nom d'esclave)
+partio2:accouchement / ponte
+parumloquium:rareté de parole
+Pas:= PASICOMPSA
+Pasicompsa:Pasicompsa (meretrix dans Mercator)
+patagus:sorte de maladie
+patellarius:patellaire (dieu qui reçoit des offrandes sur un plat)
+patibulatus:attaché aux fourches patibulaires (pour être battu)
+patierin:= pătĭērĭsne
+patrisso:agir en père
+patritus:du père, paternel
+pauciloquium:sobriété de paroles, laconisme
+pausillulum:un tout petit peu
+pauxillisper:en très peu de temps
+pauxillulus:minuscule
+pauxillus:très petit
+Pe:= PERIPHANES
+pecco:commettre une faute
+peculio:gratifier d'un pécule
+peculiosus:qui possède un riche pécule
+peditastellus:misérable fantassin
+pejero:parjurer
+PEN:= PENICVLVS (parasite dans Menechmes)
+Peniculus2:Peniculus (parasite dans Menechmi)
+peniculus:petite queue ; plumeau ; pinceau ; éponge
+penitus3:au plus profond
+pentetronicus:pentetronique (mot forgé : penna, aile ; ornis, oiseau)
+peraurio:écouter complètement
+perbito:disparaître, périr
+perditus:ruine, perte
+perdormisco:int., dormir sans arrêt
+perducto:faire marcher quelqu'un [avec le sens de duper]
+perdudum:depuis longtemps
+peregrinor:voyager à l'étranger
+perenniservus:esclave à perpétuité [mot forgé]
+perennitas:durée continue, perpétuité
+perfabrico:duper (refaire) complètement qqn
+perfossor:perceur de murailles
+perfrigefacio:glacer [le coeur]
+pergraphicus:achevé, tout à fait réussi [comme copie de l'original]
+Periphanes:Periphanes (personnage de comédie)
+Periplanes:Périplanes (personnage dans Curculio)
+Periplectomenes:Périplectomène (vieillard dans Miles)
+periratus:très irrité, alicui, contre qqn
+perjeratiuncula:v. perjur-
+perjurium:parjure
+perjuro:parjurer, trahir
+perjurus:parjure, menteur
+perlavo:laver entièrement
+perlucidus:limpide
+permanasco:parvenir jusqu'à [en parl. d'une rumeur]
+perniger:très noir
+Pernonides:descendant de jambon [mot forgé]
+pernosco:reconnaître parfaitement, [ou] apprendre à fond ; approfondir
+perpavefacio:remplir de terreur
+perplaceo:int., plaire beaucoup
+perplexabiliter:de manière à rendre perplexe
+perplexim:d'une manière entortillée, ambiguë
+perplexor:embrouiller, équivoquer
+perprurisco:éprouver une vive démangeaison
+perputo:éplucher, expliquer complètement
+perquisitor:celui qui recherche
+Persia:la Perse [province de l'Asie]
+persibus:très fin, très spirituel
+perspisso:très lentement
+pertego:mettre un toit à
+pervenor:parcourir en chassant, en quêtant
+pervolo2:désirer vivement, avoir un vif désir
+pervorsarium:moment d'égarement
+petilus:mince, grêle
+PH:= PHANOSTRATA
+Phaedrium:Phaedria (puella dans l'Aululaire)
+Phaedromus:Phaedromus (adulescens dans Curculio)
+PHAN:= PHANOSTRATA
+Phaniscus:Phaniscus (esclave dans Mostellaria)
+Phanostrata:Phanostrata (épouse dans Cistellaria)
+Phidullium:Phidullium (servante chez Plaute)
+PHIL:= PHILAENIVM (maquerelle dans l'Asinaire)
+Philem:= PHILEMATIVM
+Philematium:Philématie (courtisane dans Mostellaria)
+Philemo:Philémon (marchand dans Mercator)
+Philocomasium:Pilocomasium (meretrix dans Miles)
+Philol:= PHILOLACHES
+Philolaches:Plaut. personnage comique.
+Philto:Philto (vieillard dans Trinummus)
+Phoenicium2:Phénicie (maquerelle dans Pseudolus)
+PHRON:= PHRONESIVM
+phronesis:sagesse
+Phronesium:Phronesium (maquerelle dans Truculentus)
+Phrygia:Phrygia (joueuse de flûte dans l'Aululaire)
+phrygio:brodeur en or
+phu2:fi! pouah! (pour exprimer le mépris).
+phyrgio:brodeur
+PIN:= PINACIVM
+Pinacius:Pinacius (esclave dans Mostellaria)
+PISC:= PISCATORES
+piscinarius2:de vivier
+Pistorensis:[soldat] Boulanger (mot forgé par Plaute)
+Pistus:Pistus (fermier dans Mercator)
+Pithecium:Pithecium (servante dans Truculentus)
+plagiger:[littt] porte-coups, [familt] encaisseur de coups, roué de coups
+plagusia:plagusie (poisson non identifié)
+planiloquus:qui s'exprime clairement
+Platagidorus:Platagidorus (soldat dans Curculio)
+Platenius:de Platée (Béotie)
+PLES:= PLESIDIPPVS
+Plesidippus:Plésidippe (adulescens dans Rudens)
+Pleusicles:Pleusicles (adulescens dans Miles)
+Plocinus:PLOCINVS (pièce perdue de Plaute)
+plorabundus:tout éploré
+ploratillum:hurlments, lamentations bruyantes
+plurimi:très nombreux
+plurimus:le plus grand
+PO2:= POLYBADISCVS
+podagrosus:goutteux
+Poenulus:le jeune Carthaginois [comédie de Plaute]
+pollictor:embaumeur, croque-mort
+pollinarius:qui concerne la fleur de farine
+Polybadiscus:Polybadiscus (nom d'h. chez Plaute)
+Polymachaeroplagides:Polymachaeroplagides (batailleur)
+pono:poser ; déposer ; placer, disposer ; installer ; présenter, établir
+porricio:[jeter en avant] offrir en sacrifice
+Porthao:Porthaon (roi légendaire de Calydon)
+posca:posca (mélange d'eau et de vinaigre)
+postibi:ensuite
+posticulum:petite chambre de derrière
+postid:après cela, ensuite
+postillac:ensuite
+postpartor:acquéreur ou propriétaire futur
+postprincipio:par la suite
+potator:buveur [de vin], ivrogne
+Pothen:D'où ? (mot grec)
+poticius:Poticius (Romain d'une sottise légendaire)
+praebeo:fournir
+praedatus3:butin
+praedivino:pressentir, prévoir, deviner
+praefica:pleureuse [louée pour les funérailles]
+praefiscine:en éloignant les maléfices, sans porter malheur ; soit dit sans offenser, sans choquer
+praefulcio:étayer, appuyer
+praemando:recommander d'avance
+praemercor:acheter auparavant
+Praeneste:Préneste (ville du Latium)
+praeolo:sentir (avoir une odeur)
+praepono:mettre à la tête de (+ dat.)
+praestrigiatrix:trompeuse
+praestrigiator:escamoteur
+praesumo:prendre à l'avance, pressentir
+praeterduco:conduire au-delà
+praeterhac:désormais, dorénavant, encore
+praetorqueo:tordre auparavant ou par-devant
+Praineste:Préneste (ville du Latium)
+pransor:celui qui déjeune en ville, invité, convive
+prognariter:exactement, avec précision
+Progne:Procné (fille de Pandion, changée en hirondelle)
+projecticius:exposé, abandonné
+promoneo:annoncer à l'avance, prédire
+pronuper:tout récemment
+propemodo:presque, à peu près
+propola:boutiquier, revendeur
+proporto:montrer, faire preuve de
+propudiosus:qui est sans pudeur, éhonté, infâme
+proreta:matelot en observation à la proue d'un vaisseau, vigie
+proseda:une prostituée
+prosero:faire sortir, faire paraître, montrer
+prosico:couper, découper [les entrailles des victimes]
+prostibilis:prostitué
+prothyme:de bon coeur
+prothymia:bonnes dispositions, amabilité, prévenances
+proverto:diriger en avant
+proviso:s'avancer pour voir, pour s'informer ; tr., aliquem, s'avancer pour voir si qqn vient
+prox:sauf votre respect
+PS:= PSEVDOLVS
+Pseudolus:Pseudolus (esclave dans la pièce éponyme)
+PSEVD:= PSEVDOLVS
+PTOL:= PTOLEMOCRATIA
+Ptolemocratia:Ptolemocratia (prêtresse de Vénus dans Rudens)
+pugillatorius:de poing
+pugnaculum:ouvrage de défense
+pullarius2:qui concerne les petits des animaux
+pulmo:poumon
+pulmoneus:de poumon ; spongieux
+pultatio:coup à la porte
+Pultiphagonides:mangeur de bouillie
+pultiphagus:mangeur de bouillie
+pulvero:couvrir de poussière ; pulvériser ; int., être couvert de poussière
+pulvisculum:poussière fine
+purpurissum:pourpre foncé (fard)
+putus:pur, propre (d'ordin. on rencontre purus putus ensemble)
+pyelus:siège de bain, baignoire
+Pyrgopolynices:Pyrgopolynice (militaire dans Miles)
+PYTH:= PYTHODICVS (esclave dans l'Aululaire)
+Pythodicus:Pythodicus (esclave dans l'Aululaire)
+quacum:= cum qua, avec qui
+quadruplor:faire le métier de délateur
+quadrupulus:quadruple
+quantumvis:autant qu'on voudra
+querquera:fièvre avec frisson
+quicumvis:= cum quivis : avec n'importe quoi
+quidum:comment donc ?
+quilibet:n'importe qui (quoi), premier venu
+quinavicenarius:de vingt-cinq ans
+quinquagesies:cinquante fois
+quiqui:de quelque manière que
+Quodsemelarripides:de ce dont il est une fois preneur, jamais ensuite un ravisseur
+quoianam:= quoia nam, cuja nam
+quoius2:de qui ? à qui ?
+quoivismodi:de toute sorte
+quojas:de quel pays ?
+quomque:en toutes circonstances
+quor:pourquoi
+quotienscumque:chaque fois que
+quotumus:combien ? en quel nombre ?
+rabo2:gages, arrhes
+radiosus:rayonnant
+ramex:vaisseaux de la poitrine, poumon
+ravio:s'enrouer en criant
+ravis:enrouement
+recalvus:chauve par-devant
+recharmido:cesser d'être Charmidès, se décharmidiser [mot forgé]
+recommentor:se rappeler
+recomminiscor:se ressouvenir
+reconcinno:raccommoder, réparer
+redipiscor:recouvrer
+reduco:ramener, rétablir, restaurer, reconduire
+reglesco:s'enflammer, s'accroître
+renuntius:second messager
+repono:replacer, reposer, remettre
+repudiosus:qui mérite d'être rejeté, indigne
+requirito:rechercher minutieusement, s'enquérir curieusement de
+responsor:celui qui peut donner une réponse
+restio:cordier
+revideo:revenir pour voir
+revorro:balayer de nouveau
+Rhadamas:Rhadamas (nom d'homme)
+risio:action de rire
+robiginosus:rouillé
+rorarii:soldats armés à la légère, vélites
+rotula:petite roue
+rumex:rumex ou petite oseille
+rumifero:colporter [une rumeur]
+s:= es (sum, 2e sing. ind. prés.)
+saburratus:lesté
+sacciperio:grande bourse
+saepiuscule:assez souvent
+saeviter:avec rigueur
+SAG:= SAGARISTIO
+Sagarinus,Sangarinus:Sangarin (esclave dans Stichus)
+Sagaristio:Sagaristion (esclave dans Persa)
+Salsipotens:roi des mers [épithète de Neptune]
+samius:de Samos
+sampsa:pulpe d'olives triturée et conservée
+sandaligerula:esclave portant les sandales
+SANG:= SANGARINVS
+Sangarinus:Sangarin (esclave dans Stichus)
+Sangario:Sangarion (serviteur dans Trinummus)
+sanun:= sanusne
+sarcinatus:chargé de bagages
+sarrapis:Sérapis (dieu égyptien très laid)
+Sarsinas:n., de Sarsine
+satillum:une quantité suffisante de [avec gén.]
+Sc:= SCAPHA
+Sceledrus:Sceledrus (esclave dans Miles)
+SCEP:= SCEPARNIO
+Sceparnio:Sceparnio (esclave dans Rudens)
+Schematicus:Schematicus (pièce perdue de Plaute)
+schoenicula:prostituée (mal parfumée)
+scirpus:jonc
+scitamenta:friandises
+scitulus:joli, mignon, charmant
+scobina,scrobina:râpe, lime
+scratta:épithète d'une prostituée
+scrofa:truie
+scrofipascus:nourriseur de truie, porcher
+scrophipascus:nourriseur de truie, porcher
+scrupeda:qui marche avec peine
+scrutillus:ventre de porc farci
+scutarium:scutaire, fabricant de boucliers
+sebum:suif
+secaptis:secaptis (épice imaginaire)
+secius:moins, moins bien, moins bon
+securicula:hachette
+Sel:= SELENIVM
+Selenium:Sélénie (courtisane dans Cistellaria)
+SEN:= SENEX
+senex:vieillard
+seorsum:adv. séparément, à part, prép. indépendamment de, sans
+sepelibilis:qu'on peut ensevelir (cacher)
+servula:petite esclave
+servulicola:qui hante les esclaves de bas étage
+sesama,sesuma:sésame
+sessibulum:siège
+siccoculus:qui a l'oeil sec
+sicilicissito:avoir l'accent sicilien.
+sicilicula:sorte de petit poignard
+Signia:Signia (ville des Vosques)
+similiter:de la même manière
+simplum:l'unité
+sinapis:moutarde [plante] et sa graine
+sincipitamentum:la moitié de la tête [d'un animal]
+sirpe:laser (résine)
+Sitellitergus:Sitellitergus (pièce perdue de Plaute)
+SO:= SOPHOCLIDISCA
+socerus:beau-père
+sociofraudus:qui trompe son associé
+sodes:= si audes (s'il te plaît)
+soltis:= si vultis, si voltis, si vous voulez
+sonarius:fabricant de ceintures
+SOPH:= SOPHOCLIDISCA
+Sophoclidisca:Sophoclidisca (servante dans Persa)
+SOR:= SOROR
+soracum:coffre (pour les costumes des comédiens).
+sorbilo:adv., par gorgées ; [fig.] par morceaux, par bribes
+sordes:ordure, crasse, saleté
+sorditudo:saleté
+sororcula:chère soeur, petite soeur
+sororio:grandir ensemble comme des soeurs
+SOS:= SOSIA
+Sosicles:Sosicles (autre nom du second Ménechme)
+sospitalis:sauveur, tutélaire, protecteur
+Sparax:Sparax (esclave dans Rudens)
+Spartiates:Spartiate
+Spartiaticus:de Sparte
+spectamen:preuve, indice ; spectacle
+specula2:faible espérance, lueur d'espoir
+speculoclarus:brillant comme un miroir
+sperabilis:qu'on peut espérer
+spetile:un morceau de la panse du porc
+SPH:= SPHAERIO
+Sphaerio:Sphaerion (esclave dans Mostellaria)
+spinter:spinthère (bracelet que les femmes portaient en haut du bras gauche)
+spissigradus:à la marche lente
+stalagmium:pendant d'oreilles
+STAPH:= STAPHYLA (vieille femme dans l'Aululaire)
+Stasimus:Stasimus (esclave dans Trinummus)
+STEPH:= STEPHANIVM
+Stephaniscidium:ma petite Stephanium
+Stephanium2:Stéphanium (servante dans Stichus)
+stercoreus:excrémentiel, immonde [injure]
+STICH:= STICHVS
+stimulatrix:instigatrice
+stimuleus:d'aiguillon
+Str:= STRATIPPOCLES
+STRAB:= STRABAX
+Strabax:Strabax (adulescens dans Truculentus)
+STRAT:= STRATOPHANES
+stratioticum:militaire, de soldat
+stratioticus:militaire, de soldat
+Stratophanes:Stratophanes (soldat dans Truculentus)
+strebula:chair des cuisses
+strena:pronostic, présage, signe
+strenuus:actif, agissant, vif, empressé
+striata:striate (coquillage non identifié)
+stribula2:chair des cuisses des victimes
+strigor:[individu] de mauvais aloi
+strittabilla:femme à la démarche chancelante
+STROB:= STROBIVS (esclave dans l'Aululaire)
+stultiloquentia:sot langage
+stultiloquium:sot langage
+stultiloquus:qui dit des sottises
+stultividus:qui a la berlue
+Stymphalicus:du Stymphale
+subaquilus:un peu brun [de couleur d'aigle]
+Subballio:sous-Ballion [esclave qui sert Ballion]
+subditicius:supposé, apocryphe
+subigitatio:caresse lascive
+subigitatrix:enjôleuse
+sublingulo:lécheur de plats, marmiton
+submerus:[vin] presque pur
+subniger:noirâtre
+subnimius:presque-trop (invention de Plaute)
+subripio:dérober furtivement
+subrumpo:to break off below;, to destroy
+subscus:tenon, queue d'aronde
+subsentator:adulateur
+subservio:int., servir, être aux ordres de [avec dat.]
+subsido:se baisser, s'accroupir, s'affaisser, s'abaisser, tomber, se calmer, se déposer, faire halte, séjourner, se poster [en embuscade]
+subsilio:sauter [en l'air], s'élancer dans
+subsulto:bondir en l'air
+subverbustus:roué de coups
+subvulturius:grisâtre [un peu de la couleur du vautour]
+succenturiatus:ajouté pour former une centurie
+succingulum:baudrier
+sudatorius:sudorifique
+sudiculum:chose qui met en sueur, objet qui fait suer
+suffuror:dérober furtivement
+sumo:prendre, se saisir de ; choisir ; s'arroger, s'attribuer ; admettre
+sumptus:dépense, frais
+superstito:intr., survivre ; tr., faire durer
+suppalpor:flatter [en dessous], caresser
+suppono:placer au pied
+suppositicius:mis à la place, remplaçant
+suppostrix:celle qui substitue frauduleusement
+surrepticius:stolen, surreptitious
+surripio:dérober, ravir
+surrumpo:ravir, enlever
+surus3:piquet, pieu
+susque:[susque deque] de toute façon
+SYC:= SYCOPHANTA (personnage dans Trinummus)
+sycophanta:sycophante, fourbe, imposteur, flatteur habile, parasite
+sycophantiose:avec fourberie, astucieusement
+symbolus:pièce justificative d'identité, signe de reconnaissance
+SYNC:= SYNCERASTVS
+syncerastum:ragoût
+Syncerastus:Synceratus (esclave dans Poenulus)
+Syr:= SYRA
+Syra:Syra (vieille femme dans Mercator)
+tabernaculum:tente
+taedio:être dégoûté, être las
+Talthybius:Talthybius (héraut grec au siège de Troie)
+tamine:= tamne (-ne interrogatif)
+tantidem:de même prix
+tapetum:tapis, tapisserie
+tarditudo:marche lente, lenteur
+tardiusculus:un peu lent
+tarmes:termite, ver qui ronge le bois / ver de la viande
+tat:eh !
+tatae:Ta ta ta
+Tedigniloquides:parleur digne de toi
+tegillum:petit surtout (petit capuchon)
+Tel:= TELESTIS (virgo dans Epidicus)
+Teleboae:Téléboens [peuple de l'Acarnanie]
+tequidem:= te quidem
+terginum:courroie, fouet
+teruncius:le quart d'un as
+Teuximarcha:Teusimarque (mère des Ménechmes)
+TH:= THESPRIO
+THEO:= THEOPROPIDES
+Theodoromedes:Theodoromedes (père de Philocrate dans Captivi)
+THEOPR:= THEOPROPIDES
+Theopropides:Théopropidès (vieillard dans Mostellaria)
+Theotimus:Théotime (riche Éphésien dans Bacchis)
+Therapontigonus:Thérapontigonus (soldat dans Curculio)
+thermipolium:cabaret (où l'on boit chaud)
+thermopoto:humecter d'une boisson chaude
+Thesaurochrysonicochrysides:Thesaurochrysonicochrysides (nom imaginaire pour désigner quelqu'un de très riche)
+Thesprio:Thesprio (esclave dans Epidicus)
+Thetis:Thétis (nymphe de la mer), la mer
+thocum:sorte de siège
+thylacista:quêteur, solliciteur
+thymiamus:qui aime le thym
+tinnimentum:tintement [d'oreilles]
+tintinnaculus:les gens à cliquetis = porteurs de chaînes
+tippula:araignée d'eau
+Tiresias:Tirésias (devin aveugle; un aveugle)
+tittibilicium:chose sans valeur, un rien
+todillus:grêle [comme un oisillon]
+tolleno:noria (machine à puiser de l'eau, à l'aide d'une bascule)
+TON:= TONSTRIX
+tonsilis:qui peut être rasé, tondu ; tondu, coupé
+tonstrina:échoppe de barbier
+tonstrix:barbière
+TOX:= TOXILVS
+Toxilus:Toxilus (esclave dans Persa)
+Tr:= TRANIO
+TRA:= TRANIO
+TRACH:= TRACHALIO
+Trachalio:Trachalion (esclave dans Rudens)
+trahax:qui aime tirer tout à soi, rapace
+traloquor:dire, narrer d'un bout à l'autre
+Tranium:Tranion (ou Tranio, esclave dans Mostellaria)
+transcido:pénétrer (entamer) par des coups, battre jusqu'au sang
+transenna:lacet, lacs, filet, treillage, grillage
+transtineo:se maintenir à travers, exister à travers
+trapezita:changeur, banquier
+traversus:transversal, en largeur
+tremor:tremblement
+trimodium:vase qui contient trois modius ou boisseaux
+Trinummus:l'homme aux trois écus [titre d'une comédie de Plaute]
+triobulus:pièce de trois oboles
+triparcus:triple avare
+tritavus:ascendant au sixième degré (père de l'atavus ou de l'atavia)
+tritor:broyeur [de couleurs]
+Truthus:Truthus (nom d'homme)
+TRVC:= TRVCVLENTVS
+tryblium:plat, écuelle
+tuburcinor:manger gloutonnement
+tueo:protéger
+tumultuo:être agité, faire du bruit
+tuquidem:= tu quidem
+Turbalio:Turbalio (esclave dans Rudens)
+turpilucricupidus:avide d'un gain honteux
+tux:tux tax (bruit des coups de fouet)
+tympanotriba:celui qui joue du tambour phrygien [= efféminé]
+tyrannus:tyran
+ubiubi:en quelque endroit que
+ulmitriba:celui qui use les baguettes d'orme (les verges) [sur son dos, à force d'être battu]
+ultimus:dernier
+umbraticulus:celui qui vit à l'ombre (avec diminutif)
+unanimans:qui a les mêmes sentiments
+unanimis,unianimis:unanimus
+unctiusculus:assez gras [en parl. d'un mets], passablement onctueux
+unisubsellium:tabouret à une place (mot inventé par Plaute)
+unus,oenus:un seul, un
+utcumque:quoi qu'il en soit, selon que
+utervis:celui des deux que tu voudras
+utibilis:qui peut servir, utile, avantageux
+utiquam:[ne -] pas du tout
+utriscum:= utris cum : avec lesquels ?
+uxorculo:jouer le rôle de l'épouse
+valentulus:assez bien portant
+valgus:bancal, qui a les jambes tournées en dehors
+vanidicus:menteur, hâbleur
+Vaniloquidorus:diseur de mensonges [mot forgé]
+vaniloquus:menteur ; plein de jactance, fanfaron
+vastities:destruction
+vehiculum:véhicule
+velitatio:escarmouche ; [fig.] assaut d'injures
+ventio:venue, arrivée
+verberabilis:qui mérite d'être battu
+verberabundus:qui fustige, qui bat, qui frappe
+verberetillus:fait pour être battu
+verecundor:avoir de la honte, de la timidité
+versicapillus:dont les cheveux changent, qui grisonne
+veruina:sorte de javeline longue
+vesperna:repas du soir
+vestiplica:femme de chambre
+veto:interdire, (veto ou voto :) je fais opposition
+vexillum:étendard, drapeau
+vialis:des rues, qui préside aux rues
+viaticatus:muni de provisions de voyage
+vicissatim:tour à tour, alternativement
+victima:victime
+videtin:= videtisne
+viginti:vingt
+vinipollens:seigneur du vin
+virgidemia:cueillette de verges (de coups) [mot forgé d'après vindemia]
+virginarius:de jeune fille(s)
+Virginesvendonides:marchand de vierges (mot forgé)
+viripotens:nubile
+vitor:celui qui tresse l'osier
+vitulor:être transporté de joie, se réjouir beaucoup
+vorsoria:couet, cordage pour brasser les voiles
+vulnus:blessure
+Xystilis:Xistilis (servante dans Pseudolus)
+Zacynthius:de Zacynthe
+Zeus2:Zeus
+zona:ceinture

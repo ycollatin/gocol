@@ -1,0 +1,41 @@
+!    lemmes.fr
+absum:être absent
+Aegidius:Gilles (citoyen Anversois)
+agricolatio:agriculture
+Amerigus|Améric (prénom)
+Anglia:l'Angleterre.
+Antverpia:Anvers
+Brugae:Bruges (Belgique)
+Brugensis:de Bruges
+Bruxellae:Bruxelles
+Carolus:Charles (prénom ; - de Castille)
+Carthaginiensis:Carthaginois
+Cassiletanus:de Cassel (ville française, Nord)
+Castella:la Castille
+confabulatio:entretien, conversation
+Cornubiensis:de Cornouailles
+Cuthbertus:Cuthbert (prénom m.)
+Flandria:la Flandre
+Georgius:Georges (prénom)
+Henricus:Henry (- VIII, roi d'Angleterre)
+Hythlodaeus:Hythlodée (personnage de l'Utopie)
+instrenuus:nonchalant, mou, sans courage
+jureconsultus:jurisconsulte
+Londinum|Londres
+Maria:nom de f. ; en part., mère de Jésus
+mechanicus:mécanique
+moratus:d'un caractère heureux
+nauclerus:patron de navire
+nebulonicus:polisson
+neglectim:avec négligence
+peregrinor:voyager à l'étranger, en pays étranger / être en pays étranger, séjourner à l'étranger
+Petrus:Pierre (prénom)
+presbyter:prêtre
+Raphael:Raphaël (prénom)
+Taprobane:Ceylan
+Temsicius:de Temsecke (famille flamande)
+Thomas:Thomas (prénom)
+Tunstallus:Tunstall (Cuthbert, humaniste anglais)
+Utopia:Utopie (île imaginaire)
+Vespucius|Vespuce, Vespucci (commerçant et navigateur florentin)
+vicecomes:vice-sheriff

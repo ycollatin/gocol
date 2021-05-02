@@ -1,0 +1,4 @@
+Collatinus - module Plaute
+Ce module lexical est utilisable par Collatinus, version 12 et supérieures.
+Il permet de lemmatiser les pièces de Plaute
+Yves Ouvrard, avril 2019

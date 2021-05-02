@@ -1,0 +1,5 @@
+Collatinus - module Hagio
+Ce module lexical est utilisable par Collatinus, version 12 et supérieures.
+Il permet de lemmatiser le Corpus Burgundiae Medii Aevi - CBMA Corpus de la Bourgogne du Moyen Âge.
+[Consulter en ligne](http://www.cbma-project.eu) 2019 
+Yves Ouvrard, avril 2019

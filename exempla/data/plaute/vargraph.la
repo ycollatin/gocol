@@ -1,0 +1,40 @@
+!          vargraph.la
+!
+!  Dans ce fichier sont enregistrées les variantes
+! graphiques du corpus traité. Chaque ligne est
+! composée de deux chaînes séparées
+! - soit par le caractère ';' :
+!   à gauche, la graphie classique, à droite la graphie
+!   alternative, même si elle n'est pas toujours utilisée.
+!   Les désinences et les radicaux sont calculés en
+!   fonction de ces transformations, et les formes du
+!   texte sont elles aussi transformées.
+! - soit par le caractère '>' : à gauche une expression
+!   rationnelle qui permet de retrouver la graphie
+!   classique, à droite du '>'. On recourt à cette transfor-
+!   mation dans les cas où la chaîne à changer peut se
+!   trouver à cheval entre radical et désinence.
+!
+ai$>ae
+assis$>averis
+assit$>averit
+ast$>a
+eis$>es
+dum$>
+^ecf>eff
+errum>errim
+ier$>i
+illum>illim
+issum>issim
+iundum>iendum
+ne$>
+ont$>unt
+ontur$>untur
+ost$>o
+Pergin$>pergisne
+sti$>sisti
+(.*)n$>\1
+(\w+)n$>\1s
+u$>us
+ust$>us
+xti$>xisti

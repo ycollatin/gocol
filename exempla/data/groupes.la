@@ -1,0 +1,905 @@
+!	groupes.la -- Gentes !
+! NOYAU :
+!- ter|grp:<groupe>.<id>		// identifiant syntaxique,identifiant unique 
+!  ter : noyau et subs sont des mots
+!  grp : il y a au moins un composant groupe
+!
+! éléments d'un groupe :
+! type_groupe;identifiant;lien;morpho;accord;lexsynt
+! type_groupe: n|a|p|ag|pg
+! 		n noyau
+! 		a mot antéposé
+! 		p mot postposé
+! 		ag groupe antéposé
+! 		pg groupe postposé
+! identifiant: @pos|"lemme"|famille_groupe|groupe
+! 		plusieurs identifiants possibles séparés par un espace
+! 		@pos : pos du lemme du mot ou du mot-noyau
+! 		"lemme" : clé du lemme d'une lemmatisation (gocol.Sr) du mot
+! 		famille_groupe : la partie précédant le point '.' dans l'identifiant du groupe
+! 		groupe : l'identifiant complet du groupe
+! lien: identifiant du lien qui sera affiché dans le graphe. S'il est préfixé en '+', 
+!	    plusieurs éléments subordonnés du groupe pourront avoir ce lien	
+! morpho : morpho d'une lemmatisation (gocol.Sr.Morphos[i])
+! accord : accord entre l'élément du groupe et son noyau : 'c' 'g' 'n' ou une combinaison des 3
+! lexsynt : propriétés requises du lemme (lexsynt.la)
+! 
+! identifiant, lemme, famille_groupe et groupe peuvent être préfixés en '!' pour 
+! en faire des propriétés interdites.
+!
+! code des pos
+! n=nom, NP=nom propre, p=pronom a=adjectif Adv = adverbe
+!
+! CAVEAT : il faut terminer par un groupe non terminal
+!
+
+!!!!!!!!!!!!!!!!!!!!!
+! Groupes terminaux !
+!!!!!!!!!!!!!!!!!!!!!
+
+ter:n.det
+n:@n
+a:@p @a !p.prepAcc;det;;cgn;det
+
+ter:n.ndet
+n:@n @NP
+p:"hic" "iste" "nullus" "quidam";det;;cgn
+
+ter:np.ndet
+n:@NP
+p:"noster" "iste";det;;cgn
+
+ter:a.adet
+n:@a;;;;subst
+p:"hic" "iste";det;;cgn
+
+ter:n.detfm
+n:"dies"
+a:@p @a !p.prepAcc;det;;cn;det
+
+ter:n.afm
+n:"dies"
+a:@a;epith;;cn
+
+ter:n.adj
+n:@n @NP
+a:@a;+epith;;cgn;!det
+
+ter:n.nAdj
+n:@n
+p:@a;+epith;;cgn
+
+ter:n.hnAdj
+n:@n
+p:"enim"
+p:@a;epith;;cgn
+
+ter:n.hAdj
+n:@n @NP
+a:@a;epith;;cgn
+a:@v;;indic,subj,part,inf
+
+ter:n.nadjv
+n:@n
+p:@v;epith;verbal;cgn
+
+ter:n.nnequam
+n:@n
+p:"nequam";epith
+
+ter:n.ablabs
+n:@n @NP;;abl
+a:@v;epith;abl;gn
+
+ter:n.nablabs
+n:@n @NP;;abl
+p:@v;epith;abl;gn
+
+ter:n.npp
+n:@n @NP
+p:@v;epith;part;cgn
+
+! FIXME à vérifier
+ter:n.nipse
+n:@n @NP @p !"ipse"
+p:"ipse";epith;;cgn
+
+ter:n.app
+n:@n !"omne"
+p:@n @NP;app;;cgn
+
+ter:n.appNp
+n:@NP
+p:@n;app;;cgn
+
+ter:n.gen
+n:@n
+a:@n @NP;gen;gén
+
+ter:n.genis
+n:@n
+a:"is" "hic";gen;gén
+
+ter:n.ngenis
+n:@n
+p:"is";gen;gén
+
+ter:n.hgen
+n:@n
+a:@n @NP;gen;gén
+a:@Adv
+
+ter:n.genpart
+n:@n
+a:@v;gen;part gén;;subst
+
+ter:n.hgenpart
+n:@n
+a:@v;gen;part gén;;subst
+a:"sum";;indic 3
+
+ter:n.gena
+n:@n
+a:@a;gen;gén;;subst
+
+ter:n.nquoque
+n:@n @p
+p:"quoque";adv
+
+ter:a.gen
+n:@a;;;;gen
+a:@n @NP;gen;gén
+
+ter:a.agen
+n:@a;;;;gen
+p:@n @NP @p;gen;gén
+
+ter:a.hagen
+n:@a;;;;gen
+p:@n @NP;gen;gén
+p:@n;;nomin
+
+ter:n.etiam
+n:@n @NP
+a:"etiam";adv
+
+ter:a.etiam
+n:@a;;;;subst
+a:"etiam" "pote";adv
+
+ter:conj.adv
+n:@conj
+p:"etiam" "potius";adv
+
+ter:n.et
+n:@n @NP
+a:"et" "ac" "atque";conj
+
+ter:adv.et
+n:@Adv
+a:"et" "atque";conj
+
+ter:adv:adv
+n:@Adv
+a:"nimis" "minime";adv
+
+ter:v.declet
+n:@v;;part,gér,verbal
+a:"et";conj
+
+ter:n.hgen
+n:@n;;nomin,acc,dat,abl
+a:@n @NP;gen;gén
+a:@v;;indic,subj
+
+ter:n.hepith
+n:@n
+a:@a;epith;!nomin;cgn
+a:@v;;indic,subj
+
+ter:n.abl
+n:@n;;;;abl
+a:@n;abl;abl
+
+ter:a.datif
+n:@a;;;;datif
+a:@n @NP @p;datif;dat
+
+ter:a.adatif
+n:@a;;;;datif
+p:@n @NP @p;datif;dat
+
+ter:a.hepith
+n:@a;;;;subst
+a:@a;epith;;cgn
+a:@v;;indic,subj
+
+ter:a.adv
+n:@a
+a:"minime";adv
+
+ter:a.et
+n:@a
+a:"et" "nec";conj
+
+ter:n.quam
+n:@n @p
+a:"quam";conj
+
+ter:a.complcomp
+n:@a;;compar
+a:@p @n @NP !n.prepAbl;ccomp;abl
+
+grp:a.acomplcomp
+n:@a;;compar
+pg:@p @n @NP;ccomp;abl
+
+grp:a.hcomplcompquam
+n:@a;;compar
+ag:n.quam;ccomp
+a:@v;;indic,subj
+
+grp:a.coord
+n:@a
+pg:a.et;coord;;cgn
+
+ter:n.gergen
+n:@n;;;;gergen
+a:@v;gen;gér gén
+
+ter:v.prepger
+n:@v;;gér
+a:"in";prep
+
+ter:n.ngergen
+n:@n;;;;gergen
+p:@v;gen;gér gén
+
+ter:a.gerabl
+n:@a;;;;abl
+a:@v;abl;gér abl
+
+ter:ad.gen
+n:@Adv;;;;gen
+p:@n;gen;gén
+
+! à compléter
+ter:p.adj
+n:"nemo"
+a:@a;epith;;cgn
+
+ter:p.hadj
+n:"nemo"
+a:@a;epith;;cgn
+a:@v;;indic
+
+ter:p.padj
+n:@p !"se"
+p:@a;epith;;cgn
+
+ter:p.app
+n:@p !"se"
+p:@n @NP;app;;cgn
+
+ter:p.gen
+n:@p;;;;gen
+a:"hic" "qui2";gen;gén
+
+ter:p.pgen
+n:@p;;;;gen
+p:@a;gen;gén
+
+ter:p.hgen
+n:@p;;;;gen
+a:@a;gen;gén neut
+a:@p;;dat
+
+ter:v.ppsum
+n:"sum";;indic,subj,inf
+a:@v;pp;part parf
+
+ter:v.hppsum
+n:"sum";;indic,subj,inf
+a:@v;pp;part parf
+a:@Adv
+
+ter:v.sumpp
+n:"sum";;indic,subj,inf
+p:@v;pp;part parf
+
+ter:v.itum
+n:"sum";;3
+a:"eo";pp;supin
+
+ter:v.sumPfut
+n:"sum";;indic,subj,inf
+a:@v;pfut;part fut
+
+ter:v.vsumPfut
+n:"sum";;indic,subj,inf
+p:@v;pfut;part fut
+
+ter:v.sujet
+n:@v;;3
+a:@n @NP;sujet;nomin;n
+
+ter:v.aSujet
+n:@v;;3
+a:@a;sujet;nomin;n;subst
+
+ter:v.ego
+n:@v;;1
+a:"ego" "nos";sujet;nomin;n
+
+ter:v.vego
+n:@v;;1
+p:"ego" "nos";sujet;nomin;n
+
+ter:v.tu
+n:@v;;2
+a:"tu" "vos";sujet;nomin;n
+
+ter:v.gratias
+n:@v;;act
+a:@n @p @NP;datif;dat
+p:"gratia";objet;acc plur
+
+ter:v.hic
+n:@v;;3
+a:"hic" "idem" "is" "ille" "ipse" "iste" "nemo" "neuter" "nihil";sujet;nomin;n
+
+ter:v.vhic
+n:@v;;3
+p:"hic" "is" "ille" "ipse" "iste";sujet;nomin;n
+
+ter:v.vsujet
+n:@v;;3
+p:@n @NP;sujet;nomin;n
+
+ter:v.vinquit
+n:"inquit"
+p:@NP @n;sujet;nomin sing
+
+ter:v.attr
+n:@v !v.ppsum;;act;;attr
+a:@n @NP @a;attr;nomin;n
+
+! FIXME multi ? Reginus erat totus noster
+! totus est plutôt epith de Reginus
+ter:v.vattr
+n:@v;;act;;attr
+p:@n @a;attr;nomin;n
+
+ter:v.attrP
+n:@v;;pass;;attrp
+a:@n @NP @a;attr;nomin;n
+
+ter:v.vattrP
+n:@v;;pass;;attrp
+p:@n @NP @a;attr;nomin;n
+
+ter:v.attro
+n:@v;;act;;attro
+a:@n;attro;acc
+
+ter:v.attrquis
+n:@v;;act;;attr
+a:"quis";attr;nomin;n
+
+grp:v.obj
+n:@v !si;;act;;!intr
+ag:@n @NP !n.prepAcc;objet;acc
+
+ter:v.obja
+n:@v;;act;;!intr
+a:@a;objet;acc;;subst
+
+grp:v.objp
+n:@v !si;;act;;!intr
+ag:@p !p.prepAcc;objet;acc
+
+grp:v.hobjp
+n:@v;;act;;!intr
+ag:@p;objet;acc
+a:@v;;impér;;subjdir
+
+grp:v.objpf
+n:v.sumPfut
+a:"ego" "hic" "is" "nemo" "nihil" "tu";objet;acc
+
+ter:v.datif
+n:@v;;!inf;;datif
+a:@n @NP @p;dat;dat
+
+ter:v.hdatif
+n:@v;;subj,inf;;datif
+a:@n @NP @p;dat;dat
+a:@v;;indic,subj
+
+ter:v.datifa
+n:@v;;;;datif
+a:@a;dat;dat;;subst
+
+ter:v.datifv
+n:@v;;;;datif
+a:@v;dat;part dat
+
+ter:v.vdatif
+n:@v;;;;datif
+p:@n @NP @p;dat;dat
+
+ter:v.vdatifa
+n:@v;;;;datif
+p:@a;dat;dat;;subst
+
+ter:v.datp
+n:@v;;pass;;datp
+a:@n @NP @p;dat;dat
+
+! FIXME pb dans la prop. inf.
+! vérifier l'exclusion de "tu"
+ter:v.abl
+n:@v !si;;;;abl
+ag:@n @NP @p !"tu" !v.ablabs;abl;abl
+
+! FIXME imperiis distributis ardere
+grp:v.ablabs
+n:@v;;;;abl
+ag:n.ablabs n.nablabs;ablabs
+
+grp:v.agent
+n:@v;;pass
+ag:@n;agent;abl;;nh
+
+ter:v.die
+n:@v
+a:"dies";tps;abl,acc
+
+ter:v.dies
+n:@v
+a:"dies";tps;acc
+
+ter:v.prcum
+n:@v;;;;abl
+a:"mecum" "tecum" "nobiscum" "vobiscum";abl
+
+ter:v.vabl
+n:@v;;;;abl
+p:@n @NP @p !n.prepAbl;abl;abl
+
+ter:v.vabla
+n:@v;;;;abl
+p:@a;abl;abl;;subst
+
+ter:v.et
+n:@v;;indic,subj,impér
+a:"et" "at" "atqui" "ergo" "nam" "sed" "tametsi" "verum" "an" "quamquam";+conj
+
+ter:v.conjc
+n:@v;;indic,subj,impér
+a:conj;conj
+
+ter:v.vet
+n:@v;;indic,subj,impér
+p:"ergo";conj
+
+ter:v.adv
+n:@v
+a:@Adv !"et";+adv
+
+ter:v.vAdv
+n:@v
+p:@Adv !"et" !"etiam";+adv
+
+ter:v.neg
+n:@v
+a:"non" "nondum" "haud" "nec" "neque";neg
+
+! FIXME : !si inopérant dans /Haec te scire uolui./
+grp:v.infobj
+n:@v;;act;;infobj
+ag:@v !si;objet;inf
+
+ter:v.vinfobj
+n:@v;;indic,subj;;infobj
+p:@v !si;objet;inf
+
+ter:v.vinfsuj
+n:@v;;act indic,act subj;;infsuj
+p:@v;sujet;inf prés
+
+ter:v.vinfobj
+n:@v;;act indic,act subj;;infobj
+p:@v !si;objet;inf
+
+ter:adv.tamquam
+n:"tamquam"
+p:@n;comp;nomin
+
+! PROPOSITION INFINITIVE
+
+! FIXME : confusion ѕujet-objet
+grp:si.psujPropInf
+n:@v !v.abl;;inf
+a:@p;sujet;acc
+
+grp:si.nsujPropInf
+n:@v !v.abl !v.sujObjPropInf !v.sujAttrPropInf;v.propInf;inf
+a:@NP @n !si.psujPropInf;sujet;acc
+
+grp:si.sujAttrPropInf
+n:"sum";;inf
+a:@n @NP @p;sujet;acc
+a:@a @n @NP @p;attr;acc
+
+grp:si.sujDatPropInf
+n:"sum";;inf
+a:@n @NP @p;sujet;acc
+a:@n @NP @p;datif;dat
+
+grp:si.sujDatvAttrPropInf
+n:"sum";;inf
+a:@n @NP @p;sujet;acc
+a:@n @NP @p;datif;dat
+p:@a;attr;acc
+
+grp:si.hattrPropinf
+n:"sum";;inf
+a:@n @NP @p;attr;acc
+a:@v;;indic;;propinf
+
+ter:si.attrvSuj
+n:"sum";;inf
+a:@a;attr;acc
+p:@n;sujet;acc
+
+ter:si.vAttrSuj
+n:"sum";;inf
+p:@n;sujet;acc
+p:@a;attr;acc
+
+ter:si.sujAttr
+n:"sum";;inf
+a:@n;sujet;acc
+a:@a;attr;acc
+
+grp:si.sujObjPropInf
+n:@v;;inf
+a:@n @NP "ego" "se" "tu";sujet;acc
+a:@p;objet;acc
+
+grp:si.objSujPropInf
+n:@v;!v.infobj;inf
+a:@p;objet;acc neut
+a:@p @n @NP;sujet;acc masc,acc fém;
+
+ter:si.hsujPropInf
+n:@v;;inf
+a:@NP;sujet;acc
+a:@v;;impér;;propinf
+
+! verbes ayant un sub propinf 
+
+grp:v.propInf
+n:@v;;indic,subj,impér;;propinf
+ag:si;objet
+
+grp:v.vpropInf
+n:@v !v.obj;;indic,impér;;propinf
+pg:si;objet;inf
+
+! FIXME vérifie
+grp:v.hpropInf
+n:@v;;inf;;propinf
+ag:si;objet
+a:@v;;indic;;infobj
+
+grp:v.hsujPropInf
+n:@v;objet;inf
+a:@n @NP @p;sujet;acc
+a:@v;;1,2,3
+
+! FIN PROP INF
+
+ter:v.capuam
+n:@v;;act;;mvm
+a:@NP;lieu;acc;;mvm
+
+ter:v.domum
+n:@v;;act;;mvm
+a:"domus" "humus" "rus";lieu;acc
+
+ter:v.loc
+n:@v;;act
+a:@NP @n;loc;gén;;loc
+
+ter:v.vubitopo
+n:@v
+p:@NP;lieu;abl;;topo
+
+ter:v.hloc
+n:@v;;act inf
+a:@NP;loc;gén;;loc
+a:@v;;indic;;infobj
+
+ter:v.vloc
+n:@v;;act
+p:@NP;loc;gén;;loc
+
+! FIXME règle trop permissive : mutationis spes nulla est : mutationies est - v.gen
+ter:v.gen
+n:@v;;act;;gen
+a:@n @NP;gen;gén
+
+ter:v.vgen
+n:@v;;act;;gen
+p:@n @NP;gen;gén
+
+ter:v.adger
+n:@v;;gér acc
+a:"ad";prep
+
+grp:v.ger
+n:@v;;indic,subj
+ag:v.adger;ger
+
+ter:v.adjv
+n:"sum";;3,inf
+a:@v;attr;verbal nomin;n
+
+ter:v.vadjv
+n:"sum";;3
+p:@v;attr;verbal nomin;n
+
+ter:v.tantisum
+n:"sum";;indic,subj
+a:"tantus";gen;gén neu sing
+
+ter:v.conjSubInd
+n:@v;;indic
+a:"cum" "etenim" "etsi" "nisi" "quando" "quia" "si" "ubi" "ut";conj
+
+ter:v.conjSubSubj
+n:@v;;subj
+a:"cum" "ne" "nisi" "si" "ut" "utinam";conj
+
+grp:v.conj
+n:@v;;indic,impér
+ag:v.conjSubInd v.conjSubSubj;subconj
+
+grp:v.vConj
+n:@v;;indic,impér,subj
+pg:v.conjSubInd v.conjSubSubj;subconj
+
+ter:v.subjDir
+n:@v;;indic,subj;;subjdir
+a:@v;subj;subj
+
+! Vnum etiam uelim cogites
+ter:a.objSubjDir
+n:@v;;subj
+a:@a;objet;acc;;subst
+a:@v;;indic,subj;;subjdir
+
+ter:v.vSubjDir
+n:@v;;indic,subj;;subjdir
+p:@v;subj;subj
+
+ter:nv.enim
+n:@v @n
+a:"enim" "autem";conj
+
+ter:nv.nvenim
+n:@v @n
+p:"enim" "autem";conj
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Groupes non terminaux !
+!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+grp:n.prepAbl
+n:@n @NP @p;;abl
+a:@prepAbl @prepAA;prep
+
+! FIXME : ad populum Romanum : 'n' devrait suffire
+grp:n.prepAcc
+!n:n @NP;;acc
+n:@n @NP n.det n.adj n.nAdj;;acc
+a:@prepAcc @prepAA;prep
+
+grp:p.prepAcc
+n:"hic" "ille" "is" "ego" "tu" "nos" "qui2" "vos" !p.app;;acc
+a:@prepAcc @prepAA n.det;prep
+
+ter:a.prepAcc
+n:@a;;acc;;subst
+a:@prepAcc @prepAA n.det;prep
+
+ter:a.procerto
+n:@a;;abl neu
+a:"pro";prep
+
+grp:v.procerto
+n:"habeo" "affirmo" "pono" "puto"
+ag:a.procerto;gprep
+
+!grp:n.prepAblApp
+!n:n.app;;abl
+!a:@prepAbl @prepAA;prep
+
+grp:n.nGen
+n:@n
+p:@n @NP n.adj;gen;gén
+
+ter:n.npGen
+n:@NP;;;gen
+p:@n @NP n.adj;gen;gén
+
+grp:n.coord
+n:@n @NP
+pg:n.et;coord;;c
+
+grp:adv.coord
+n:@Adv
+p:adv.et;coord
+
+grp:n.coordque
+n:@n @NP
+p:@n @NP;coord;;c;que
+
+grp:a.coordque
+n:@a
+p:@a;coord;;cg;que
+
+grp:n.hgen
+n:@n
+a:@v;;3
+a:@n @NP;gen;gén
+
+grp:n.ngprep
+n:@n
+pg:n.prepAbl n.prepAcc p.prepAcc a.prepAcc v.prepger;+gprep
+
+grp:adv.hGen
+n:@Adv;;;;gen
+p:@v;;ind,subj
+p:@n;gen;gén
+
+grp:v.gprep
+n:@v
+ag:n.prepAbl n.prepAcc p.prepAcc a.prepAcc v.prepger;+gprep
+
+grp:v.vgprep
+n:@v
+pg:n.prepAbl n.prepAcc p.prepAcc a.prepAcc;+gprep
+
+grp:v.hgprep
+n:@v;;inf
+ag:n.prepAbl n.prepAcc p.prepAcc a.prepAcc v.prepger;+gprep
+a:@v;;indic;;infobj
+
+ter:prep.quousque
+n:"usque"
+a:"quo";adv
+
+grp:v.quousque
+n:@v;;indic,subj
+ag:prep.quousque;adv
+
+grp:v.vacclieu
+n:@v;;;;mvm
+pg:n.prepAcc;lieu
+
+grp:v.vobj
+n:@v;;act,!part;;!intr
+pg:@n @NP @p !n.prepAcc !n.prepAbl !n.inperpetuum;objet;acc
+
+ter:v.vobja
+n:@v;;act;;!intr
+p:@a;objet;acc;;subst
+
+grp:v.objppa
+n:v.sumpp;;act
+a:@a;objet;acc;;subst
+
+grp:v.objppp
+n:v.sumpp;;act
+a:@p;objet;acc
+
+! FIXME exheredare pater filium cogitabat.
+ter:v.hvobj
+n:@v;;inf;;!intr
+p:@n;;nomin
+p:@n @NP;objet;acc
+
+grp:v.AdjAttrSuj
+n:v.attr
+a:@n;sujet;nomin;n
+
+grp:v.hsujeta
+n:v.conjSubSubj v.vSubjDir
+a:@a;sujet;nomin;n;subst
+a:@v;;impér,subj
+
+! FIXME	Brutus uelim sit Romae.
+grp:v.hsujet
+n:v.conjSubSubj v.vSubjDir
+a:@NP @n;sujet;nomin;n
+a:@v;;indic,impér,subj
+
+grp:v.coord
+n:@v
+p:v.et v.declet;coor
+
+grp:v.vSubConj
+n:@v;;indic,impér
+pg:v.conjSub;sConj
+
+! RELATIVES
+ter:v.ubicumque
+n:v;;indic,subj
+a:"ubicumque";lieu
+
+grp:v.advrel
+n:@v;;indic,subj
+ag:v.ubicumque;subrel
+
+ter:sr.sujet
+n:@v;;indic,subj
+a:"qui2";sujet;nomin;n
+
+ter:sr.attr
+n:@v;;indic,subj
+a:"qui2";attr;nomin;n
+
+ter:sr.objet
+n:@v;;indic act,subj act
+a:"qui2";objet;acc
+
+ter:sr.cui
+n:@v;;indic,subj;;datif
+a:"qui2";dat;dat
+
+grp:n.sr
+n:@n n @NP;
+pg:sr;subrel
+
+grp:v.rel
+n:@v;;indic,subj,impér;;rel
+ag:sr.objet sr.sujet;rel
+
+grp:v.vrel
+n:@v;;indic,subj,impér;;rel
+pg:sr;rel
+
+! interrogation directe
+ter:v.quis
+n:@v;;indic
+a:"quis";sujet;nomin;n
+
+! interrogative indirecte
+ter:ii.suj
+n:@v;;subj
+a:"quis";sujet;nomin;n
+
+ter:ii.obj
+n:@v;;subj
+a:"quis";objet;acc
+
+ter:ii.attr
+n:@v;;subj
+a:"quis";objet;nomin
+
+ter:ii.adv
+n:@v;;subj
+a:"quemadmodum" "cur";+adv
+
+grp:v.ii
+n:@v;;indic,impér;;propinf
+ag:ii.obj;objet
+
+grp:v.vii
+n:@v;;indic,impér,inf;;propinf
+!pg:ii.suj ii.obj ii.adv;objet
+pg:ii;intind
+
