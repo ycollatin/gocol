@@ -27,14 +27,28 @@ func (m Modele) doc() string {
 		m.id, mid, m.pos, m.sufd, len(m.lgenR))
 }
 
-// vrai si le modeèle m a des désinences de numéro n
+/*
+// vrai si le modèle m a des désinences de numéro n
 func (m Modele) habetD(nr, nd int) bool {
-	for key, d := range m.desm {
-		if key == nr && d[0].morpho == nd {
-			return true
-		}
-	}
-	return false
+    desm := m.desm[nr]
+    if desm == nil {
+        return false
+    }
+    if desm[0].morpho == nd {
+        return true
+    }
+    return false
+}
+*/
+func (m Modele) habetD(morpho int) bool {
+    for _, v := range m.desm {
+        for _, d := range v {
+            if d.morpho == morpho {
+                return true
+            }
+        }
+    }
+    return false
 }
 
 // habetR(gnr Genrad) bool
@@ -77,7 +91,8 @@ func (m *Modele) herite() {
 	// héritage des désinences
 	for key, value := range m.pere.desm {
 		for _, d := range value {
-			if !m.estabs(d) && !m.habetD(d.nr, d.morpho) {
+			//if !m.estabs(d) && !m.habetD(d.nr, d.morpho) {
+			if !m.estabs(d) && !m.habetD(d.morpho) {
 				nd := d.clone()
 				nd.modele = m
 				m.desm[key] = append(m.desm[key], nd)
@@ -154,6 +169,7 @@ func lismodeles(nf string) {
 		val := strings.TrimPrefix(l, cle+":")
 		switch cle {
 		case "modele":
+            // terminer le modèle précédent
 			if m != nil {
 				m.herite()
 				m.ajsuffd()
