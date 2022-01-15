@@ -9546,6 +9546,7 @@ gustatio:action de goûter, plats d'entrée
 gustatorium:entrées [de table]
 gustatus2:goût [sens], palais, goût (saveur) d'une chose, sentiment, appréciation
 gusto:déguster
+gustulum:amuse-bouche, préliminaire
 gustum:entrée (d'un repas)
 gustus:action de goûter, dégustation
 Gutta2:Gutta2 (surnom)
@@ -10202,6 +10203,7 @@ ignobilis:(contraire de nobilis) inconnu, obscur
 ignobilitas:naissance obscure, obscurité, qualité inférieure
 ignominia:déshonneur, honte
 ignominiosus:ignominieux, dégradant, honteux
+ignorabilis:inconu
 ignorantia:ignorance [blâmable]
 ignoratio:action d'ignorer, ignorance [non blâmable]
 ignoro:ignorer
@@ -19744,6 +19746,7 @@ scaenicus2:acteur, comédien
 scaenicus:de la scène, de théâtre
 Scaeva2:Scaeva (surnom)
 Scaevinus:Scaevinus (nom d'homme)
+scaevitas:gaucherie, maladresse
 Scaevola:Scaevola (le Gaucher)
 scaevus:gauche, à gauche, maladroit; sinistre, malheureux
 scalae:échelle
