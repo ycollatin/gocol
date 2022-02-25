@@ -6,6 +6,7 @@ import (
 	"strings"
 )
 
+// Sr, unité de lemmatisation: lemme, muméros de morpho, morphos
 type Sr struct {
 	Lem     *Lemme
 	Nmorph  []int
