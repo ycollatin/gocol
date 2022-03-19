@@ -4,8 +4,6 @@ package gocol
 import (
 	"fmt"
 	"strings"
-
-    "log"
 )
 
 // Sr, unité de lemmatisation: lemme, muméros de morpho, morphos
@@ -132,7 +130,6 @@ func LemmatiseF(f string) (result Res) {
 func Lemmatise(f string) (lsr Res, echec bool) {
 	f = Deramise(f)
 	liste := VarsF(f)
-    log.Print("liste:",liste)
 	for _, el := range liste {
 		if el == "" {
 			continue
