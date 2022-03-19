@@ -77,7 +77,7 @@ func varsL(ante []string, exp re) (post []string) {
 	return
 }
 
-func varsF(f string) (post []string) {
+func VarsF(f string) (post []string) {
 	post = append(post, f)
 	for _, r := range lexp {
 		lf := varsL(post, r)
@@ -87,9 +87,9 @@ func varsF(f string) (post []string) {
 			}
 		}
 	}
-	ftl := strings.ToLower(f)
+	ftl := Deramise(strings.ToLower(f))
 	if ftl != f {
-		post = append(post, varsF(ftl)...)
+		post = append(post, VarsF(ftl)...)
 	}
 	return
 }
