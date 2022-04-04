@@ -40,6 +40,7 @@ func (m Modele) habetD(nr, nd int) bool {
     return false
 }
 */
+
 func (m Modele) habetD(morpho int) bool {
     for _, v := range m.desm {
         for _, d := range v {
@@ -91,7 +92,6 @@ func (m *Modele) herite() {
 	// héritage des désinences
 	for key, value := range m.pere.desm {
 		for _, d := range value {
-			//if !m.estabs(d) && !m.habetD(d.nr, d.morpho) {
 			if !m.estabs(d) && !m.habetD(d.morpho) {
 				nd := d.clone()
 				nd.modele = m
@@ -244,8 +244,7 @@ func lismodeles(nf string) {
 				}
 			}
 			// si les désinences sont des+, le modèle doit
-			// hériter des désinences de son père de même
-			// morpho
+			// hériter des désinences de même morpho de son père
 			// TODO les des+ peuvent utiliser les $listes
 			if cle == "des+" && m.pere != nil {
 				li := listei(ecl[1])
