@@ -78,7 +78,6 @@ func (m *Modele) herite() {
 	// héritage des désinences
 	for key, value := range m.pere.desm {
 		for _, d := range value {
-			//if !m.estabs(d) && !m.habetD(d.morpho) {
 			if !m.estabs(d) && !m.habetD(d.morpho, d.gr) {
 				nd := d.clone()
 				nd.modele = m
