@@ -27,20 +27,13 @@ func (m Modele) doc() string {
 		m.id, mid, m.pos, m.sufd, len(m.lgenR))
 }
 
-func (m Modele) habetD(morpho int, gr string) bool {
-    for _, v := range m.desm {
-        for _, d := range v {
-            if d.morpho == morpho && d.gr == gr {
-                return true
-            }
-        }
-    }
-    return false
+func (m Modele) habetdes(d int) bool {
+    return m.desm[d] != nil
 }
 
 // habetR(gnr Genrad) bool
 // vrai si le modèle m a déjà le générateur de radical gnr
-func (m Modele) habetR(gnr *Genrad) bool {
+func (m *Modele) habetR(gnr *Genrad) bool {
 	for _, genrad := range m.lgenR {
 		if genrad.num == gnr.num {
 			return true
@@ -49,16 +42,13 @@ func (m Modele) habetR(gnr *Genrad) bool {
 	return false
 }
 
-// estabs(des *Des) bool
-// vrai si le modèle m refuse d'hériter de la déninence
-// de morpho n° m, parce ce n° figure dans ses abs
-func (m Modele) estabs(des *Des) bool {
-	for _, i := range m.abs {
-		if i == des.morpho {
-			return true
-		}
-	}
-	return false
+func (m *Modele) estabs(d int) bool {
+    for _, i := range m.abs {
+        if i == d {
+            return true
+        }
+    }
+    return false
 }
 
 func (m *Modele) herite() {
@@ -75,19 +65,14 @@ func (m *Modele) herite() {
 			m.lgenR = append(m.lgenR, genr)
 		}
 	}
-}
-
-// héritage des désinences
-func (m *Modele) heritedes() {
-    if m.pere == nil {
-        return
-    }
-    for key, value := range m.pere.desm {
-        for _, d := range value {
-            if !m.estabs(d) && !m.habetD(d.morpho, d.gr) {
-                nd := d.clone()
+    // héritage des des non absentes et non redéfinies
+    for k, value := range m.pere.desm {
+        if !m.estabs(k) && !m.habetdes(k) {
+            for _, v := range value {
+                //if !m.estabs(d) && !m.habetD(d.morpho, d.gr) {
+                nd := v.clone()
                 nd.modele = m
-                m.desm[key] = append(m.desm[key], nd)
+                m.desm[k] = append(m.desm[k], nd)
             }
         }
     }
@@ -163,7 +148,7 @@ func lismodeles(nf string) {
 		case "modele":
             // terminer le modèle précédent
 			if m != nil {
-				m.heritedes()
+				m.herite()
 				m.ajsuffd()
 				m.ajsuff()
 				modeles[m.id] = m
@@ -258,11 +243,10 @@ func lismodeles(nf string) {
 			m.sufd = val
 		case "pere":
 			m.pere = modeles[val]
-            m.herite()
 		}
 	}
 	// il faut ajouter le dernier modèle lu
-    m.heritedes()
+    m.herite()
 	m.ajsuffd()
 	m.ajsuff()
 	modeles[m.id] = m
