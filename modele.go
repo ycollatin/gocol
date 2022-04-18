@@ -75,6 +75,7 @@ func (m *Modele) herite() {
 			m.lgenR = append(m.lgenR, genr)
 		}
 	}
+    /*
 	// héritage des désinences
 	for key, value := range m.pere.desm {
 		for _, d := range value {
@@ -85,6 +86,20 @@ func (m *Modele) herite() {
 			}
 		}
 	}
+    */
+}
+
+// héritage des désinences
+func (m *Modele) heritedes() {
+    for key, value := range m.pere.desm {
+        for _, d := range value {
+            if !m.estabs(d) && !m.habetD(d.morpho, d.gr) {
+                nd := d.clone()
+                nd.modele = m
+                m.desm[key] = append(m.desm[key], nd)
+            }
+        }
+    }
 }
 
 func (m *Modele) ajsuffd() {
@@ -254,8 +269,10 @@ func lismodeles(nf string) {
 			m.pere = modeles[val]
 		}
 	}
+    if m.pere != nil {
+        m.heritedes()
+    }
 	// il faut ajouter le dernier modèle lu
-	m.herite()
 	m.ajsuffd()
 	m.ajsuff()
 	modeles[m.id] = m
