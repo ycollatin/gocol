@@ -69,7 +69,6 @@ func (m *Modele) herite() {
     for k, value := range m.pere.desm {
         if !m.estabs(k) && !m.habetdes(k) {
             for _, v := range value {
-                //if !m.estabs(d) && !m.habetD(d.morpho, d.gr) {
                 nd := v.clone()
                 nd.modele = m
                 m.desm[k] = append(m.desm[k], nd)
