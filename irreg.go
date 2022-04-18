@@ -21,7 +21,7 @@ func creeIrr(l string) (irr *Irr) {
 		irr.exclusif = true
 	}
 	irr.gr = atone(irr.grq)
-	irr.lem = lemmes[ecl[1]]
+	irr.lem = Lemmes[ecl[1]]
 	irr.lmorph = listei(ecl[2])
 	return irr
 }

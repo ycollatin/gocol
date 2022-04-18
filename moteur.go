@@ -96,18 +96,18 @@ func LemmatiseF(f string) (result Res) {
 		}
 		if len(lrad) > 0 {
 			for _, rad := range lrad {
-				for _, des := range rad.lemme.modele.desm[rad.num] {
+				for _, des := range rad.lemme.Modele.Desm[rad.num] {
 					if des.gr == d {
 						/*
 						m := fmt.Sprintf("%s%s %s %s",
 							rad.grq, des.grq, Morphos[des.morpho], rad.lemme.Genre)
 						*/
-						mg := Morphos[des.morpho]
+						mg := Morphos[des.Morpho]
 						if rad.lemme.Genre != "" {
 							mg = genreNom(mg, rad.lemme.Genre)
 						}
-						m := fmt.Sprintf("%s%s %s", rad.grq, des.grq, mg)
-						result = AddRes(result, rad.lemme, m, des.morpho)
+						m := fmt.Sprintf("%s%s %s", rad.Grq, des.Grq, mg)
+						result = AddRes(result, rad.lemme, m, des.Morpho)
 					}
 				}
 			}

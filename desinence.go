@@ -4,24 +4,24 @@ import "fmt"
 
 type Des struct {
 	gr,
-	grq string
-	morpho int
+	Grq string
+	Morpho int
 	modele *Modele
-	nr     int
+	Nr     int
 }
 
 func (d Des) doc() string {
 	return fmt.Sprintf("des %s -> %s num %d modele %s %s",
-		d.grq, d.gr, d.nr, d.modele.id, Morphos[d.morpho])
+		d.Grq, d.gr, d.Nr, d.modele.id, Morphos[d.Morpho])
 }
 
 func (d Des) clone() (dc *Des) {
 	dc = new(Des)
 	dc.gr = d.gr
-	dc.grq = d.grq
-	dc.morpho = d.morpho
+	dc.Grq = d.Grq
+	dc.Morpho = d.Morpho
 	dc.modele = d.modele
-	dc.nr = d.nr
+	dc.Nr = d.Nr
 	return dc
 }
 
@@ -31,14 +31,14 @@ var desinences = make(map[string][]*Des)
 func creeDes(g string, md *Modele, mr, n int) *Des {
 	var d *Des = new(Des)
 	if g == "-" {
-		d.grq = ""
+		d.Grq = ""
 		d.gr = ""
 	} else {
-		d.grq = g
+		d.Grq = g
 		d.gr = deramAtone(g)
 	}
-	d.morpho = mr
+	d.Morpho = mr
 	d.modele = md
-	d.nr = n
+	d.Nr = n
 	return d
 }

@@ -392,9 +392,11 @@ abs:13-48,85-120
 
 modele:unus
 pere:doctus
+R:1:-
+R:2:-
+abs:49-120
 des:16,28,40:0:ī̆ŭs;ī̆ŭs;ī̆ŭs
 des:17,29,41:0:ī;ī;ī
-abs:49-120
 
 modele:alter
 pere:unus
@@ -545,8 +547,8 @@ pos:p
 modele:ipse
 pere:unus
 R:0:1,0
-des:13,37,39:0:ĕ;ŭm
 abs:14,20,26,32,38,44
+des:13,37,39:0:ĕ;ŭm
 pos:p
 
 modele:ille

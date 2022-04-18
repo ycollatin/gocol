@@ -16,16 +16,16 @@ type Lemme struct {
 	Traduction string
 	nh,
 	Freq int // fréquence en dernier champ
-	radicaux map[int][]*Rad
-	modele   *Modele
+	Radicaux map[int][]*Rad
+	Modele   *Modele
 	// TODO ajouter une map de traductions
 }
 
 func (l Lemme) doc() string {
 	var lr []string
-	for nr, rr := range l.radicaux {
+	for nr, rr := range l.Radicaux {
 		for _, r := range rr {
-			lr = append(lr, fmt.Sprintf("n° %d %s", nr, r.grq))
+			lr = append(lr, fmt.Sprintf("n° %d %s", nr, r.Grq))
 		}
 	}
 	return fmt.Sprintf("clé %s %s, %s-%s : %s\n  rad. %s",
@@ -35,7 +35,7 @@ func (l Lemme) doc() string {
 }
 
 func (l Lemme) habetRad(r string, n int) bool {
-	for _, rad := range l.radicaux[n] {
+	for _, rad := range l.Radicaux[n] {
 		if rad.gr == r {
 			return true
 		}
@@ -43,7 +43,7 @@ func (l Lemme) habetRad(r string, n int) bool {
 	return false
 }
 
-var lemmes = make(map[string]*Lemme)
+var Lemmes = make(map[string]*Lemme)
 
 func recupNh(k string) (string, string) {
 	der := string(k[len(k)-1])
@@ -57,7 +57,7 @@ func recupNh(k string) (string, string) {
 // créateur de lemme à partir de la ligne l de lemmes.la
 func creeLemme(l string) *Lemme {
 	var lem *Lemme = new(Lemme)
-	lem.radicaux = make(map[int][]*Rad)
+	lem.Radicaux = make(map[int][]*Rad)
 	eclats := strings.Split(l, "|")
 	for i, e := range eclats {
 		switch i {
@@ -82,8 +82,8 @@ func creeLemme(l string) *Lemme {
 			}
 
 		case 1:
-			lem.modele = modeles[e]
-			lem.Pos = lem.modele.pos
+			lem.Modele = modeles[e]
+			lem.Pos = lem.Modele.pos
 			if strings.ToLower(lem.Cle) != lem.Cle && lem.Pos == "n" {
 				lem.Pos = "np"
 			}
@@ -93,18 +93,18 @@ func creeLemme(l string) *Lemme {
 				for _, r := range eclR {
 					rgr := deramAtone(r)
 					rad := new(Rad)
-					rad.grq = r
+					rad.Grq = r
 					rad.gr = rgr
 					rad.num = i - 1
 					rad.lemme = lem
-					lem.radicaux[rad.num] = append(lem.radicaux[rad.num], rad)
+					lem.Radicaux[rad.num] = append(lem.Radicaux[rad.num], rad)
 				}
 			}
 			// radicaux calculés
-			for _, grad := range lem.modele.lgenR {
+			for _, grad := range lem.Modele.lgenR {
 				// si un radical de même num a été donné
 				// on ne tient pas compte du calculé
-				if len(lem.radicaux[grad.num]) > 0 {
+				if len(lem.Radicaux[grad.num]) > 0 {
 					continue
 				}
 				for _, grq := range lem.Grq {
@@ -112,11 +112,11 @@ func creeLemme(l string) *Lemme {
 					rgr := deramAtone(rgrq)
 					if !lem.habetRad(rgr, grad.num) {
 						rad := new(Rad)
-						rad.grq = rgrq
+						rad.Grq = rgrq
 						rad.gr = rgr
 						rad.num = grad.num
 						rad.lemme = lem
-						lem.radicaux[rad.num] = append(lem.radicaux[rad.num], rad)
+						lem.Radicaux[rad.num] = append(lem.Radicaux[rad.num], rad)
 					}
 				}
 			}
@@ -162,9 +162,9 @@ func lisLemmes(nf string) {
 	for _, l := range ll {
 		lem := creeLemme(l)
 		// si le lemme existe déjà, passer)
-		present, _ := lemmes[lem.Cle]
+		present, _ := Lemmes[lem.Cle]
 		if present == nil {
-			lemmes[lem.Cle] = lem
+			Lemmes[lem.Cle] = lem
 		}
 	}
 }
@@ -176,7 +176,7 @@ func lisTraductions(nf string) {
 	for _, l := range ll {
 		ecl := strings.Split(l, ":")
 		cle := ecl[0]
-		lem := lemmes[cle]
+		lem := Lemmes[cle]
 		if lem != nil && lem.Traduction == "" {
 			lem.Traduction = strings.Join(ecl[1:], ":")
 		} /* else { log.Println(l) } */

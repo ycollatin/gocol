@@ -5,22 +5,22 @@ import (
 )
 
 type Rad struct {
-	gr,
-	grq string
+	gr string
+	Grq string
 	num   int
 	lemme *Lemme
 }
 
 func (r Rad) doc() string {
 	return fmt.Sprintf("grq %s gr %s  num %d modele %s, lemme %s",
-		r.grq, r.gr, r.num, r.lemme.modele.id, r.lemme.Grq)
+		r.Grq, r.gr, r.num, r.lemme.Modele.id, r.lemme.Grq)
 }
 
 var radicaux = make(map[string][]*Rad)
 
 func ajRadicaux() {
-	for _, lem := range lemmes {
-		for _, lrad := range lem.radicaux {
+	for _, lem := range Lemmes {
+		for _, lrad := range lem.Radicaux {
 			for _, rad := range lrad {
 				radicaux[rad.gr] = append(radicaux[rad.gr], rad)
 			}

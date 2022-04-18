@@ -7,8 +7,8 @@ import (
 
 type Modele struct {
 	id    string
-	desm  map[int][]*Des
-	lgenR []*Genrad
+	Desm  map[int][]*Des    // table des désinences classées par n° de morpho
+	lgenR map[int]*Genrad   // table des radicaux classés par n° de radical
 	pere  *Modele
 	abs   []int
 	suf   []string
@@ -23,23 +23,29 @@ func (m Modele) doc() string {
 	} else {
 		mid = "nil"
 	}
-	return fmt.Sprintf("modele %s père %s, pos %s sufd %s, %d Genr",
-		m.id, mid, m.pos, m.sufd, len(m.lgenR))
+    var gg string
+    for _, r := range m.lgenR {
+        gg = gg + "\n  "+ r.doc()
+    }
+    var dd string
+    for _, ld := range m.Desm {
+        for _, d := range ld {
+            dd = dd + "\n"+d.doc()
+        }
+    }
+	return fmt.Sprintf("modele %s père %s, pos %s sufd %s, rads %s, des %s",
+		m.id, mid, m.pos, m.sufd, gg, dd)
 }
 
 func (m Modele) habetdes(d int) bool {
-    return m.desm[d] != nil
+    _, in := m.Desm[d]
+    return in
 }
 
-// habetR(gnr Genrad) bool
 // vrai si le modèle m a déjà le générateur de radical gnr
-func (m *Modele) habetR(gnr *Genrad) bool {
-	for _, genrad := range m.lgenR {
-		if genrad.num == gnr.num {
-			return true
-		}
-	}
-	return false
+func (m *Modele) habetR(r int) bool {
+    _, in := m.lgenR[r]
+    return in
 }
 
 func (m *Modele) estabs(d int) bool {
@@ -59,19 +65,21 @@ func (m *Modele) herite() {
 	if m.pos == "" {
 		m.pos = m.pere.pos
 	}
+
 	/*  héritage des générateurs de radicaux */
-	for _, genr := range m.pere.lgenR {
-		if !m.habetR(genr) {
-			m.lgenR = append(m.lgenR, genr)
+	for k, genr := range m.pere.lgenR {
+		if !m.habetR(k) {
+			m.lgenR[k] = genr
 		}
 	}
-    // héritage des des non absentes et non redéfinies
-    for k, value := range m.pere.desm {
+
+    // héritage des desinences non absentes non redéfinies
+    for k, value := range m.pere.Desm {
         if !m.estabs(k) && !m.habetdes(k) {
             for _, v := range value {
                 nd := v.clone()
                 nd.modele = m
-                m.desm[k] = append(m.desm[k], nd)
+                m.Desm[k] = append(m.Desm[k], nd)
             }
         }
     }
@@ -81,10 +89,10 @@ func (m *Modele) ajsuffd() {
 	if m.sufd == "" {
 		return
 	}
-	for _, ld := range m.desm {
+	for _, ld := range m.Desm {
 		for _, d := range ld {
-			d.grq = d.grq + m.sufd
-			d.gr = atone(d.grq)
+			d.Grq = d.Grq + m.sufd
+			d.gr = atone(d.Grq)
 		}
 	}
 }
@@ -95,14 +103,14 @@ func (m *Modele) ajsuff() {
 		li := listei(ecl[0])
 		suff := ecl[1]
 		for _, i := range li {
-			for _, ld := range m.desm {
+			for _, ld := range m.Desm {
 				for _, d := range ld {
 					{
-						if d.morpho == i {
+						if d.Morpho == i {
 							nd := d.clone()
-							nd.grq = d.grq + suff
-							nd.gr = atone(nd.grq)
-							m.desm[d.nr] = append(m.desm[d.nr], nd)
+							nd.Grq = d.Grq + suff
+							nd.gr = atone(nd.Grq)
+							m.Desm[d.Nr] = append(m.Desm[d.Nr], nd)
 						}
 					}
 				}
@@ -111,28 +119,17 @@ func (m *Modele) ajsuff() {
 	}
 }
 
-func (m *Modele) ldesmorph(morph int) (ld []*Des) {
-	for _, dd := range m.desm {
-		for _, d := range dd {
-			if d.morpho == morph {
-				ld = append(ld, d)
-			}
-		}
-	}
-	return ld
-}
-
 var modeles = make(map[string]*Modele)
 var vardes = make(map[string][]string)
 
 func lismodeles(nf string) {
-	//ll := Lignes(path + "modeles.la")
 	ll := Lignes(nf)
 	var m *Modele
 	for _, l := range ll {
 		if l == "" {
 			continue
 		}
+        // variables
 		if strings.HasPrefix(l, "$") {
 			l = strings.TrimPrefix(l, "$")
 			ecl := strings.Split(l, "=")
@@ -147,7 +144,6 @@ func lismodeles(nf string) {
 		case "modele":
             // terminer le modèle précédent
 			if m != nil {
-				m.herite()
 				m.ajsuffd()
 				m.ajsuff()
 				modeles[m.id] = m
@@ -155,24 +151,27 @@ func lismodeles(nf string) {
 			m = new(Modele)
 			m.pere = nil
 			m.id = val
-			m.desm = make(map[int][]*Des)
+            m.lgenR = make(map[int]*Genrad)
+			m.Desm = make(map[int][]*Des)
 		case "R":
 			num := Strtoint(ecl[1])
-			if ecl[2] == "K" {
-				m.lgenR = append(m.lgenR, &Genrad{num, 0, ""})
-			} else {
-				lp := strings.Split(ecl[2], ",")
-				oter := Strtoint(lp[0])
-				ajout := lp[1]
-				if ajout == "0" {
-					ajout = ""
-				}
-				m.lgenR = append(m.lgenR, &Genrad{num, oter, ajout})
-			}
+            switch ecl[2] {
+            case "K":
+                m.lgenR[num] = &Genrad{num, 0, ""}
+            case "-":
+                delete(m.lgenR, num)
+            default:
+                lp := strings.Split(ecl[2], ",")
+                oter := Strtoint(lp[0])
+                ajout := lp[1]
+                if ajout == "0" {
+                    ajout = ""
+                }
+                m.lgenR[num] = &Genrad{num, oter, ajout}
+            }
 		case "abs":
 			m.abs = listei(ecl[1])
 		case "des", "des+":
-			li := listei(ecl[1])
 			// cas des variables
 			nr := Strtoint(ecl[2])
 			ld := ecl[3]
@@ -202,35 +201,34 @@ func lismodeles(nf string) {
 			}
 			maxd := len(ddd)
 			var nd *Des
+			li := listei(ecl[1])
 			for ides, ili := range li {
 				if ides < maxd {
 					sld := ddd[ides]
 					ecld := strings.Split(sld, ",")
 					for _, cld := range ecld {
 						nd = creeDes(cld, m, ili, nr)
-						m.desm[nd.nr] = append(m.desm[nd.nr], nd)
+						m.Desm[nr] = append(m.Desm[nr], nd)
 					}
 				} else {
 					sld := ddd[maxd-1]
 					ecld := strings.Split(sld, ",")
 					for _, cld := range ecld {
 						nd = creeDes(cld, m, ili, nr)
-						m.desm[nd.nr] = append(m.desm[nd.nr], nd)
+						m.Desm[nr] = append(m.Desm[nr], nd)
 					}
 				}
 			}
 			// si les désinences sont des+, le modèle doit
 			// hériter des désinences de même morpho de son père
-			// TODO les des+ peuvent utiliser les $listes
 			if cle == "des+" && m.pere != nil {
 				li := listei(ecl[1])
 				for _, nmorph := range li {
-					// XXX non, les des de morph nmorph
-					ldesp := m.pere.ldesmorph(nmorph)
+					ldesp := m.pere.Desm[nmorph]
 					for _, desp := range ldesp {
 						nd = desp.clone()
 						nd.modele = m
-						m.desm[nd.nr] = append(m.desm[nd.nr], nd)
+						m.Desm[nmorph] = append(m.Desm[nmorph], nd)
 					}
 				}
 			}
@@ -241,11 +239,11 @@ func lismodeles(nf string) {
 		case "sufd":
 			m.sufd = val
 		case "pere":
-			m.pere = modeles[val]
-		}
+            m.pere = modeles[val]
+            m.herite()
+        }
 	}
 	// il faut ajouter le dernier modèle lu
-    m.herite()
 	m.ajsuffd()
 	m.ajsuff()
 	modeles[m.id] = m
