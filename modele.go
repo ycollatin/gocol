@@ -75,18 +75,6 @@ func (m *Modele) herite() {
 			m.lgenR = append(m.lgenR, genr)
 		}
 	}
-    /*
-	// héritage des désinences
-	for key, value := range m.pere.desm {
-		for _, d := range value {
-			if !m.estabs(d) && !m.habetD(d.morpho, d.gr) {
-				nd := d.clone()
-				nd.modele = m
-				m.desm[key] = append(m.desm[key], nd)
-			}
-		}
-	}
-    */
 }
 
 // héritage des désinences
