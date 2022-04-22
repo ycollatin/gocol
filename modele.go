@@ -72,7 +72,14 @@ func (m *Modele) herite() {
 			m.lgenR[k] = genr
 		}
 	}
+}
 
+// héritage des désinences, appelé séparément après
+// les redéfinitions des désinences du modèle
+func (m *Modele) heritedes() {
+    if m.pere == nil {
+        return
+    }
     // héritage des desinences non absentes non redéfinies
     for k, value := range m.pere.Desm {
         if !m.estabs(k) && !m.habetdes(k) {
@@ -144,6 +151,7 @@ func lismodeles(nf string) {
 		case "modele":
             // terminer le modèle précédent
 			if m != nil {
+                m.heritedes()
 				m.ajsuffd()
 				m.ajsuff()
 				modeles[m.id] = m
@@ -244,6 +252,7 @@ func lismodeles(nf string) {
         }
 	}
 	// il faut ajouter le dernier modèle lu
+    m.heritedes()
 	m.ajsuffd()
 	m.ajsuff()
 	modeles[m.id] = m
