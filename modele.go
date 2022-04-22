@@ -16,6 +16,9 @@ type Modele struct {
 	sufd  string
 }
 
+var modeles = make(map[string]*Modele)
+var vardes = make(map[string][]string)
+
 func (m Modele) doc() string {
 	var mid string
 	if m.pere != nil {
@@ -38,8 +41,14 @@ func (m Modele) doc() string {
 }
 
 func (m Modele) habetdes(d int) bool {
-    _, in := m.Desm[d]
-    return in
+    for _, ldes := range m.Desm {
+        for _, des := range ldes {
+            if des.Morpho == d {
+                return true
+            }
+        }
+    }
+    return false
 }
 
 // vrai si le modèle m a déjà le générateur de radical gnr
@@ -65,13 +74,13 @@ func (m *Modele) herite() {
 	if m.pos == "" {
 		m.pos = m.pere.pos
 	}
-
 	/*  héritage des générateurs de radicaux */
 	for k, genr := range m.pere.lgenR {
 		if !m.habetR(k) {
 			m.lgenR[k] = genr
 		}
 	}
+    //m.heritedes()
 }
 
 // héritage des désinences, appelé séparément après
@@ -81,12 +90,12 @@ func (m *Modele) heritedes() {
         return
     }
     // héritage des desinences non absentes non redéfinies
-    for k, value := range m.pere.Desm {
-        if !m.estabs(k) && !m.habetdes(k) {
-            for _, v := range value {
-                nd := v.clone()
-                nd.modele = m
-                m.Desm[k] = append(m.Desm[k], nd)
+    for n, ld := range m.pere.Desm {
+        for _, d := range ld {
+            if !m.estabs(d.Morpho) && !m.habetdes(d.Morpho) {
+                nd := d.clone()
+                d.modele = m
+                m.Desm[n] = append(m.Desm[n], nd)
             }
         }
     }
@@ -125,9 +134,6 @@ func (m *Modele) ajsuff() {
 		}
 	}
 }
-
-var modeles = make(map[string]*Modele)
-var vardes = make(map[string][]string)
 
 func lismodeles(nf string) {
 	ll := Lignes(nf)
@@ -180,6 +186,7 @@ func lismodeles(nf string) {
 		case "abs":
 			m.abs = listei(ecl[1])
 		case "des", "des+":
+			li := listei(ecl[1])
 			// cas des variables
 			nr := Strtoint(ecl[2])
 			ld := ecl[3]
@@ -209,7 +216,6 @@ func lismodeles(nf string) {
 			}
 			maxd := len(ddd)
 			var nd *Des
-			li := listei(ecl[1])
 			for ides, ili := range li {
 				if ides < maxd {
 					sld := ddd[ides]
