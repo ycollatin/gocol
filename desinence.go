@@ -7,7 +7,7 @@ type Des struct {
 	Grq string
 	Morpho int
 	modele *Modele
-	Nr     int
+	Nr     int      // numéro de radical
 }
 
 func (d Des) doc() string {

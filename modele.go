@@ -83,6 +83,19 @@ func (m *Modele) herite() {
     //m.heritedes()
 }
 
+// renvoie toutes les désinences de morpho morf
+func (m *Modele) desmorph(morf int) []*Des {
+    var dd []*Des
+    for _, v := range m.Desm {
+        for _, d := range v {
+            if d.Morpho == morf {
+                dd = append(dd, d)
+            }
+        }
+    }
+    return dd
+}
+
 // héritage des désinences, appelé séparément après
 // les redéfinitions des désinences du modèle
 func (m *Modele) heritedes() {
@@ -238,11 +251,12 @@ func lismodeles(nf string) {
 			if cle == "des+" && m.pere != nil {
 				li := listei(ecl[1])
 				for _, nmorph := range li {
-					ldesp := m.pere.Desm[nmorph]
+					// hériter des désinences du père
+					ldesp := m.pere.desmorph(nmorph)
 					for _, desp := range ldesp {
 						nd = desp.clone()
 						nd.modele = m
-						m.Desm[nmorph] = append(m.Desm[nmorph], nd)
+						m.Desm[nd.Nr] = append(m.Desm[nd.Nr], nd)
 					}
 				}
 			}
