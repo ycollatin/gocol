@@ -1830,7 +1830,7 @@ arctus:Ourse (au pluriel la grande et la petite Ourse)
 arcuatus:arqué
 arcula:petite cassette, coffret, boîte ( pour soins de beauté)
 arcularius:faiseur de coffrets
-arcus:arc, arc-en-ciel, voûte, (arc de triomphe, toute espèce d'objet courbé en forme d'arc, arc de cercle)
+arcus:arquus:arc, arc-en-ciel, voûte, (arc de triomphe, toute espèce d'objet courbé en forme d'arc, arc de cercle)
 ardalio:ardalion, homme qui fait l'empressé
 ardea2:héron
 Ardea:Ardée (ville des Rutules)
@@ -2975,6 +2975,7 @@ burdubasta:âne accablé par un fardeau
 Buri:Buri (peuple de la Germanie)
 Burrienus:Burrienus (nom d'homme)
 Burrus:Burrus
+Busiris:Busiris (fils de Poséidon)
 bustuarius:relatif au bûcher
 bustum:- lieu où l'on brûlait les morts, bûcher ; tombeau, sépulcre, monument funèbre ; les cendres ; les ruines d'une ville
 Buta:Buta (nom d'h.)
@@ -3855,6 +3856,7 @@ cetarium:vivier
 cetarius2:marchand de poissons de mer, mareyeur
 cetera:du reste, désormais
 ceteri:tous les autres
+ceteroqui:du reste, d'ailleurs
 ceterum2:le reste
 ceterum:du reste
 ceterus:[employé surtout au plur. ceteri, ae, a] tout le reste de, [acc. n. sing. pris substt] ceterum, le reste, [pl. m.] les autres, tous les autres
@@ -4368,6 +4370,7 @@ coangusto:rétrécir, resserrer
 coarguo:montrer clairement, démontrer de façon irréfutable; démontrer comme faux; démontrer la culpabilité de quelqu'un
 coartatio:resserrement, réunion
 coarto:serrer, resserrer
+Cocalus:Cocalus (roi de Sicile)
 Cocceius:Cocceius (ami d'Auguste et d'Horace)
 coccineus:d'écarlate
 coccinus:écarlate
@@ -4952,6 +4955,7 @@ congialis:qui contient un conge (mesure de volume)
 congiarium:vase [qui contient un conge], distribution [de vin, d'huile, etc., faite au peuple]
 congiarius:qui contient un conge (mesure de volume)
 congius:conge [mesure pour les liquides = 6 sextarii = 3,25 l]
+conglacio:geler, se congeler
 conglobatio:agglomération, rassemblement en corps
 conglobo:(se) mettre en boule, rassembler, attrouper
 conglomero:mettre en peloton, [fig.] entasser accumuler
@@ -5007,6 +5011,7 @@ conlustro:éclairer vivement, illuminer; parcourir du regard
 connecto:attacher ensemble
 connitor:faire des efforts ensemble, se raidir
 connubium:mariage, pouvoir de se marier
+Connus:Connus (musicien grec)
 Conon:Conon (général athénien, astronome grec)
 conopeum:moustiquaire ; tenture, pavillon
 conor:s'efforcer, faire tous ses efforts, entreprendre, tenter, essayer
@@ -5335,6 +5340,7 @@ Cophen:Cophen (affluent de l'Indus)
 cophinus:corbeille
 Copia2:l'Abondance [déesse]
 copia:abondance, possibilité, faculté (pluriel, richesses, troupes)
+copiolae:petite armée
 copiose:avec éloquence
 copiosus:riche
 copo:aubergiste, restaurateur
@@ -5705,6 +5711,7 @@ cucurbitivus:en forme de gourde
 cudo:battre, frapper ; forger
 Cugerni:Cugerni (peuplade germanique sur le Rhin inférieur)
 cujas:de quel pays
+cujusmodi:de quelle sorte
 culcita:matelas
 culcitra:matelas
 culex:moustique
@@ -5910,6 +5917,7 @@ Cytherea:Cythérée (Vénus adorée à Cythère)
 Cythereius:de Cythère
 Cythereus:de Cythère
 Cytheriacus:de Cythère
+Cytheris:Cytheris (maîtresse d'Antoine)
 Cythnus:Cythnus (une des Cyclades)
 cytisus:cytise
 Cytorius:de Cytore
@@ -6181,6 +6189,7 @@ dehonestamentum:ce qui défigure, rend difforme; la flétrissure, déshonneur, i
 dehonesto:déshonorer, dégrader, flétrir
 dehortor:dissuader
 deicio:jeter à bas, précipiter; abattre, abaisser, chasser
+Deianira:Déjanire (compagne d'Hercule)
 Deidamia:Déidamie [fille de Lycomède, mère de Pyrrhus]
 Deillius:Deillius (nom de famille romain)
 deinceps:un après l'autre, successivement
@@ -7757,7 +7766,7 @@ Essuvii:les Essuviens
 esurio:avoir faim
 esuritio:faim
 esus:nourriture
-et:conj. et; adv. aussi
+et:conj. et, adv. aussi
 etenim:et en effet
 Eteocles:Étéocle (fils d'Œdipe)
 etesiae:vents étésiens [qui soufflent à l'époque de la canicule]
@@ -9989,6 +9998,7 @@ Honoratus2:Honorat (nom d'h.)
 honoratus:honoré, estimé
 honor:honneur, hommage, charge, magistrature, honoraires
 honorifice:avec honneur
+honorificentissime:avec la plus extrême déférence (superl de honorifice)
 honorificus:honorable
 honoro:honorer
 honorus:honorable, qui honore, digne d'honneur
@@ -11687,8 +11697,9 @@ irrumpo:faire irruption dans, se précipiter dans
 irruo:se précipiter, se jeter contre
 irruptio:irruption, invasion
 irruptus:non rompu, indissoluble
-Isaac:Isaac
 is:adj. ce, cette pron. celui-ci, celle-ci, cela ; il, elle, le (au génitif : son, sa, ses)
+Isaac:Isaac
+Isara:Isère (rivière)
 Isaeus:Isée [orateur grec, orateur contemporain de Pline]
 Isauricus2:Isaurien [surnom de Servilius Vatia]
 Isaurus:isaurien
@@ -12706,6 +12717,7 @@ Lucani:les Lucaniens
 Lucanus3:Lucain [poète latin, du temps de Néron]
 Lucanus:de Lucanie
 lucar:impôt pour les bois sacrés; le salaire des acteurs
+Lucceius:Lucceius (ami de Cicéron)
 lucellum:petit gain, léger profit
 lucens:brillant, éclatant, en relief
 luceo:luire, briller
@@ -14886,6 +14898,7 @@ observans:qui a de la déférence, de la considération, du respect pour, qui ob
 observantia:action de remarquer, observation, respect [des coutumes, des lois], considération, égards, déférence, culte, religion
 observatio:observation, attention, scrupule
 observator:observateur, qui pratique [un culte]
+observito:observer avec soin
 observo:observer
 obses:otage
 obsessio:siège (milit.), blocus, occupation [d'une route]
@@ -15084,6 +15097,7 @@ Oedipodes:Oedipe
 Oedipus:oedipe [fils de Laïus et de Jocaste, père d'Étéocle et de Polynice]
 Oeenses:habitants d'Oea
 Oeensis:d'Oea
+Oenomaus:Oenomée (roi d'Élide, fils de mars)
 Oeneus2:Oenée (roi de Calydon, père de Méléagre, de Tydée et de Déjanire)
 Oenides:Oenide (fils d'Oenée, Méléagre; petit-fils, Diomède)
 Oenone:Oenone (nymphe de Phrygie; île de l'Attique, Égine)
@@ -15114,6 +15128,7 @@ officiosus2:officiosus (surnom donné aux gens immoraux, esclave qui garde les v
 officiosus:officieux, obligeant, serviable
 officium:service, fonction, devoir ; la serviabilité, obligeance, politesse ; l'obligation morale
 offigo:ficher, attacher à
+Offilius:Offilius (ami de Cicéron)
 offirmatus:ferme, résolu
 offirmo:affermir, consolider (offirmatus, a, um : ferme, résolu)
 offla:petit morceau, boulette
@@ -15528,6 +15543,7 @@ paganus2:villageois, campagnard, paysan, civil (opposé à militaire)
 paganus:villageois, campagnard, civil (opposé à militaire)
 Pagasaeus:de Pagase, des Argonautes
 Pagasa:Pagasa (ville de Thessalie)
+pagella:feuille, feuillet, page
 pagina:(partie interne du papyrus découpée en feuillets, avec une seule colonne d'écriture par feuillet), feuillet, page, écrit, ouvrage, rangée de vigne formant un rectangle, lame, plaque
 pagus:canton (subdivision de la civitas)
 Palaemon:Palémon (changé en dieu marin)
@@ -18196,7 +18212,7 @@ pugnax:belliqueux, acharné
 pugneus:de poing
 pugno:combattre
 pugnus:poing
-pulchellus:beau petit
+pulchellus:petit et beau
 Pulcher2:Pulcher (surnom)
 pulcher:beau
 pulchralia:friandises
@@ -20534,6 +20550,7 @@ siticulosus:desséché, aride (sol), altéré
 sitio:avoir soif
 sitis:soif
 Sittacene:la Sittacène (province de l'Arménie méridionale)
+Sittianus:de Sittius
 Sittius:Sittius (nom d'homme)
 situla:seau, urne [de vote]
 situlus:seau
@@ -22144,6 +22161,7 @@ Thynus:de Bithynie
 Thyone:Thyone (femme de Nisus, mère du cinquième Bacchus)
 Thyoneus:fils de Thyoné (Bacchus)
 Thyonianus:le Thyonien (Bacchus), vin
+Thyrreum:Thyreum (ville d'Acarnanie)
 thyrsides:celui qui porte un thyrse
 thyrsiger:qui porte un thyrse
 Thyrsis:Thyrsis (nom de berger, nom d'homme)
@@ -22831,8 +22849,9 @@ tyrannus:tyran
 Tyres:Tyres (fleuve de Sarmatie, auj. Dniester; nom d'un Troyen)
 Tyrii:habitants de Tyr, Tyriens, Thébains, Carthaginois
 Tyrius:Tyrien, Carthaginois
-Tyros:Tyr (ville de Phénicie), pourpre, couleur pourpre
 Tyro:Tyro (fille de Salmonée, aimée du fleuve Énipée)
+Tyros:Tyr (ville de Phénicie), pourpre, couleur pourpre
+tyrotarichum:tyrotarichum (plat de poisson et de fromage)
 Tyrrhenus2:de Tyrrhénie, Tyrrhénien, d'Étrurie, étrusque
 Tyrrheni:Tyrrhéniens, Étrusques, [poét. Romains]
 Tyrrhenus:Etrusque
@@ -23124,7 +23143,7 @@ vagus:vagabond, errant, nomade, incertain, indéfini, déréglé
 vah:ah !, oh ! (exprimant l'étonnement, la douleur, la joie, la colère, le mépris, la menace)
 Vahalis:Waal (bras du Rhin)
 valde:certainement, parfaitement
-vale:adieu, au revoir
+!vale:adieu, au revoir
 valedico:dire adieu
 valens2:fort, robuste, vigoureux, bien portant, efficace, puissant
 Valens:Valens (père d'un des Mercures; empereur romain)
@@ -23318,7 +23337,6 @@ venerabundus:plein de respect, respectueux
 venerandus:vénérable, respectable
 venerarius:d'amour, amoureux
 veneratio:culte, respect religieux
-Venerius:de Vénus; esclave [dans un temple de Vénus]
 venero:adorer, prier, rendre un culte à
 veneror:révérer, vénérer, témoigner du respect à, honorer, prier respectueusement, supplier respectueusement
 Venetia:la Vénétie (au nord-est de la Gaule Cisalpine; autre aux environs de Vannes)
