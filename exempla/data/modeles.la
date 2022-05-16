@@ -584,7 +584,7 @@ modele:quidam
 pere:qui
 R:1:6,0
 sufd:dăm
-des:37,39:1:quīddăm
+des+:37,39:1:quīd
 des+:25:1:quāndăm
 
 modele:quilibet
