@@ -4,6 +4,8 @@ package gocol
 import (
 	"fmt"
 	"strings"
+
+    //"log"
 )
 
 // Sr, unité de lemmatisation: lemme, muméros de morpho, morphos
@@ -75,7 +77,7 @@ func LemmatiseF(f string) (result Res) {
 				continue
 			}
 		}
-	}
+	} //else { log.Println("irr f",f,"nil") }
 
 	// romains
 	if estRomain(f) {

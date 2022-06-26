@@ -610,6 +610,7 @@ adtollo:élever, soulever, dresser
 adtraho:tirer à soi, tirer violemment, attirer
 adtrecto:toucher à, manier
 adtribuo:attribuer
+adtributio:assignation, propriété [d'une personne, d'une chose]
 Aduatuci:les Aduatuques (en Belgique)
 adulatio:caresse, caresses, flatterie basse
 adulator:flatteur, adulateur

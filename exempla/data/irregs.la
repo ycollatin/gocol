@@ -79,8 +79,8 @@ sīquī:siqui:13
 tīgrĭm:tigris:3
 trānsĭēs:transeo:134
 trānsĭĕt:transeo:135
-vōlgūm:uulgus:10
-vŏlūcrŭm:uolucris:10
+uōlgūm:vulgus:10
+uŏlūcrŭm:volucris:10
 ! respublica
 rēmpūblĭcăm*:respublica:3
 rĕīpūblĭcāe*:respublica:4,5
@@ -88,12 +88,12 @@ rēpūblĭcā*:respublica:6
 rērūmpūblĭcārŭm*:respublica:10
 rēbūspūblĭcīs*:respublica:11,12
 ! jusjurandum
-jūrīsjūrāndī*:iusiurandum:4
-jūrījūrāndō*:iusiurandum:5
-jūrējūrāndō*:iusiurandum:6
-jūrājūrāndă*:iusiurandum:7-9
-jūrūmjūrāndōrŭm*:iusiurandum:10
-jūrĭbūsjūrāndīs*:iusiurandum:11,12
+iūrīsiūrāndī*:jusjurandum:4
+iūrīiūrāndō*:jusjurandum:5
+iūrēiūrāndō*:iusiurandum:6
+iūrāiūrāndă*:iusiurandum:7-9
+iūrūmiūrāndōrŭm*:iusiurandum:10
+iūrĭbūsiūrāndīs*:iusiurandum:11,12
 ! ususfructus
 ūsŭmfrūctŭm*:ususfructus:3
 ūsūsfrūctūs*:ususfructus:4,7-9
@@ -101,3 +101,4 @@ jūrĭbūsjūrāndīs*:iusiurandum:11,12
 ūsūfrūctū*:ususfructus:6
 ūsŭŭmfrūctŭŭm*:ususfructus:10
 ūsĭbŭsfrūctĭbŭs*:ususfructus:11,12
+uēspĕrī:vesper:413
