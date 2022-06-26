@@ -2,8 +2,9 @@ package gocol
 
 import (
 	"fmt"
-	//"log"
 	"strings"
+
+	//"log"
 )
 
 type Lemme struct {
@@ -17,6 +18,7 @@ type Lemme struct {
 	nh,
 	Freq int // fréquence en dernier champ
 	Radicaux map[int][]*Rad
+    renvoi string
 	Modele   *Modele
 	// TODO ajouter une map de traductions
 }
@@ -122,6 +124,13 @@ func creeLemme(l string) *Lemme {
 			}
 		case 4: // indMorph
 			lem.Indmorph = e
+            // renvois
+            eclcf := strings.Split(e, "cf. ")
+            if len(eclcf) > 1 {
+                eclr := strings.Split(eclcf[1], " ")
+                lem.renvoi = eclr[0]
+            }
+
 			if strings.HasSuffix(lem.Indmorph, " f.") {
 				lem.Genre = "féminin"
 			} else if strings.HasSuffix(lem.Indmorph, " m.") {
@@ -181,4 +190,15 @@ func lisTraductions(nf string) {
 			lem.Traduction = strings.Join(ecl[1:], ":")
 		} /* else { log.Println(l) } */
 	}
+    // traduction des renvois
+    for _, l := range Lemmes {
+        if l.renvoi > "" {
+            lrenv := Lemmes[l.renvoi]
+            if lrenv != nil {
+                l.Traduction = Lemmes[l.renvoi].Traduction
+            } /*else {
+                log.Println(l.Cle,"l.Traduction, NIL")
+            }*/
+        }
+    }
 }
