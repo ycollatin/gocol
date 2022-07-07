@@ -116,32 +116,18 @@ func estRomain(s string) bool {
         }
     }
     // suites interdites
-    for i, c := range s[1:] {
-        si := s[i]
-        switch c {
-        case 'V', 'X':
-            switch si {
-            case 'I':
-                return true
-            default:
-                return false
-            }
-        case 'L', 'C':
-            switch si {
-            case 'X':
-                return true
-            default:
-                return false
-            }
-        case 'D', 'M':
-            switch si {
-            case 'C':
-                return true
-            default:
-                return false
-            }
-        default:
-            return true
+    veto := []string{"IIIII","VV","XXXXX","LL","CCCCC","DD","MMMMM",
+            "IL","IC","ID","IM",
+            "IIX","IIL","IIC","IID","IIM",
+            "IXX","ICC","IMM",
+            "VX","VL","VC","VD","VM","XXL",
+            "XXC","XXD","XXM","XLL",
+            "XCC","XDD","XMM",
+            "LC","LD","LM",
+            "CCD","CCM","CCM","CMM"}
+    for _, chi := range veto {
+        if strings.Contains(s, chi) {
+            return false
         }
     }
     return true
