@@ -147,22 +147,6 @@ func estRomain(s string) bool {
     return true
 }
 
-/*
-func estRomain(f string) bool {
-	f = strings.ToUpper(f)
-	lr := "IVXLCDM"
-	for _, c := range f {
-		if !contient(lr, string(c)) {
-			return false
-		}
-	}
-	if contient(f, "IL") || contient(f, "IVI") {
-		return false
-	}
-	return true
-}
-*/
-
 // insère le genre du nom entre le cas et le nombre
 func genreNom(m, g string) string {
 	lm := strings.Split(m, " ")
