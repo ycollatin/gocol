@@ -106,6 +106,48 @@ func Deramise(ch string) string {
 	return nch
 }
 
+func estRomain(s string) bool {
+    s = strings.ToUpper(s)
+    // caractère permis
+    lp := "IVXLCDM"
+    for _, c := range s {
+        if !strings.Contains(lp, string(c)) {
+            return false
+        }
+    }
+    // suites interdites
+    for i, c := range s[1:] {
+        si := s[i]
+        switch c {
+        case 'V', 'X':
+            switch si {
+            case 'I':
+                return true
+            default:
+                return false
+            }
+        case 'L', 'C':
+            switch si {
+            case 'X':
+                return true
+            default:
+                return false
+            }
+        case 'D', 'M':
+            switch si {
+            case 'C':
+                return true
+            default:
+                return false
+            }
+        default:
+            return true
+        }
+    }
+    return true
+}
+
+/*
 func estRomain(f string) bool {
 	f = strings.ToUpper(f)
 	lr := "IVXLCDM"
@@ -119,6 +161,7 @@ func estRomain(f string) bool {
 	}
 	return true
 }
+*/
 
 // insère le genre du nom entre le cas et le nombre
 func genreNom(m, g string) string {
