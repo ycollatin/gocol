@@ -118,13 +118,15 @@ func estRomain(s string) bool {
     // suites interdites
     veto := []string{"IIIII","VV","XXXXX","LL","CCCCC","DD","MMMMM",
             "IL","IC","ID","IM",
-            "IIX","IIL","IIC","IID","IIM",
-            "IXX","ICC","IMM",
-            "VX","VL","VC","VD","VM","XXL",
-            "XXC","XXD","XXM","XLL",
-            "XCC","XDD","XMM",
+            "IVI","IXI",
+            "IIV","IIX",
+            "IXX",
+            "VX","VL","VC","VD","VM",
+            "XCC","XCX","XDD","XDX",
+            "XXL","XXC","XXD","XLL","XM",
             "LC","LD","LM",
-            "CCD","CCM","CCM","CMM"}
+            "CDC","CDM","CCD","CCM","CCM","CMM",
+            "DM"}
     for _, chi := range veto {
         if strings.Contains(s, chi) {
             return false
