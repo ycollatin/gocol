@@ -950,7 +950,10 @@ des:291-296:3:ĕrĕr;ĕrērĭs,ĕrērĕ;ĕrētŭr;ĕrēmŭr;ĕrēmĭnī;ĕrēnt�
 des:297,298:3:ĕrĕ;ĭmĭnī
 des:299,300:3:ĭtŏr;ĭtŏr
 des:302:3:ī
-! adjectif verbal hérité
+! adjectif verbal (devrait être hérité !)
+des:339-350:0:ēnd$lupus
+des:351-362:0:ēnd$uita
+des:363-374:0:ēnd$templum
 
 modele:facio
 pere:capio
