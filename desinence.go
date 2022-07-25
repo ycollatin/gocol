@@ -4,10 +4,11 @@ import "fmt"
 
 type Des struct {
 	gr,
-	Grq string
+	Grq    string
 	Morpho int
 	modele *Modele
 	Nr     int      // numéro de radical
+    aj     bool     // la désinence s'ajoute à l'héritée
 }
 
 func (d Des) doc() string {

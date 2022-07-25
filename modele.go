@@ -41,14 +41,14 @@ func (m Modele) doc() string {
 }
 
 func (m Modele) habetdes(d int) bool {
-    for _, ldes := range m.Desm {
-        for _, des := range ldes {
-            if des.Morpho == d {
-                return true
-            }
-        }
+    ld := m.Desm[d]
+    switch len(ld) {
+    case 0:
+        return false
+    case 1:
+        return !ld[0].aj
     }
-    return false
+    return true
 }
 
 // vrai si le modèle m a déjà le générateur de radical gnr
@@ -66,6 +66,21 @@ func (m *Modele) estabs(d int) bool {
     return false
 }
 
+// renvoie toutes les désinences de morpho morf
+func (m *Modele) desmorph(morf int) []*Des {
+    var dd []*Des
+    for _, v := range m.Desm {
+        for _, d := range v {
+            if d.Morpho == morf {
+                dd = append(dd, d)
+            }
+        }
+    }
+    return dd
+}
+
+// héritage du pos et des générateurs de radicaux
+// les désinences sont héritées via heritedes()
 func (m *Modele) herite() {
 	if m.pere == nil {
 		return
@@ -80,20 +95,6 @@ func (m *Modele) herite() {
 			m.lgenR[k] = genr
 		}
 	}
-    //m.heritedes()
-}
-
-// renvoie toutes les désinences de morpho morf
-func (m *Modele) desmorph(morf int) []*Des {
-    var dd []*Des
-    for _, v := range m.Desm {
-        for _, d := range v {
-            if d.Morpho == morf {
-                dd = append(dd, d)
-            }
-        }
-    }
-    return dd
 }
 
 // héritage des désinences, appelé séparément après
@@ -107,7 +108,7 @@ func (m *Modele) heritedes() {
         for _, d := range ld {
             if !m.estabs(d.Morpho) && !m.habetdes(d.Morpho) {
                 nd := d.clone()
-                d.modele = m
+                nd.modele = m
                 m.Desm[n] = append(m.Desm[n], nd)
             }
         }
@@ -199,13 +200,16 @@ func lismodeles(nf string) {
 		case "abs":
 			m.abs = listei(ecl[1])
 		case "des", "des+":
+            // établir la liste des morphos décrites
 			li := listei(ecl[1])
-			// cas des variables
+            // et le numéro de radical des des de la ligne
 			nr := Strtoint(ecl[2])
+            // partie désinence
 			ld := ecl[3]
 			var dd []string = strings.Split(ld, ";")
 			var ddd []string
 			for _, sdes := range dd {
+			    // cas des variables
 				if strings.HasPrefix(sdes, "$") {
 					ddv := strings.TrimPrefix(sdes, "$")
 					ldv := vardes[ddv]
@@ -228,35 +232,22 @@ func lismodeles(nf string) {
 				}
 			}
 			maxd := len(ddd)
-			var nd *Des
 			for ides, ili := range li {
 				if ides < maxd {
 					sld := ddd[ides]
 					ecld := strings.Split(sld, ",")
 					for _, cld := range ecld {
-						nd = creeDes(cld, m, ili, nr)
+                        nd := creeDes(cld, m, ili, nr)
+                        nd.aj = cle == "des+"
 						m.Desm[nr] = append(m.Desm[nr], nd)
 					}
 				} else {
 					sld := ddd[maxd-1]
 					ecld := strings.Split(sld, ",")
 					for _, cld := range ecld {
-						nd = creeDes(cld, m, ili, nr)
+                        nd := creeDes(cld, m, ili, nr)
+                        nd.aj = cle == "des+"
 						m.Desm[nr] = append(m.Desm[nr], nd)
-					}
-				}
-			}
-			// si les désinences sont des+, le modèle doit
-			// hériter des désinences de même morpho de son père
-			if cle == "des+" && m.pere != nil {
-				li := listei(ecl[1])
-				for _, nmorph := range li {
-					// hériter des désinences du père
-					ldesp := m.pere.desmorph(nmorph)
-					for _, desp := range ldesp {
-						nd = desp.clone()
-						nd.modele = m
-						m.Desm[nd.Nr] = append(m.Desm[nd.Nr], nd)
 					}
 				}
 			}

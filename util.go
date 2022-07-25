@@ -168,6 +168,9 @@ func Lignes(nf string) []string {
 	return ll
 }
 
+// génère une liste d'int à partir d'une
+// chaîne de format "1,5,12,55".
+// "4-7" est synonyme de "4,5,6,7".
 func listei(s string) (li []int) {
 	lvirg := strings.Split(s, ",")
 	for _, virg := range lvirg {
