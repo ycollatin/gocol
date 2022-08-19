@@ -40,15 +40,16 @@ func (m Modele) doc() string {
 		m.id, mid, m.pos, m.sufd, gg, dd)
 }
 
+// m a-t-il une désinence de morpho d
 func (m Modele) habetdes(d int) bool {
-    ld := m.Desm[d]
-    switch len(ld) {
-    case 0:
-        return false
-    case 1:
-        return !ld[0].aj
+    for _, v := range m.Desm {
+        for _,w := range v {
+            if w.Morpho == d {
+                return true
+            }
+        }
     }
-    return true
+    return false
 }
 
 // vrai si le modèle m a déjà le générateur de radical gnr
@@ -206,10 +207,12 @@ func lismodeles(nf string) {
 			nr := Strtoint(ecl[2])
             // partie désinence
 			ld := ecl[3]
+            // dd, liste brute des graphies des désinences
 			var dd []string = strings.Split(ld, ";")
+            // ddd, liste dont les variables ont été développées 
 			var ddd []string
 			for _, sdes := range dd {
-			    // cas des variables
+                // cas particulier : variables, suffixes
 				if strings.HasPrefix(sdes, "$") {
 					ddv := strings.TrimPrefix(sdes, "$")
 					ldv := vardes[ddv]
@@ -225,18 +228,26 @@ func lismodeles(nf string) {
 						ddd = append(ddd, prefix+dv)
 					}
 				} else {
+                    // ajout des graphies sans variable 
 					if sdes == "-" {
 						sdes = ""
 					}
 					ddd = append(ddd, sdes)
 				}
 			}
+            // mise en map les dés surnuméraires (après maxd)
+            // sont des copies de la dernière
 			maxd := len(ddd)
 			for ides, ili := range li {
 				if ides < maxd {
+                    // sld: liste (sep ',') des variables d'une morpho
 					sld := ddd[ides]
 					ecld := strings.Split(sld, ",")
 					for _, cld := range ecld {
+                        // cld graphie
+                        // m   modèle
+                        // mr  n° morpho
+                        // nr  numéro de radical)
                         nd := creeDes(cld, m, ili, nr)
                         nd.aj = cle == "des+"
 						m.Desm[nr] = append(m.Desm[nr], nd)
@@ -248,8 +259,8 @@ func lismodeles(nf string) {
                         nd := creeDes(cld, m, ili, nr)
                         nd.aj = cle == "des+"
 						m.Desm[nr] = append(m.Desm[nr], nd)
-					}
-				}
+                    }
+                }
 			}
 		case "pos":
 			m.pos = val
