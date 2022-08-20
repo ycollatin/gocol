@@ -44,7 +44,7 @@ func (m Modele) doc() string {
 func (m Modele) habetdes(d int) bool {
     for _, v := range m.Desm {
         for _,w := range v {
-            if w.Morpho == d {
+            if !w.aj && w.Morpho == d {
                 return true
             }
         }
@@ -201,6 +201,7 @@ func lismodeles(nf string) {
 		case "abs":
 			m.abs = listei(ecl[1])
 		case "des", "des+":
+            plus := cle == "des+" 
             // établir la liste des morphos décrites
 			li := listei(ecl[1])
             // et le numéro de radical des des de la ligne
@@ -249,7 +250,7 @@ func lismodeles(nf string) {
                         // mr  n° morpho
                         // nr  numéro de radical)
                         nd := creeDes(cld, m, ili, nr)
-                        nd.aj = cle == "des+"
+                        nd.aj = plus
 						m.Desm[nr] = append(m.Desm[nr], nd)
 					}
 				} else {
@@ -257,7 +258,7 @@ func lismodeles(nf string) {
 					ecld := strings.Split(sld, ",")
 					for _, cld := range ecld {
                         nd := creeDes(cld, m, ili, nr)
-                        nd.aj = cle == "des+"
+                        nd.aj = plus
 						m.Desm[nr] = append(m.Desm[nr], nd)
                     }
                 }
