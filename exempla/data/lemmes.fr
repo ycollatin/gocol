@@ -4175,7 +4175,6 @@ citeria:citeria (sorte de mannequin ridicule promené dans les processions des j
 citerior:citérieur (Gallia - = la Gaule proche)
 citerius:plus en deçà
 citer:qui est en deçà
-cite:vite
 Cithaeron:Cithéron (mont de Béotie)
 cithara:cithare
 citharista:cithariste, poète lyrique
