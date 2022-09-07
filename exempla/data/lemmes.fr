@@ -2308,6 +2308,7 @@ auditorium:lieu, salle où l'on s'assemble pour écouter ; assemblée d'auditeur
 auditum:on-dit, nouvelle
 auditus:action d'entendre, d'apprendre
 aufero:emporter
+Aufidianus:d'Aufidius
 Aufidienus:Aufidienus (nom d'homme)
 Aufidius:Aufidius
 Aufidus:Aufide (vent)
@@ -2455,6 +2456,7 @@ aversus:détourné, hostile
 averto:détourner, se détourner, repousser, écarter, éloigner, détacher, aliéner
 ave:salut !
 avia:aïeule
+Avianius:gens romaine
 aviarium:poulailler, colombier, volière, bocages [où nichent les oiseaux]
 avide:avidement
 aviditas:désir ardent, avidité
@@ -2976,6 +2978,7 @@ burdubasta:âne accablé par un fardeau
 Buri:Buri (peuple de la Germanie)
 Burrienus:Burrienus (nom d'homme)
 Burrus:Burrus
+Bursa:Bursa (surnom)
 Busiris:Busiris (fils de Poséidon)
 bustuarius:relatif au bûcher
 bustum:- lieu où l'on brûlait les morts, bûcher ; tombeau, sépulcre, monument funèbre ; les cendres ; les ruines d'une ville
@@ -3855,12 +3858,11 @@ Cestius:Cestius (nom d'un préteur, rhéteur célèbre)
 Cetarini:Cétarins (habitants de Cétaria)
 cetarium:vivier
 cetarius2:marchand de poissons de mer, mareyeur
-cetera:du reste, désormais
-ceteri:tous les autres
+!ceteri:tous les autres; cetera, du reste, d'ailleurs
 ceteroqui:du reste, d'ailleurs
 ceterum2:le reste
 ceterum:du reste
-ceterus:[employé surtout au plur. ceteri, ae, a] tout le reste de, [acc. n. sing. pris substt] ceterum, le reste, [pl. m.] les autres, tous les autres
+ceterus:[employé surtout au plur. ceteri, ae, a] tout le reste de, [acc. n. sing. pris substt] ceterum, le reste, [pl. m.] les autres, tous les autres; [cetera:] du reste, d'ailleurs
 Cethegus:Cethegus (nom d'homme)
 Ceto:Ceto (nymphe, mère des Gorgones)
 cetra:petit bouclier de cuir
@@ -4041,6 +4043,7 @@ Cinyphius:du Cinyps
 Cinyra2:Cinyra (Roi de Chypre, père d'Adonis)
 Cinyras:Cinyras (roi de Chypre, père d'Adonis)
 cio:mettre en mouvement, provoquer, produire
+Cipius:nom d'h.
 cippus:cippe, colonne funéraire
 Circa2:Circé (magicienne)
 circa:autour de
@@ -5737,6 +5740,7 @@ cultura:culture,
 cultus2:soigné, paré, orné
 cultus:- culture du sol, labourage ; le soin matériel ; la culture, éducation ; le culte (respect rendu aux dieux ou à des hommes), respect ; genre de vie, genre de civilisation; moeurs; vie de plaisir, luxe ; appareil, parure, toilette, costume, habit; ornement (du style)
 culus:cul, derrière
+cum:prép. avec; adv. (cum ... tum) tantôt [... tantôt]
 cum2:alors que (conj. + subj.), quand (conj. + ind.)
 Cumae:Cumes
 Cumaeus:de Cumes
@@ -5744,7 +5748,6 @@ Cumani:habitants de Cumes
 Cumanum:villa de Cumes, pays de Cumes
 Cumanus:de Cumes
 cumatilis:de couleur vert de mer
-cum:prép. avec; adv. (cum ... tum) tantôt [... tantôt]
 cumba:barque
 cumbula:petite barque, nacelle, canot
 cumera:coffre à blé, coffre
@@ -6430,6 +6433,7 @@ derisus2:moquerie, raillerie
 derivatio:détournement [des eaux], emprunt, [gram.] dérivation [des mots, d'expressions]
 derivo:détourner
 derogo:abroger, déroger, ôter, retrancher
+Dertona:Tortona (Ligurie)
 deruo:précipiter, faire tomber; tomber, s'abattre
 derupta:precipices
 deruptus:détaché par rupture; escarpé, à pic
@@ -6581,6 +6585,7 @@ devotus:dévoué, zélé (alicui, pour qqn), [Ecclés.] pieux
 devoveo:vouer, dédier, consacrer ; maudire
 Dexamenus:Dexamenus (Centaure, le même qu'Eurytion)
 Dexo:Dexo (nom grec d'homme)
+Dexius:Dexius (gens romaine)
 dexter:droit ; dextra = la main droite
 dextere:adroitement
 dextra:main droite
@@ -8104,6 +8109,7 @@ expilo:piller
 expingo:peindre, dépeindre
 expinso:piler
 expio:purifier par des expiations, expier, réparer
+expiscor:chercher, fouiller
 explanabilis:clair, intelligible
 explanatio:explication, éclaircissement, interprétation, articulation
 explanatus:clair, net, distinct, intelligible
@@ -8559,6 +8565,7 @@ ferus:animal
 fervefacio:chauffer, faire bouillir
 fervefactus:chuffé, chaud, chauffé au rouge
 fervens:bouillonnant, fougueux
+ferventer:ardemment
 ferveo:être bouillonnant, être agité
 fervesco:resister au feu
 fervidus:bouillant, bouillonnant
@@ -9829,6 +9836,7 @@ Hermagoras:Hermagoras (rhéteur grec)
 Hermarchus:Hermarchus (philosophe de Mitylène, de Chios)
 Hermeros:Hermeros (buste de Mercure et de l'Amour)
 Hermes:Hermès
+Hermia:ami de Cicéron
 Herminius:Herminius (montagne de Lusitanie, auj. Sierra de la Estrella, divers guerriers)
 Hermione:Hermione [fille de Ménélas et d'Hélène, ville et port de l'Argolide]
 Hermippus:Hermippus (nom d'homme)
@@ -10167,6 +10175,7 @@ Iceni:Iceni (peuple de Bretagne)
 icio:frapper, blesser
 ico:frapper
 iconismus:reproduction, signalement
+Iconium:Iconium (capitale de la Lycaonie)
 ictericus:atteint de la jaunisse
 ictus:coup, choc
 Idaeus2:Idaeus (nom d'homme)
@@ -11462,6 +11471,7 @@ interpunctio:séparation [des mots] par des points
 interpungo:ponctuer
 interputo:émonder, élaguer, éclaircir
 interquiesco:se reposer par intervalles, faire relâche
+interregnum:interrègne
 interrex:interroi (magistrat qui gouvernait jusqu'à la nomination d'un roi)
 interritus:non effrayé, intrépide
 interrogatio:interrogation
@@ -12370,6 +12380,7 @@ lepidus:plaisant, charmant, agréable
 Lepontii:Lépontiens [peuple des Alpes]
 lepor:lièvre, poisson venimeux, une constellation
 lepos:grâce, charme
+Lepta:Lepta (capitaine de vaisseau, corr. de Cic.)
 Leptis:Leptis (nom de deux villes d'Afrique)
 Leptitani:habitants de Leptis
 lepusculus:petit lièvre, levraut
@@ -12758,6 +12769,7 @@ luctor:lutter
 luctuosus:qui cause de la peine, du chagrin, douloureux, plongé dans le deuil
 luctus:chagrin, lamentation, deuil
 lucubratio:travail de nuit
+lucubratorius:nocturne (qui sert la nuit)
 lucubro:travailler à la lueur d'une lampe
 luculente:nettement, splendidement, excellemment
 luculentus:brillant, lumineux; distingué, de bel aspect
@@ -13030,9 +13042,9 @@ magnificus:somptueux, grandiose
 magniloquus:grandiloquent, emphatique, fanfaron
 magnitudo:grande taille
 magnopere:vivement, grandement, fortement ; beaucoup, très
-magnum:fortement, bruyamment, longuement
+!magnum:fortement, bruyamment, longuement
 Magnus2:Magnus (surnom de Pompée ; d'Alexandre)
-magnus:grand
+magnus:grand; nt magnum advbt fortement, bruyamment
 magnust:= magnus est
 magus2:de magie, magique
 Magus3:Magus (nom d'homme)
@@ -13733,6 +13745,7 @@ minutum:petite pièce de monnaie
 minutus:réduit
 Minyae:les Minyens (les Argonautes)
 mirabilis:étonnant, admirable, merveilleux
+mirabiliter:admirablement
 mirabundus:qui admire, qui s'étonne
 miraculum:chose, spectacle étonnant
 mirandus:admirable
@@ -14325,6 +14338,7 @@ navo:faire avec soin
 navus:diligent, actif, zélé
 Naxius:de Naxos
 Naxos:Naxos (île de la mer Égée; ville de Sicile)
+ne:même pas (ne ... quidem)
 ne2:que (verbes de crainte et d'empêchement), de ne pas (verbes de volonté), de peur que, pour que [... ne ... pas]
 Neaera:Neaera (nom de femme)
 Nealces:Nealces (nom d'un peintre)
@@ -14380,7 +14394,6 @@ negotium:affaire, mission
 Neleius:de Nélée
 Nemeaeus:de Némée
 Nemea:Nemea (fleuve du Péloponnèse)
-ne:même pas (ne ... quidem)
 Nemesis:Nemesis (déesse vengeresse des crimes; femme chantée par Tibulle)
 Nemetes:Némètes (peuple de Germanie)
 Nemetocenna:Nemetocenna (ville des Atrébates)
@@ -14566,7 +14579,7 @@ Nola:Nola (ville de Campanie)
 Nolanus:de Nole
 noli:ne (+ impératif)
 nolite:ne (+ impératif)
-nolo:ne pas vouloir, refuser
+nolo:ne pas vouloir, refuser; noli, nolite + inf = fr. ne + impératif
 Nomades:Nomades (peuple errant de Numidie), nomades
 Nomas:Nomas (f., femme numide, - terra, la Numidie)
 nomenclator:nomenclateur (esclave chargé de nommer les citoyens)
@@ -14596,6 +14609,7 @@ nongenti:neuf cents, un des neuf cents
 Nonius:M. Nonius Suffénas [propréteur de Crète et de Cyrène]
 nonne:est-ce que … ne pas
 non:(ne ...) pas
+nonnihil:quelque chose
 nonnulli:(presque toujours au pluriel) certains
 nonnullus:quelque
 nonnumquam:parfois
@@ -15738,6 +15752,7 @@ parentalis:des parents [morts]
 parenticida:parricide
 parento:célébrer une cérémonie funèbre, faire un sacrifice en l'honneur d'un mort
 pareo:paraître, apparaître, se montrer; obéir
+Parhedrus:Parhedrus (nom d'homme)
 paries:mur
 Parilia:Palilies, Parilies (fêtes en l'honneur de Palès)
 parilis:pareil, semblable, égal
@@ -16631,6 +16646,7 @@ phalerae:phalère (ornement de femme), richesse, éclat
 phalera:phalères (tj. pl., plaques de métal servant d'ornement pour les chevaux)
 phaleratus:orné de phalères
 Phalereus:de Phalère
+Phamea:Phamea (nom d'h.)
 Phanaeus:de Phanées, phanéen
 phantasia:vision, imagination, rêve, songe, idée, pensée, conception
 phantasma:être imaginaire, fantôme, spectre, idée
@@ -16832,6 +16848,7 @@ Pinarius:des Pinarii
 Pinarus:Pinarus (fleuve de Cilicie)
 Pindaricus:de Pindare, pindarique, lyrique
 Pindarus:Pindare (poète)
+Pindenissus:Pindenissus (ville de Cilicie)
 Pindos:le Pinde (montagne de Thrace)
 Pindus:Pinde (montagne de Thrace)
 pinetum:pinède
@@ -17086,6 +17103,7 @@ polio:polir, orner
 Poliorcetes:Démétrius Poliorcète (roi de Macédoine)
 polite:avec du fini, du poli, élégamment
 Polites:Polites (fils de Priam)
+politicus:politique
 politor:polisseur
 politura:polissage
 politus:poli, lisse, brillant
@@ -18480,7 +18498,8 @@ quater:quatre fois
 quatio:agiter
 quattuordecim:quatorze
 quattuor:quatre
-quattuorviri:quatuorvirs (uatre magistrats chargés de l'entretien du pavé)
+quattuorviratus:quattuorvirat
+quattuorviri:quatuorvirs (quatre magistrats chargés de l'entretien du pavé)
 quavis:dans n'importe quelle direction
 quemadmodum:de quelle manière, comme
 queo:pouvoir
@@ -18618,6 +18637,7 @@ quousque:jusqu'à quand
 quovis:où tu voudras, n'importe où
 rabidus:furieux, enragé
 rabies:rage
+rabiosulus:un peu furieux
 rabiosus:enragé
 Rabirius:C. Rabirius (poète)
 Rabocentus:Rabocentus (chef des Besses)
@@ -19019,6 +19039,7 @@ repositorium:surtout de table, plateau, resserre, cabinet, tombeau
 repositus:écarté, éloigné, placé en un lieu retiré
 repostor:restaurateur [de temples]
 repotia:ce qui est bu après le repas, lendemain de noces
+repraesentatio:représentation, paiement comptant
 repraesento:mettre devant les yeux, représenter, payer immédiatement, faire aussitôt
 reprehendo:mettre la main sur, prendre
 reprehensio:blâme, critique
@@ -19636,6 +19657,7 @@ sanguis:sang, vigueur
 sanies:sang souillé, pus
 sanitas:santé, bon sens
 sanna:grimace, moquerie
+sannio:bouffon,pitre
 sano:guérir, réparer
 Sanquinius:Sanquinius (nom d'h.)
 Santones:les Santons (peuple d'Aquitaine)
@@ -20162,6 +20184,7 @@ seplasium:séplase (parfum)
 sepono:reléguer
 sepositus:mis à part, choisi, d'élite, éloigné, écarté
 September:septembre
+September2:de septembre
 septemdecim:dix-sept
 septemgeminus:au nombre de sept, septuple
 septempedalis:haut de sept pieds
@@ -21495,6 +21518,7 @@ supinus:tourné vers le haut, penché en arrière, renversé sur le dos, couché
 supparasitor:se comporter en parasite à l'égard de qqn, flatter, caresser
 supparum:petite voile (qui surmonte la grande), voile de perroquet, châle [de femme], bannière, flamme
 suppedito:suffire
+suppedo:vesser, loufer
 suppernatus:qui a les cuisses coupées, taillé, ébranché
 suppetiae:aide, secours, assistance
 suppeto:être sous la main, être en quantité suffisante
@@ -22720,6 +22744,7 @@ Tullianum:Tullianum
 Tullia:Tullia
 Tullinus:Tullinus (surnom)
 Tullio:Tullio (nom d'homme)
+Tulliola:Tulliola (dim. de Tullia, fille de Cicéron)
 Tullius:(Marcus) Tullius (svt. Cicéron)
 Tullus:Tullus (troisième roi de Rome)
 tulo:porter (arch., voir fero)
@@ -22761,6 +22786,7 @@ turbo2:tourbillon, tourbillonnement
 Turbo3:Turbo (nom d'h.)
 turbo:troubler
 turbulente:en perdant la tête, en se troublant
+turbulenter:en désordre, avec emportement
 turbulentus:troublé, agité
 turda:grive [femelle]
 Turdetani:Turdétains (peuple de la Bétique)
@@ -23108,6 +23134,7 @@ vacca:vache
 vaccinium:vaciet (arbuste), airelle (fruit du vaciet)
 Vaccus:Vitruvius Vaccus (à la tête des Privernates)
 vacefio:devenir vide
+Vacerra:Vacerra (contemporain de Cic.)
 vacillatio:balancement
 vacillo:vaciller, branler, chanceler
 vacivitas:défaut, manque de qqch
@@ -23519,7 +23546,7 @@ veteratorius:de vieux routier, qui sent le métier
 Vetera:Vetera (ville des Bataves)
 veterinus:relatif aux bêtes de somme
 veternosus:somnolent, léthargique, languissant, endormi, engourdi
-veternus2:vétusté, vieilles ordures, vieilleries, vieux oripeaux, somnolence, léthargie, marasme, torpeur, neutre
+veternus:vétusté, vieilles ordures, vieilleries, vieux oripeaux, somnolence, léthargie, marasme, torpeur, neutre
 Vetilius:Vetilius (nom d'homme)
 vetitum:chose défendue, défense, interdiction
 veto:interdire, (veto ou voto :) je fais opposition
