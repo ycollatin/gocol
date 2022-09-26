@@ -392,11 +392,9 @@ abs:13-48,85-120
 
 modele:unus
 pere:doctus
-R:1:-
-R:2:-
-abs:49-120
 des:16,28,40:0:ī̆ŭs;ī̆ŭs;ī̆ŭs
 des:17,29,41:0:ī;ī;ī
+abs:49-120
 
 modele:alter
 pere:unus
@@ -547,8 +545,8 @@ pos:p
 modele:ipse
 pere:unus
 R:0:1,0
-abs:14,20,26,32,38,44
 des:13,37,39:0:ĕ;ŭm
+abs:14,20,26,32,38,44
 pos:p
 
 modele:ille
@@ -585,12 +583,13 @@ pere:qui
 R:1:6,0
 sufd:dăm
 des+:37,39:1:quīd
-des+:25:1:quāndăm
+des+:25:1:quān
 
 modele:quilibet
 pere:qui
 R:1:8,0
 sufd:lĭbĕt
+des+:37,39:1:quīd
 !sufd:lŭbĕt
 
 modele:quinam
@@ -601,8 +600,8 @@ sufd:năm
 modele:quiuis
 pere:qui
 R:1:6,0
-sufd:vīs
-des+:37,39:1:quīdvīs
+sufd:uīs
+des+:37,39:1:quīd
 
 modele:quis
 pere:qui
@@ -693,6 +692,7 @@ pere:uter
 R:3:3,0
 R:0:7,ū̆tr
 sufd:quĕ
+pos:p
 
 modele:nemo
 R:0:3,0
@@ -857,6 +857,15 @@ des:302:0:ī
 des+:339-350:0:ūnd$lupus
 des+:351-362:0:ūnd$uita
 des+:363-374:0:ūnd$templum
+!des:339-350:0:ēnd$lupus
+!des:351-362:0:ēnd$uita
+!des:363-374:0:ēnd$templum
+!des:339-350:0:ēndŭs;ēndĕ;ēndŭm;ēndī;ēndō;ēndō;ēndī;ēndī;ēndōs;ēndōrŭm;ēndīs;ēndīs
+!des:351-362:0:ēndă;ēndă;ēndăm;ēndāe;ēndāe;ēndā;ēndāe;ēndāe;ēndās;ēndārŭm;ēndīs;ēndīs
+!des:363-374:0:ēndŭm;ēndŭm;ēndŭm;ēndī;ēndō;ēndō;ēndă;ēndă;ēndă;ēndōrŭm;ēndīs;ēndīs
+!des+:339-350:0:ūndus;ūndĕ;ūndŭm;ūndī;ūndō;ūndō;ūndī;ūndī;ūndōs;ūndōrŭm;ūndīs;ūndīs
+!des+:351-362:0:ūndă;ūndă;ūndăm;ūndāe;ūndāe;ūndā;ūndāe;ūndāe;ūndās;ūndārŭm;ūndīs;ūndīs
+!des+:363-374:0:ūndŭm;ūndŭm;ūndŭm;ūndī;ūndō;ūndō;ūndă;ūndă;ūndă;ūndōrŭm;ūndīs;ūndīs
 
 modele:fero
 pere:lego
@@ -891,6 +900,7 @@ des+:127-132:0:băm;bās;băt;bāmŭs;bātĭs;bānt
 
 modele:dico
 pere:lego
+des+:181:0:-
 
 modele:uolo
 pere:lego
@@ -924,9 +934,7 @@ abs:181-186,189-374
 modele:edo
 pere:lego
 R:3:3,0
-! corrigé pour Gentes
-!des+:122,123,124:3:ēs;ēst;ēstĭs
-des+:122,124:3:ēs;ēstĭs
+des+:122,123,124:3:ēs;ēst;ēstĭs
 des+:163-168:3:ēss$em
 des:187:3:ēssĕ
 
@@ -949,7 +957,7 @@ des:291-296:3:ĕrĕr;ĕrērĭs,ĕrērĕ;ĕrētŭr;ĕrēmŭr;ĕrēmĭnī;ĕrēnt�
 des:297,298:3:ĕrĕ;ĭmĭnī
 des:299,300:3:ĭtŏr;ĭtŏr
 des:302:3:ī
-! adjectif verbal (devrait être hérité !)
+! adjectif verbal, devrait être hérité
 des:339-350:0:ēnd$lupus
 des:351-362:0:ēnd$uita
 des:363-374:0:ēnd$templum
@@ -997,7 +1005,7 @@ modele:sum
 pere:lego
 R:0:2,0
 R:2:3,0
-R:4:3,0
+!R:4:3,0
 R:6:2,0
 R:7:3,ēss
 abs:189-374
@@ -1190,7 +1198,13 @@ des:363-374:5:nd$templum
 des:261-264:5:ndŭm;ndī;ndō
 ! pas de passif, sauf 3ème sing
 des:268,275:4:tŭr;bātŭr
+! et inf. prés.
 abs:267,269-274,276-301,303-410
+
+! à compléter
+modele:memini
+pere:lego
+abs:267-410
 
 modele:adv
 R:0:K
