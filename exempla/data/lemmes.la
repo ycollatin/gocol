@@ -1703,7 +1703,7 @@ appĕto2=āppĕto|miles|āppĕtōn||ōnis, m.|3
 Appĭa=Āppĭa|roma|||ae, f.|3
 Appĭānus=Āppĭānus|lupus|||i, m.|2
 Appĭăs=Āppĭăs|miles|Āppĭăd||ădis, f.|4
-Appĭus2=Āppĭus|filius|||ii, m., cf. Appia|36
+Appĭus2=Āppĭus|filius|||ii, m.|36
 Appĭus=Āppĭus|doctus|||a, um|17
 applaudo=āpplāudo|lego|āpplāus|āpplāus|is, ere, plausi, plausum|4
 applĭcātĭo=āpplĭcātĭō̆|miles|āpplĭcātĭōn||onis, f.|1
@@ -5809,6 +5809,7 @@ cŭlex=cŭlēx|miles|cŭlĭc||icis, m.|5
 cŭligna=cŭlīgna|uita|||ae, f.|4
 cŭlīna|uita|||ae, f.|17
 cullĕāris=cūllĕārĭs|fortis|cūllĕār||e|2
+Cūllĕo|miles|Cūllĕōn||onis, m.|1
 cullĕus=cūllĕus|deus|||i, m.|17
 culmĕn=cūlmĕn|corpus|cūlmĭn||inis, n.|35
 culmus=cūlmus|lupus|||i, m.|17
@@ -19171,7 +19172,7 @@ Rĕmūrĭa|uita|||ae, f.|2
 rĕmurmŭro=rĕmūrmŭro|amo|||as, are|2
 rēmus|lupus|||i, m.|122
 rĕnarro=rĕnārro|amo|||as, are|2
-rĕnascor=rĕnāscŏr|sequor||rĕnāt|eris, i, natus sum|23
+rĕnascor=rĕnāscŏr|sequor||rĕnāt|eris, i, natus sum, intr.|23
 rĕnāvĭgo|amo|||as, are|2
 rĕnīdĕo|moneo|||es, ere|17
 rĕnīdesco=rĕnīdēsco|lego|||is, ĕre, intr.|2
@@ -20007,6 +20008,7 @@ scărus|lupus|||i, m.|8
 scătē̆bra|uita|||ae, f.|2
 scăteo=scătĕo|moneo|||es, ere|3
 scăto|lego|||is, ēre, intr.|7
+scătūrĭo|audio|scătūrīv||is, ire, ivi, intr.|1
 scaurus2=scāurus|doctus|||a, um|2
 Scaurus=Scāurus|lupus|||i, m.|84
 scāzōn|ciuis|scāzōnt||ontis, m.|2
@@ -22125,6 +22127,7 @@ tentīgo=tēntīgo|miles|tēntīgĭn||ĭnis, f.|3
 tentōrĭŏlum=tēntōrĭŏlum|templum|||i, n.|2
 tentōrĭum=tēntōrĭŭm|templum|||i, n.|24
 tĕnŭe|mare|tĕnŭ||is, n.|2
+tĕnŭĭcŭlus|doctus||a, um|1
 tĕnŭis=tĕnŭĭs|fortis|tĕnŭ||e|327
 tĕnŭĭtās|miles|tĕnŭĭtāt||atis, f.|6
 tĕnŭĭtĕr|fortiter|||adv.|5
@@ -22597,7 +22600,7 @@ torvus=tōrvus|doctus|||a, um|52
 tŏtĭdem=tŏtĭdĕm|inv|||adv.|33
 tŏtĭens=tŏtĭēns|inv|||adv.|175
 tŏtĭēs|inv|||adv.|3
-tŏt|inv|||adv.|825
+tŏt|inv|||num.|825
 tōtum|templum|||i, n.|64
 tōtus|unus|tōt|-|a, um|1
 Toxēus=Tōxēus|perseus|||ĕi (ĕōs), m.|2

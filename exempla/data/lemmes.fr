@@ -1674,7 +1674,7 @@ Appia:nom d'une femme dans la bible
 Appianus:Appianus
 Appias:les Appiades [groupe de nymphes ornant une fontaine située devant le temple de Vénus Genitrix, nom donné par Cic. à une Minerve d'Appius Claudius]
 Appia:(via -) la voie Appienne [commencée par Appius Claudius Caecus, ville de Phrygie]
-Appius:d'Appius, Appius
+Appius:Appius, [adj.] d'Appius
 applaudo:frapper contre, applaudir
 applicatio:attachement, action de s'attacher à un patron (jur.)
 applico:appliquer, mettre contre, diriger vers, attacher à
@@ -5721,6 +5721,7 @@ culex:moustique
 culigna:petite coupe
 culina:cuisine, foyer [portatif], table, mets
 cullearis:de la grandeur d'une outre
+Culleo:Culleo (nom de deux tribuns du temps de Cic.)
 culleus:sac de cuir
 culmen:sommet, toit
 culmus:tige (de blé), chaume
@@ -19814,6 +19815,7 @@ scarus:scare (poisson de mer)
 scatebra:jaillissement, cascade
 scateo:être abondant, fourmiller (+ gén.)
 scato:être abondant, fourmiller, pulluler, regorger de
+scaturio:être abondant, fourmiller (+ gén.)
 scaurus2:pied-bot
 Scaurus:Scaurus
 scazon:scazon (trimètre ïambique dont le dernier pied est un trochée ou un spondée)
@@ -21920,6 +21922,7 @@ tentigo:priapisme
 tentoriolum:petite tente
 tentorium:tente
 tenue:subtilité
+tenuiculus:très mince
 tenuis:mince, fin, léger, faible ; subtil, délicat; misérable, pauvre
 tenuitas:pauvreté, simplicité
 tenuiter:finement, subtilement, maigrement, chétivement
