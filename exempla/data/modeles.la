@@ -1221,6 +1221,11 @@ R:0:2,0
 des:411,412,414:0:ĭŭs;īssĭmē;ĕr
 pos:d
 
+modele:pulcher
+R:0:2,0
+des:411,412,414:0:rĭŭs;ĕrrĭmē;rē
+pos:d
+
 modele:fortiter
 pere:advr
 R:0:4,0
