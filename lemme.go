@@ -131,11 +131,11 @@ func creeLemme(l string) *Lemme {
                 lem.renvoi = eclr[0]
             }
 
-			if strings.HasSuffix(lem.Indmorph, " f.") {
+			if strings.Contains(lem.Indmorph, " f.") {
 				lem.Genre = "féminin"
-			} else if strings.HasSuffix(lem.Indmorph, " m.") {
+			} else if strings.Contains(lem.Indmorph, " m.") {
 				lem.Genre = "masculin"
-			} else if strings.HasSuffix(lem.Indmorph, " n.") {
+			} else if strings.Contains(lem.Indmorph, " n.") {
 				lem.Genre = "neutre"
 			}
 			// pos des prépositions, négations et adverbes
