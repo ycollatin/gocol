@@ -123,7 +123,7 @@ func (m *Modele) ajsuffd() {
 	for _, ld := range m.Desm {
 		for _, d := range ld {
 			d.Grq = d.Grq + m.sufd
-			d.gr = atone(d.Grq)
+			d.gr = Deramise(atone(d.Grq))
 		}
 	}
 }

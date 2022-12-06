@@ -114,10 +114,10 @@ func LemmatiseF(f string) (result Res) {
 				}
 			}
 		}
-		l := len(r) - 1
 		if r == "" {
 			break
 		}
+		l := len(r) - 1
 		d = string(r[l]) + d
 		r = r[:l]
 	}
@@ -131,6 +131,7 @@ func LemmatiseF(f string) (result Res) {
 // n'a été trouvée
 func Lemmatise(f string) (lsr Res, echec bool) {
 	f = Deramise(f)
+    //log.Println("deramise:",f)
 	liste := VarsF(f)
 	for _, el := range liste {
 		if el == "" {
