@@ -9,6 +9,7 @@ type re struct {
 
 var lexp []re
 
+// vrai si l est dans la liste ll
 func estDans(ll []string, l string) bool {
 	for _, item := range ll {
 		if item == l {
@@ -18,18 +19,22 @@ func estDans(ll []string, l string) bool {
 	return false
 }
 
+// vrai si s se termine en f
 func finEn(s string, f string) bool {
 	return strings.TrimSuffix(s, f) != s
 }
 
+// vrai si s commence en d
 func debEn(s string, d string) bool {
 	return strings.TrimPrefix(s, d) != s
 }
 
+// supprime les n derniers caractères de s 
 func chop(s string, n int) string {
 	return s[:len(s)-n]
 }
 
+// retourne ante modifié par re
 func vars(ante string, exp re) string {
 	g := exp.g
 	d := exp.d
@@ -39,7 +44,7 @@ func vars(ante string, exp re) string {
 		if !finEn(ante, g) {
 			return ante
 		}
-		recipr = false
+        return chop(ante, len(g))
 	} else if finEn(g, ">") {
 		g = chop(g, 1)
 		recipr = false
@@ -77,6 +82,7 @@ func varsL(ante []string, exp re) (post []string) {
 	return
 }
 
+// retourne toutes les variantes possibles de f
 func VarsF(f string) (post []string) {
 	post = append(post, f)
 	for _, r := range lexp {
