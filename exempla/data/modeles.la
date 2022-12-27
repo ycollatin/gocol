@@ -1221,15 +1221,15 @@ R:0:2,0
 des:411,412,414:0:ĭŭs;īssĭmē;ĕr
 pos:d
 
-modele:pulchre
-R:0:2,0
-des:411,412,414:0:rĭŭs;ērrĭmē;rē
-pos:d
-
 modele:fortiter
 pere:advr
 R:0:4,0
 des:414:0:ĭtĕr
+
+modele:pulchre
+R:0:2,0
+des:411,412,414:0:rĭŭs;ērrĭmē;rē
+pos:d
 
 modele:acriter
 R:0:5,0

@@ -1520,6 +1520,7 @@ antepagmentum:revêtement d'une maison, chambranle
 antependulus:qui pend par devant
 antepono:placer devant, préférer à (+ dat.)
 antequam:avant que, avant de
+Anterus:Anteros (esclave d'Atticus)
 antescholanus:répétiteur, sous-maître
 antesignanus:soldat de première ligne (qui est en avant du drapeau)
 antes:rangs (agriculture, art militaire)
@@ -3839,6 +3840,7 @@ certo2:certainement, sûrement
 certo:combattre, concourir
 certum:d'une façon certaine
 certus:certain, sûr, décidé, digne de confiance, informé de
+Certus2:Certus (sénateur du temps de Pline le J.)
 cerussa:céruse
 cerva:biche
 cervarius:qui tient du cerf
@@ -5715,6 +5717,7 @@ cudo:battre, frapper ; forger
 Cugerni:Cugerni (peuplade germanique sur le Rhin inférieur)
 cujas:de quel pays
 cujusmodi:de quelle sorte
+Cularo:Cularo (ville de Allobroges)
 culcita:matelas
 culcitra:matelas
 culex:moustique
@@ -7147,7 +7150,7 @@ Dulichia:Dulichia (île ionnienne)
 Dulichium:Dulichium (île de la mer Ionienne, possession d'Ulysse)
 Dulichius:de Dulichium, d'Ulysse
 dumetum:lieu couvert d'épines, roncier
-dum:(+ ind.) pendant que, jusqu'à ce que ; (+ subj.) pourvu que, temps suffisant pour que
+dum:(+ ind.) pendant que ; (+ subj.) pourvu que, tant que ; adv: donc, encore
 dummodo:pourvu que (+ subj)
 Dumnacus:Dumnacus (chef des Andégaves)
 Dumnorix:Dumnorix
@@ -12790,6 +12793,7 @@ ludificatio:mystification
 ludifico:rire de, railler, décevoir
 ludificor:se jouer de
 Ludius:Lydien
+ludius2:histrion,gladiateur
 ludo:jouer
 ludus:jeu, école
 luela:châtiment, punition
@@ -14590,6 +14594,7 @@ Nomentum:Nomentum (ville des Latins)
 nominatim:par leur nom
 nominatio:appellation, dénomination, nomination [à une fonction]
 nominatus2:nom, appellation
+Nominatus3:Nominatus (avocat du temps de Pline-le-Jeune)
 nominito:nommer, désigner par un nom
 nomino:nommer, donner un nom
 nomisma:pièce de monnaie, monnaie, jeton
@@ -15509,7 +15514,7 @@ pacate:paisiblement, pacifiquement
 pacator:pacificateur
 pacatus:paisible
 Paccius:Paccius (nom d'homme)
-pace:avec la permission de
+!pace:avec la permission de
 Pacensis2:Pacensis (nom d'homme)
 Pachynos:Ov. Pachynum [promontoire à l'E. de la Sicile, auj. capo di Passaro]
 Pachynum:Ov. Pachynum [promontoire à l'E. de la Sicile, auj. capo di Passaro]
@@ -23295,6 +23300,7 @@ Vehilius:nom d'h.
 veho:transporter
 Veianius:nom d'un gladiateur
 Veiens:de Véies (Etrurie)
+Veiento:Veiento (surnom chez les Fabricii)
 Velabrum2:le Vélabre [quartier de Rome, où se tenait le marché d'huile et de comestibles]
 velabrum:voile (qu'on étendait au-dessus du théâtre)
 velamen:couverture, vêtement, robe

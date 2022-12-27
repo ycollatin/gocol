@@ -18,6 +18,7 @@ aritis$:aueritis
 aro$:auero
 arunt$:auerunt
 assem$:auissem
+ossem$:ouissem
 assemus$:auissemus
 assent$:auissent
 asses$:auisses
@@ -39,7 +40,6 @@ istis$:iuistis
 [^u]eritis$:eueritis
 [^u]erint$:euerint
 [^u]erunt$:euerunt
-!iui:i
 esse$:euisse
 esset$:euisset
 esti$:euisti
