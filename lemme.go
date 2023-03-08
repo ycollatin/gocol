@@ -23,7 +23,7 @@ type Lemme struct {
 	// TODO ajouter une map de traductions
 }
 
-func (l Lemme) Doc() string {
+func (l *Lemme) Doc() string {
 	var lr []string
 	for nr, rr := range l.Radicaux {
 		for _, r := range rr {
